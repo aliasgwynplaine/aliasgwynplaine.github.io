@@ -1,14 +1,14 @@
 title: blog
 email: ""
-author: gwynpl4ine
+author: gwynplaine
 description: >- 
-  gwynpl4ine's personal blog. nada serio
+  gwynplaine's personal blog. nada serio
 baseurl: ""
 url: ""
-favicon: "/favicon.ico"
-twitter_username: gwynplaine_
-github_username:  gwynpl4ine
-repository: gwynpl4ine/gwynpl4ine.github.io
+favicon: "favicon.ico"
+twitter_username: aliasgwynplaine
+github_username:  aliasgwynplaine
+repository: aliasgwynplaine/aliasgwynplaine.github.io
 
 date_format: "%d-%m-%Y"
 

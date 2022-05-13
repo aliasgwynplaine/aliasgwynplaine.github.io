@@ -1,4 +1,4 @@
-# gwynpl4ine.github.io
+# aliasgwynplaine.github.io
 
 ## Credits
 much of the style and the design was inspired or even partially copied from the next sources

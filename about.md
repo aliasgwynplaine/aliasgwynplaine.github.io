@@ -2,7 +2,7 @@
 layout: page
 title: About
 categories: jekyll update
-author: gwynpl4ine
+author: gwynplaine
 ---
 
 This page is for my personal anotations
