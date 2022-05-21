@@ -6,10 +6,50 @@ category: blog
 author: gwynplaine
 ---
 
-Disclaimer: esta pretende ser una guía de ayuda para los estudiantes desamparados, como yo en el 2021, que no tienen 
+**Disclaimer**: esta pretende ser una guía de ayuda para los estudiantes desamparados, como yo en el 2021, que no tienen 
 idea de dónde empezar con estos trámites. Es una iniciativa personal que muestra mi experiencia personal a lo largo del trámite 
 del grado de bachiller y no es una guía oficial de la facultad de ciencias. 
 Por lo tanto, procura llamar a la facultad o consultar la web oficial antes de iniciar cualquier trámite porque no vaya a ser que los requisitos hayan cambiado.
+
+>## TL;DR
+>+ Constancia de no haber sido sometido a medidas disciplinarias
+>    - Lugar de trámite: Facultad de Ciencias
+>    - Precio: Gratis
+>    - Requisitos:
+>        + Solicitud de constancia.
+>+ Constancia de primera matrícula
+>    - Lugar de trámite: Pabellón Central
+>    - Precio: S/. 70.00
+>    - Requisitos:
+>        + [Solicitud](https://www.orce.uni.edu.pe/pdf/solicitud-constancia-primera-matricula.pdf).
+>        + Recibo original de caja UNI (o Scotiabank).
+>        + Copia simple de DNI.
+>+ Constancia de egresado
+>    - Lugar de trámite: Pabellón Central
+>    - Precio: S/. 63.00
+>    - Requisitos:
+>        + 03 fotografías.
+>        + DNI ampliado al 250% - 1 copia.
+>        + Recibo de pago en Caja UNI o Scotiabank.
+>        + [Solicitud de constancia de egresado](https://www.orce.uni.edu.pe/pdf/solicitud-constancia-de-egresado.pdf).
+>+ "Fedateo" de documentos
+>    - Lugar de trámite: Pabellón Central
+>    - Precio: Gratis
+>    - Requisitos:
+>        + Copias de los documentos a "fedatear".
+>+ Grado de bachiller
+>    - Lugar: Facultad de Ciencias
+>    - Precio: S/. 70.00
+>    - Requisitos:
+>        + 02 fotos tamaño pasaporte.
+>        + Copia DNI simple.
+>        + Constancia de no haber sido sometido a medidas disciplinarias.
+>        + Copia de constancia de egresado fedateada.
+>        + Copia de constancia de primera matrícula fedateada.
+>        + [Declaración jurada](https://web.archive.org/web/20220520235723/https://fc.uni.edu.pe/wp-content/uploads/2022/02/DeclaracionJuradaBachiller.doc).
+>        + Copia del recibo de pago por concepto Diploma de Bachiller.
+>        + [Solicitud del grado de bachiller](https://web.archive.org/web/20220520235720/https://fc.uni.edu.pe/wp-content/uploads/2022/02/SolicitudGradoBachiller.doc).
+
 
 Para empezar, sácate muchas fotografías a color tamaño carné, con indumentaria formal, fondo blanco, sin lentes ni prendas de cabeza. Unas 7 están bien.
 
@@ -30,9 +70,9 @@ en formato [pdf](https://www.orce.uni.edu.pe/pdf/solicitud-constancia-primera-ma
 
 Para esto, necesitarás:
 
-+ Solitud
++ Solicitud de constancia de primera matrícula
 + Recibo original de caja UNI (o Scotiabank) - S/. 70.00
-+ Copia de DNI
++ Copia simple de DNI
 
 Pude ir a recoger el documento \~3 semanas después de que deposité la solicitud.
 
