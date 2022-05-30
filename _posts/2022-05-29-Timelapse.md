@@ -1,12 +1,12 @@
 ---
 layout:  post
-title: Notas sobre máquina Timelapse - HTB
+title: Notas sobre Timelapse - HTB
 date:  2022-05-29 21:53:59 -0500
 categories: blog htb
 author: gwynplaine
 ---
 
-Esta es una combinación de apuntes donde se condenzan los conocimientos aprendidos al resolver la 
+Esta es una combinación de apuntes donde se condensan los conocimientos aprendidos al resolver la 
 máquina Timelapse de HTB. Es posible que no todos los conocimientos expuestos sean estrictamente necesarios.
 
 ## Know-list
@@ -26,7 +26,7 @@ máquina Timelapse de HTB. Es posible que no todos los conocimientos expuestos s
 	- openssl: exportar "certificado" y "clave" de ficheros `.pfx`
 + Evil-WinRM
 + PowerShell
-	- ¿Dónde pueso encontrar el historial de powershell?
+	- ¿Dónde puedo encontrar el historial de powershell?
 + Obtener contraseñas de usuarios locales (LAPS)
 
 ## Anexos
