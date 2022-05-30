@@ -2,7 +2,7 @@
 layout:  post
 title: Notas sobre máquina Timelapse - HTB
 date:  2022-05-29 21:53:59 -0500
-category: blog htb
+categories: blog htb
 author: gwynplaine
 ---
 
