@@ -39,7 +39,7 @@ Por lo tanto, procura llamar a la facultad o consultar la web oficial antes de i
 >        + Copias de los documentos a "fedatear".
 >+ Grado de bachiller
 >    - Lugar: Facultad de Ciencias
->    - Precio: S/. 70.00
+>    - Precio: S/. 350.00
 >    - Requisitos:
 >        + 02 fotos tamaño pasaporte.
 >        + Copia DNI simple.
@@ -47,7 +47,7 @@ Por lo tanto, procura llamar a la facultad o consultar la web oficial antes de i
 >        + Copia de constancia de egresado fedateada.
 >        + Copia de constancia de primera matrícula fedateada.
 >        + [Declaración jurada](https://web.archive.org/web/20220520235723/https://fc.uni.edu.pe/wp-content/uploads/2022/02/DeclaracionJuradaBachiller.doc).
->        + Copia del recibo de pago por concepto Diploma de Bachiller.
+>        + Copia del recibo de pago por concepto Diploma de Bachiller (Requiere orden de pago)
 >        + [Solicitud del grado de bachiller](https://web.archive.org/web/20220520235720/https://fc.uni.edu.pe/wp-content/uploads/2022/02/SolicitudGradoBachiller.doc).
 
 
@@ -97,10 +97,11 @@ a fines de octubre.
 
 ## "Fedateo" de documentos
 Una vez que tengas tu constancia de egresado y constancia de primera matrícula, deberás sacar un par de copias. Esas copias deben encontrarse 
-firmadas por el fedatario de la UNI. Para esto, debes dejar tus copias en pabellón central. El procedimiento es gratuito. Debido a la pandemia, 
-yo tuve que entregarla a un señor, ya mayor, que se encontraba los lunes, miércoles y viernes de 9 a 12 en la puerta 3. Él te entregaba un 
-recibo que debías firmar y recibía con impaciencia tus copias a "fedatear" en un sobre manila en el cual debías indicar el número de hojas que 
-se debían firmar.
+firmadas por el fedatario de la UNI. Para esto, debes dejar tus copias en pabellón central. El procedimiento es gratuito. 
+
+Debido a la pandemia, yo tuve que entregarla a un señor, ya mayor, que se encontraba los lunes, miércoles y viernes de 9 a 12 en la 
+puerta 3. Él te entregaba un recibo que debías firmar y recibía con impaciencia tus copias a "fedatear" en un sobre manila en el cual 
+debías indicar el número de hojas que se debían firmar.
 
 Honestamente, no lo culpo por su mal humor: era verano, el calor era abrumador y el señor se encontraba recibiendo los documentos a través de 
 la reja cuando la tienda que le habían puesto para protegerse del sol se encontraba a 5 metros de la reja.
@@ -115,7 +116,8 @@ el bachillerato seguirá siendo automático hasta el 2023. Después, se tendrá 
 para poder solicitarlo. 
 
 El bachillerato se tramita en la facultad de ciencias. Aconsejo iniciar el trámite lo más pronto que puedas ya que tu solicitud tendrá 
-que viajar de ida y vuelta al pabellón central para posteriormente aprobarse en consejo de facultad.
+que viajar de ida y vuelta al pabellón central para posteriormente aprobarse en consejo de facultad. Para pagar por el trámite, debes 
+pedir a tu escuela profesional que te genere una orden de pago.
 
 Lo que necesitarás presentar para poder iniciar el trámite es lo siguiente:
 
@@ -125,7 +127,7 @@ Lo que necesitarás presentar para poder iniciar el trámite es lo siguiente:
 + Copia de constancia de egresado fedateada.
 + Copia de constancia de primera matrícula fedateada.
 + [Declaración jurada](https://web.archive.org/web/20220520235723/https://fc.uni.edu.pe/wp-content/uploads/2022/02/DeclaracionJuradaBachiller.doc).
-+ Copia del recibo de pago por concepto Diploma de Bachiller - 70 soles.
++ Copia del recibo de pago por concepto Diploma de Bachiller - 350 soles.
 + [Solicitud del grado de bachiller](https://web.archive.org/web/20220520235720/https://fc.uni.edu.pe/wp-content/uploads/2022/02/SolicitudGradoBachiller.doc).
 
 Escribo este artículo en el momento en el que vi lo siguiente:
