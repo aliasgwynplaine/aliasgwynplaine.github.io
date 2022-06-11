@@ -91,8 +91,7 @@ Para realizar el trámite, necesitarás:
 
 Pasó un buen tiempo (4 meses) antes de que la constancia estuviera lista. Tal vez haya influido el hecho de que cayeron las celebraciones de 
 fin de año en medio del de por sí ya largo proceso de tramitación. Recuerdo que, al momento dejar mi solicitud, había una chica reclamándole al personal de 
-mesa de partes la demora de la entrega de su constancia, que la había solicitado a inicios de agosto y nos encontrábamos, en ese entonces,  
-a fines de octubre.
+mesa de partes la demora de la entrega de su constancia, que la había solicitado a inicios de agosto y nos encontrábamos, en ese entonces, a fines de octubre.
 
 
 ## "Fedateo" de documentos
@@ -156,9 +155,9 @@ subdependencia y, usando el directorio de ORCE, podrás ubicar el número de ane
 ![Información del "lenteja"](/assets/img/ffc/seguimiento-javier.png)
 
 ## Agradecimientos
-Quiero dedicar este apartado a agradecer, desde el fondo de mi corazón, a Heidy. Quien hizo todo lo posible por insistir tanto a su superior como 
+Quiero dedicar este apartado a agradecer, desde el fondo de mi corazón, a Heidi. Quien hizo todo lo posible por insistir tanto a su superior como 
 a las personas del pabellón central para preguntar y presionar por el estado de los trámites que ya iban "a paso de vencedor". Si no fuera por ella, 
-muchas de las constancias, no solo las mías, tal vez seguirían perdidas en algún lugar del pabellón centrar en el escritorio del director de mi escuela 
+muchas de las constancias, no solo las mías, tal vez seguirían perdidas en algún lugar del pabellón centrar o en el escritorio del director de mi escuela 
 profesional.
 
 Muchas gracias, _chama_. En cuanto pueda, te conseguiré una bolsa de café del bueno.
