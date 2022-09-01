@@ -28,7 +28,7 @@ Por lo tanto, procura llamar a la facultad o consultar la web oficial antes de i
 >    - Lugar de trámite: Pabellón Central
 >    - Precio: S/. 63.00
 >    - Requisitos:
->        + 03 fotografías.
+>        + 03 fotografías tamaño *carné*.
 >        + DNI ampliado al 250% - 1 copia.
 >        + Recibo de pago en Caja UNI o Scotiabank.
 >        + [Solicitud de constancia de egresado](https://www.orce.uni.edu.pe/pdf/solicitud-constancia-de-egresado.pdf).
@@ -41,7 +41,7 @@ Por lo tanto, procura llamar a la facultad o consultar la web oficial antes de i
 >    - Lugar: Facultad de Ciencias
 >    - Precio: S/. 350.00
 >    - Requisitos:
->        + 02 fotos tamaño pasaporte.
+>        + 02 fotos tamaño *pasaporte*.
 >        + Copia DNI simple.
 >        + Constancia de no haber sido sometido a medidas disciplinarias.
 >        + Copia de constancia de egresado fedateada.

@@ -4,7 +4,7 @@ title: Mon dictionaire de francais
 autor: gwynplaine
 ---
 
-Ici, j'écrirai les mots et les expresions que j'apprends.
+Ici, j'écrirai les mots et les expressions que j'apprends.
 
 + nouvelle (n. f.). information nouveau.
 + dictionnaire (n. m.). cherchez dans le dictionnaire.
@@ -14,20 +14,17 @@ Ici, j'écrirai les mots et les expresions que j'apprends.
     - aller en boîte -> aller a une fête ou une discothèque.
 + souci (n. m.). préoccupátion.
     - Je vis sans souci.
-+ palais (n. m.).
-+ intellectuel (n. f.).
-+ décision (n. f.).
-+ construire (v.).
++ palais (n. m.). résidence vaste et somptueuse.
++ intellectuel (n. f.). celui qui se consacre à la culture, sciences et arts.
 + second (adj.).
 + partager (v.).
 + exprimer (s')(v.).
 + efficace (adj.).
-+ pote (n. m.).
++ pote (n. m.). ami. copain.
 + honte (n. f.). vergüenza
-+ bonheur (n. m.).
++ bonheur (n. m.). circonstance favorable.
 + liberté (n. f.).
     + La guerre, c’est la paix. La liberté, c’est l’esclavage. L’ignorance, c’est la force.
-+ colère (n. f.)
 + abaisser (v.) diminuer la valeur.
 + aise (n. f.). cómodo
     + être à l'aise
@@ -47,22 +44,23 @@ Ici, j'écrirai les mots et les expresions que j'apprends.
 + surtout (adverbe). littéraire sur-tout
 + apprendre. acquérir des connaissances.
 + dans (préposition). l'interieur.
-+ sur: place aouvert
++ sur (préposition). au-dessus de.
+    + utilisé dans les zones aouverts.
 + courant (adjectif). qui n'est pas terminé.
 + morceau (n. m.). débris. fragment.
-+ échec total. fracaso total
-+ j'ai peur. tengo miedo
-+ tournage (n. m.) action de faire une films. "tornear"
++ échec total (expression). fracaso total
++ j'ai peur (expression). tengo miedo
++ tournage (n. m.). action de faire une films. "tornear"
 + remettre
 + bac
-+ usine. fábrica, factoría.
++ usine (n. f.). fábrica, factoría.
 + favoriser
-+ environ
++ environ (adverbe). approximativement.
 + chiffre
 + atteint
 + lorsqu'il
-+ s'agit
-+ s'il y avait
++ s'agit ... (expression). se trata de ...
++ s'il y avait ... (expression). si hubiera ...
 + dehors
 + il n'y a pas que les études
 + moitié
@@ -89,4 +87,18 @@ Ici, j'écrirai les mots et les expresions que j'apprends.
 + ailleurs (adverbe). otra parte
     - d'ailleur...
     - par ailleur...
-
++ chambre (s. f.). piaule
++ faigant (s. m.). fainéant. 
++ rassurer (v.). calmer. se rentre tranquille
++ depuis... (expression). desde.
+    - note que la acción no termina aún
+    - j'etude le francais depuis 6 moins.
++ aprés... (expression). 
++ déchet (n. m.). desechos
++ feter (v.). botar.
++ désormais (adverbe). a partir de ahora. de ahora en adelante
++ davantage (adverbe).
+    - nous n'attendrons pas davantage
++ brin (n. m.). filamento. hebra. brizna
+    - un brin de...
+    - ne pas avoir un brin de jugeote

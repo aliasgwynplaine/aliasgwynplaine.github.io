@@ -8,5 +8,8 @@ Este es un diccionario de regionalismos de la tierra en la que crecí. Tengo ent
 
 + shepleco. débil, escuálido.
 + telensho. débil, escuálido.
-+ Huaira huma. distraído.
-+ pishpira. 
++ huaira huma. distraído.
++ pishpira.
++ buchi sapa. barrigón. gordo
++ ishapayado.
++ chulla chulla. percudido. viejo.
