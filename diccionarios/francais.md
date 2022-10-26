@@ -51,19 +51,20 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
 + échec total (expression). fracaso total
 + j'ai peur (expression). tengo miedo
 + tournage (n. m.). action de faire une films. "tornear"
-+ remettre
++ remettre (v.). re-mettre.
 + bac
 + usine (n. f.). fábrica, factoría.
-+ favoriser
 + environ (adverbe). approximativement.
-+ chiffre
-+ atteint
-+ lorsqu'il
 + s'agit ... (expression). se trata de ...
 + s'il y avait ... (expression). si hubiera ...
-+ dehors
++ dehors (adverbe). exterior.
++ hors (adj.). fuera.
 + il n'y a pas que les études
-+ moitié
++ moitié (n. f.). une des deux parties.
+    - à moitié fou.
+    - faire quelque chose à moitié.
+    - moitié-moitié.
+ faire moitié-moitié   compartir a medias
 + ainsi
 + presse (n. f.). journalistes
 + métier (n. m.). oficio
@@ -102,3 +103,27 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
 + brin (n. m.). filamento. hebra. brizna
     - un brin de...
     - ne pas avoir un brin de jugeote
++ dont (c.). del que. de la que. uno de ellos.
+    - plusieurs personnes ont téléphoné, dont ton frère
+    - les personnes dont je parle... 
++ notamment(adverbe). especialmente. particularmente.
++ amont(n. m.). curso
+    - en amont. río arriba
++ achever(v.). finir.
++ déçu(adjectif.). décevoir a le participe passé.
++ dommage(n. m.).
+    - C'est dommage. ¡Es una lástima!
++ selon (p.). à proportion de. d'après. eu égard à. conformément à.
+    - c'est selon. depende
++ siège (n. m.). assise.
++ réel (adjectif). tout ce qui est rationnel.
+    - _Tout ce qui est réel est rationnel, tout ce qui est rationnel est réel._
++ lorsque (conjonction). _lors et que_. quand.
++ puisque (conjonction). _puis et que_. attendu que. dans la mesure où. du moment que. vu que.
++ puis (adverbe). 
++ lors (adverbe). à ce moment. là.
+    - lors de...
+    - pour lors...
+    - depuis lors...
++ reprendre (v.) re - prendre.
+
