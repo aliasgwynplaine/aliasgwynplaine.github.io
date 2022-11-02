@@ -28,7 +28,7 @@ Por lo tanto, procura llamar a la facultad o consultar la web oficial antes de i
 >    - Lugar de trámite: Pabellón Central
 >    - Precio: S/. 63.00
 >    - Requisitos:
->        + 03 fotografías tamaño *carné*.
+>        + 03 fotografías tamaño **carné**.
 >        + DNI ampliado al 250% - 1 copia.
 >        + Recibo de pago en Caja UNI o Scotiabank.
 >        + [Solicitud de constancia de egresado](https://www.orce.uni.edu.pe/pdf/solicitud-constancia-de-egresado.pdf).
@@ -41,7 +41,7 @@ Por lo tanto, procura llamar a la facultad o consultar la web oficial antes de i
 >    - Lugar: Facultad de Ciencias
 >    - Precio: S/. 350.00
 >    - Requisitos:
->        + 02 fotos tamaño *pasaporte*.
+>        + 02 fotos tamaño **pasaporte**.
 >        + Copia DNI simple.
 >        + Constancia de no haber sido sometido a medidas disciplinarias.
 >        + Copia de constancia de egresado fedateada.
@@ -134,6 +134,12 @@ Escribo este artículo en el momento en el que vi lo siguiente:
 
 Espero que este último paso no tome tanto tiempo como los trámites anteriores.
 
+Actualización: mi trámite se estancó por 3 meses en la oficina de Secretaría General. Al apersonarme al pabellón central, me informarón que 
+la razón era porque el tamaño de la foto que había entregado correspondía a un carné y no a un pasaporte. Ese mismo día, cerca del cruce de la 
+calle Habich con Panamericana Norte, me tomé unas fotos y las entregué. Cuando lo hice, tomaron un cartón impreso, las fotografías, un par de 
+sellos y armaron mi constancia de grado de bachiller como si se tratara de un pan con hamburguesa en un puesto de comida rápida.
+
+
 ## Monitorea tu proceso
 A todo aquel que tenga que pasar por este proceso, le aconsejo fuertemente que tome la estrategia de llamar e insistir, al menos cada 3 o 7 días. Suelo imaginar que estos 
 documentos son como aviones de papel volando a través de las oficinas, esperando que algún secretario se digne a tomarlos y procesarlos. Ahora, el 
@@ -150,7 +156,8 @@ el STDUNI como para vomitarlos cada vez que algún funcionario te lo pida para h
 Debido a la pandemia, y mi timidez, encontré difícil ir a presionar presencialmente para agilizar el movimiento de mis aviones de papel. Así, tuve 
 que valerme del [directorio telefónico](https://www.directorio.uni.edu.pe/) para llamar a la oficina en la que se encontraba mi documento. Puedes 
 ubicar esa oficina, en el STDUNI, dándole clic al nombre de la persona que se supone que debería tener tu documento. Allí aparecerán su nombre, dependencia y 
-subdependencia y, usando el directorio de ORCE, podrás ubicar el número de anexo. Si no te contestan, insiste.
+subdependencia y, usando el directorio de ORCE, podrás ubicar el número de anexo. Si no te contestan, insiste. Y si te cansaste de insistir, ve a 
+la oficina de manera presencial y pregunta por el estado de tu trámite.
 
 ![Información del "lenteja"](/assets/img/ffc/seguimiento-javier.png)
 
