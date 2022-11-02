@@ -20,6 +20,6 @@ La información sobre el apostillado se encuentra [aquí](http://portal.rree.gob
 puedes ingresar a la [matriz de costos](https://cdn.www.gob.pe/uploads/document/file/3084337/Cadena%20de%20certificacion.pdf) 
 en función a lo que te hayan solicitado.
 
-![Precio de apostillado de certificado de estudios universitarios](/assets/tpp/precio-apostilla-certificado-estudios.png).
+![Precio de apostillado de certificado de estudios universitarios](/assets/img/tpp/precio-apostilla-certificado-estudios.png).
 
 Se debe apostillar tanto los documentos originales como la traducción.
