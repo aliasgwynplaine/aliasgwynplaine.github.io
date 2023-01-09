@@ -6,7 +6,7 @@ autor: gwynplaine
 
 Ici, j'écrirai les mots et les expressions que j'apprends.
 
-+ nouvelle (n. f.). information nouveau.
++ nouvelle (n. f.). information nouveau. bref histoire écrit.
 + dictionnaire (n. m.). cherchez dans le dictionnaire.
 + étonner (v.) surprendre
 + nécessaire (adj.). que ne peux pas ne pas être.
@@ -125,5 +125,6 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
     - lors de...
     - pour lors...
     - depuis lors...
-+ reprendre (v.) re - prendre.
-
++ reprendre (v.). re - prendre.
++ déceler (v.). detectar, descubrir.
++ angoisse (n. f.). angustia
