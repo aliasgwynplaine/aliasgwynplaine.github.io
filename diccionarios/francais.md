@@ -6,8 +6,8 @@ autor: gwynplaine
 
 Ici, j'écrirai les mots et les expressions que j'apprends.
 
-+ nouvelle (n. f.). information nouveau. bref histoire écrit.
-+ dictionnaire (n. m.). cherchez dans le dictionnaire.
++ nouvelle (n. f.). information nouveau. bref histoire écrit. {#nouvelle}
++ dictionnaire (n. m.). cherchez dans le dictionnaire. {:#dictionnaire }
 + étonner (v.) surprendre
 + nécessaire (adj.). que ne peux pas ne pas être.
 + boîte (n. f.). contenant
