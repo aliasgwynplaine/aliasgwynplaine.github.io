@@ -144,7 +144,7 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
 + cassure (n. f.). ruptura. fractura.
 + effondrer (v.). demoler. derrumbar.
 + declencher (v.). desencadenar.
-+ dehors (adverbe | n. f.). afuera. exterior. fachada.
++ dehors (adverbe \| n. f.). afuera. exterior. fachada.
 + semer (v.). sembrar.
 + blessant (adj.). hiriente. ofensivo.
 + licencier (v.). despedir.
