@@ -6,8 +6,8 @@ autor: gwynplaine
 
 Ici, j'écrirai les mots et les expressions que j'apprends.
 
-+ nouvelle (n. f.). information nouveau. bref histoire écrit. {#nouvelle}
-+ dictionnaire (n. m.). cherchez dans le dictionnaire. {:#dictionnaire }
++ nouvelle (n. f.). information nouveau. bref histoire écrit.
++ dictionnaire (n. m.). cherchez dans le dictionnaire.
 + étonner (v.) surprendre
 + nécessaire (adj.). que ne peux pas ne pas être.
 + boîte (n. f.). contenant
@@ -127,4 +127,32 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
     - depuis lors...
 + reprendre (v.). re - prendre.
 + déceler (v.). detectar, descubrir.
-+ angoisse (n. f.). angustia
++ angoisse (n. f.). angustia.
++ insouciance (n. f.). despreocupación.
++ cuistot (n. m.) .cocinero.
++ folie (n. f.). le fait d'être fou.
++ haine (n. f.). une grande détestation.
++ moquerie (n. f.). le fait de se moquer.
++ handicap (n. m.). une déficience.
++ érudition (n. f.). savoir approfondi.
++ assassinat (n. m.). homicide prémédité.
++ moche (adj.). laid. pas beau.
++ enlaidir (v.). devenir très moche.
++ embellir (v.). devenir très beau.
++ graine (n. f.). semilla.
++ mûrir (v.). madurar.
++ cassure (n. f.). ruptura. fractura.
++ effondrer (v.). demoler. derrumbar.
++ declencher (v.). desencadenar.
++ dehors (adverbe | n. f.). afuera. exterior. fachada.
++ semer (v.). sembrar.
++ blessant (adj.). hiriente. ofensivo.
++ licencier (v.). despedir.
++ biais (n. m.). sesgo.
++ égard (n. m.). estima. consideración.
++ aménager (v.). organiser l'espace. acondicionar.
++ cort-circuite (n. m.). corto circuito.
++ ménager (adj.). relatif a la maison.
++ menagère (n. f.). femme qui administre un foyer. boite de fourchettes.
++ mener (v.). diriger. commander.
++ province (n. f.). provincia. fuera de la capital.
