@@ -16,10 +16,9 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
     - Je vis sans souci.
 + palais (n. m.). résidence vaste et somptueuse.
 + intellectuel (n. f.). celui qui se consacre à la culture, sciences et arts.
-+ second (adj.).
-+ partager (v.).
-+ exprimer (s')(v.).
-+ efficace (adj.).
++ partager (v.). compartir.
++ exprimer (s')(v.). explicarse.
++ efficace (adj.). eficaz.
 + pote (n. m.). ami. copain.
 + honte (n. f.). vergüenza
 + bonheur (n. m.). circonstance favorable.
@@ -65,11 +64,11 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
     - faire quelque chose à moitié.
     - moitié-moitié.
  faire moitié-moitié   compartir a medias
-+ ainsi
-+ presse (n. f.). journalistes
-+ métier (n. m.). oficio
-    - avoir du métier
-    - être du métier
++ ainsi (adverb). así. de esta forma. de esta manera.
++ presse (n. f.). journalistes.
++ métier (n. m.). oficio.
+    - avoir du métier.
+    - être du métier.
 + charge (n. m.).
 + course (n. f.). action de courir.
 + coursier (n. m.). mensajero.
@@ -80,8 +79,9 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
 + escabeau
 + perceuse
 + dégager
-+ enlever
-+ visage (n. m.). rostro
++ enlever (v.). quitar. retirar. sacar.
+    - enlèver un manteau.
++ visage (n. m.). rostro.
     - à visage découvert
 + faillite (n. f.). quiebra. bancarrota.
 + interdit (adjectif) (p. p.) prohibido.
@@ -156,3 +156,30 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
 + menagère (n. f.). femme qui administre un foyer. boite de fourchettes.
 + mener (v.). diriger. commander.
 + province (n. f.). provincia. fuera de la capital.
++ appuyer (v.). apoyar. colocar. poner
+    - appuyé (adj.). insistente. persistente. reiterado.
++ mêler (v.). mélanger.
+    - mêle (adj.). disparate.
++ vexer (v.). ofender.
++ héberger (v.). alojado.
++ insèrer (v.). insertar. meter.
++ releyer (v.). relevar. reemplazar
++ emtamer (v.). empezar. iniciar. gastar parte de...
++ nuance (v.). matiz. tono. toque.
+    - nuancé (adj.). reservado. cauto. cauteloso. comedido. matizado.
++ déplaire à... (expr.). desagradarle a...
++ déballage (n. m.). desembalaje.siège
++ bribes (n. f.). migajas. fragmentos.
++ profane (n. m. f.). profano. laico.
++ redemandent (v.). re - demander.
++ épargne (n. f.) ahorro.
++ once (n. f.). onza.
++ prier (v). rezar. orar.
++ siège (n. m.). asiento. sede. oficina central. asedio.
++ trésor (n. m.). tesoro.
++ fournir (v.). proveer. abasteser. aprovisionar.
++ éventail (n. m.) abanico.
++ rumine (v.). rumiar. darle las vueltas a algo. repetir.
++ écume (n. f.) mousse blanchâtre. sueur animale.
++ ivresse (n. f.). embriaguez.
++ émettre (v.). produire au-dehors. exprimer. transmettre.
