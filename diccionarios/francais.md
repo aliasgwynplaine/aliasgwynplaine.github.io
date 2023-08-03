@@ -51,7 +51,6 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
 + j'ai peur (expression). tengo miedo
 + tournage (n. m.). action de faire une films. "tornear"
 + remettre (v.). re-mettre.
-+ bac
 + usine (n. f.). fábrica, factoría.
 + environ (adverbe). approximativement.
 + s'agit ... (expression). se trata de ...
@@ -73,12 +72,12 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
 + course (n. f.). action de courir.
 + coursier (n. m.). mensajero.
 + livreur (n. m.). repartidor.
-+ guide
 + couloir (n. m.). corredor
-+ acrocher
-+ escabeau
-+ perceuse
-+ dégager
++ accrocher (v.). suspendre.
+    - il a accrochée les clés au porte.
++ escabeau (n. m.) échelle pliante à deux pans.
++ perceuse (n. f.). taladro! taladro!
++ dégager (v.). désencombrer. rendre libre.
 + enlever (v.). quitar. retirar. sacar.
     - enlèver un manteau.
 + visage (n. m.). rostro.
@@ -183,3 +182,21 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
 + écume (n. f.) mousse blanchâtre. sueur animale.
 + ivresse (n. f.). embriaguez.
 + émettre (v.). produire au-dehors. exprimer. transmettre.
++ défouloir (n. m.). exutoire. desahogo.
++ constat (n. m.). bilan.
++ foule (n. f.). masse populaire.
++ nier (v.). rejeter. ne pas reconnaître.
++ tisser (v.). fabriquer un tissu.
++ tiser (v.). alimenter en combustible. 
++ flicage (n. m.). surveillance excessive.
++ pencher (v.). incliner dans une direction.
++ foyers (n. m.). âtre.
++ âtre (n. m.). hogar.
++ fioul (n. m.). gasolina.
++ cochon (n. m.). porc.
++ ossature (n. f.). ensemble de os. structure.
++ grimper (v.). escalader.
+    - nous tournons les obstacles ou nous grimpons péniblement par-dessus.
++ parmi (prép.). dans. au nombre de. chez.
+    - Parmis les tendances lourdes.
+
