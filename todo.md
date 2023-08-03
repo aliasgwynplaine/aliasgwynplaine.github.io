@@ -4,6 +4,4 @@ title: todo list
 ---
 
 1. [ ] search bar for the dicts
-2. [ ] Tabla de contenidos
-3. [ ] Qué características tiene una contraseña fuerte?
-    1. [ ] entropía ?
+2. [ ] sort script for the dicts
