@@ -199,4 +199,8 @@ Ici, j'écrirai les mots et les expressions que j'apprends.
     - nous tournons les obstacles ou nous grimpons péniblement par-dessus.
 + parmi (prép.). dans. au nombre de. chez.
     - Parmis les tendances lourdes.
++ concocter (v.). elaborer avec soin. concevoir. compiler.
+    - se concocter sa petite philosophie pratique...
++ mœurs (n. f. pl.). costumbres. tradiciones. hábitos.
+
 
