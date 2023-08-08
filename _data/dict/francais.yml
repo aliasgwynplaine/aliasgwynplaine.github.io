@@ -1,0 +1,835 @@
+
+nouvelle:
+  type: n. f.
+  definition: information nouveau. bref histoire écrit.
+  example:
+
+dictionnaire:
+  type: n. m.
+  definition: cherchez dans le dictionnaire.
+  example:
+
+étonner:
+  type: v.
+  definition: surprendre
+  example:
+
+nécessaire:
+  type: adj.
+  definition: que ne peux pas ne pas être.
+  example:
+
+boîte:
+  type: n. f.
+  definition: contenant
+  example:
+    - aller en boîte -> aller a une fête ou une discothèque.
+
+souci:
+  type: n. m.
+  definition: préoccupátion.
+  example:
+    - Je vis sans souci.
+
+palais:
+  type: n. m.
+  definition: résidence vaste et somptueuse.
+  example:
+
+intellectuel:
+  type: n. f.
+  definition: celui qui se consacre à la culture, sciences et arts.
+  example:
+
+partager:
+  type: v.
+  definition: compartir.
+  example:
+
+exprimer (s'):
+  type: v.
+  definition: explicarse.
+  example:
+
+efficace:
+  type: adj.
+  definition: eficaz.
+  example:
+
+pote:
+  type: n. m.
+  definition: ami. copain.
+  example:
+
+honte:
+  type: n. f.
+  definition: vergüenza
+  example:
+
+bonheur:
+  type: n. m.
+  definition: circonstance favorable.
+  example:
+
+liberté:
+  type: n. f.
+  definition: .
+  example:
+    - La guerre, c'est la paix. La liberté, c'est l'esclavage. L'ignorance, c'est la force.
+
+abaisser:
+  type: v.
+  definition: diminuer la valeur.
+  example:
+
+aise:
+  type: n. f.
+  definition: cómodo
+  example:
+    - être à l'aise
+
+justement:
+  type: adverb
+  definition: precisement.
+  example:
+
+réussite:
+  type: n. f.
+  definition: .
+  example:
+
+fiche:
+  type: n. f.
+  definition: petite plaque utilisée pour prendre des notes.
+  example:
+
+critère:
+  type: n. m.
+  definition: principe de référence. méthode pratique.
+  example:
+
+fumeur, fumeuse:
+  type: n.
+  definition: persone qui recherche un cancer.
+  example:
+
+engager (s'):
+  type: v.
+  definition: comprometer
+  example:
+
+événement:
+  type: n. m.
+  definition: phénomène qui se produit.
+  example:
+
+poursuivre:
+  type: v.
+  definition: suivre vivement. continuer.
+  example:
+    - L'homme en noir fuyait à travers le désert, et le Pistolero le <b>suivait</b>.
+
+espoir:
+  type: n. m.
+  definition: promesa. esperanza
+  example:
+
+prêt:
+  type: adjectif
+  definition: préparé.
+  example:
+
+sommet:
+  type: n. m.
+  definition: cime. point commun à deux côtés consécutifs d'une ligne polygonale ou d'un polygone.
+  example:
+
+stage:
+  type: n. m.
+  definition: période d'études practiques.
+  example:
+
+surtout:
+  type: adverbe
+  definition: littéraire sur-tout
+  example:
+
+apprendre:
+  type: v.
+  definition: acquérir des connaissances.
+  example:
+
+dans:
+  type: préposition
+  definition: l'interieur.
+  example:
+
+sur:
+  type: préposition
+  definition: au-dessus de.
+  example:
+
+courant:
+  type: adjectif
+  definition: qui n'est pas terminé.
+  example:
+
+morceau:
+  type: n. m.
+  definition: débris. fragment.
+  example:
+
+échec total:
+  type: expression
+  definition: fracaso total
+  example:
+
+j'ai peur:
+  type: expression
+  definition: tengo miedo
+  example:
+
+tournage:
+  type: n. m.
+  definition: action de faire une films. "tornear"
+  example:
+
+remettre:
+  type: v.
+  definition: re-mettre.
+  example:
+
+usine:
+  type: n. f.
+  definition: fábrica, factoría.
+  example:
+
+environ:
+  type: adverbe
+  definition: approximativement.
+  example:
+
+s'agit ...:
+  type: expression
+  definition: se trata de ...
+  example:
+
+s'il y avait ...:
+  type: expression
+  definition: si hubiera ...
+  example:
+
+dehors:
+  type: adverbe
+  definition: exterior.
+  example:
+
+hors:
+  type: adj.
+  definition: fuera.
+  example:
+
+il n'y a pas que les études:
+  type: expr.
+  definition: .
+  example:
+
+moitié:
+  type: n. f.
+  definition: une des deux parties.
+  example:
+    - à moitié fou.
+    - faire quelque chose à moitié.
+    - moitié-moitié.
+    - faire moitié-moitié.
+
+ainsi:
+  type: adverb
+  definition: así. de esta forma. de esta manera.
+  example:
+
+presse:
+  type: n. f.
+  definition: journalistes.
+  example:
+
+métier:
+  type: n. m.
+  definition: oficio.
+  example:
+    - avoir du métier.
+    - être du métier.
+
+charge:
+  type: n. m.
+  definition: .
+  example:
+
+course:
+  type: n. f.
+  definition: action de courir.
+  example:
+
+coursier:
+  type: n. m.
+  definition: mensajero.
+  example:
+
+livreur:
+  type: n. m.
+  definition: repartidor.
+  example:
+
+couloir:
+  type: n. m.
+  definition: corredor
+  example:
+
+accrocher:
+  type: v.
+  definition: suspendre.
+  example:
+    - il a accrochée les clés au porte.
+
+escabeau:
+  type: n. m.
+  definition: échelle pliante à deux pans.
+  example:
+
+perceuse:
+  type: n. f.
+  definition: taladro! taladro!
+  example:
+
+dégager:
+  type: v.
+  definition: désencombrer. rendre libre.
+  example:
+
+enlever:
+  type: v.
+  definition: quitar. retirar. sacar.
+  example:
+    - enlèver un manteau.
+
+visage:
+  type: n. m.
+  definition: rostro.
+  example:
+    - à visage découvert
+
+faillite:
+  type: n. f.
+  definition: quiebra. bancarrota.
+  example:
+
+interdit:
+  type: adjectif
+  definition: prohibido.
+  example:
+
+ailleurs:
+  type: adverbe
+  definition: otra parte
+  example:
+    - d'ailleur...
+    - par ailleur...
+
+chambre:
+  type: s. f.
+  definition: piaule
+  example:
+
+faigant:
+  type: s. m.
+  definition: fainéant.
+  example:
+
+rassurer:
+  type: v.
+  definition: calmer. se rentre tranquille
+  example:
+
+depuis...:
+  type: expression
+  definition: desde.
+  example:
+    - note que la acción no termina aún
+    - j'etude le francais depuis 6 moins.
+
+aprés...:
+  type: expression
+  definition: .
+  example:
+
+déchet:
+  type: n. m.
+  definition: desechos
+  example:
+
+feter:
+  type: v.
+  definition: botar.
+  example:
+
+désormais:
+  type: adverbe
+  definition: a partir de ahora. de ahora en adelante
+  example:
+
+davantage:
+  type: adverbe
+  definition: .
+  example:
+    - nous n'attendrons pas davantage
+
+brin:
+  type: n. m.
+  definition: filamento. hebra. brizna
+  example:
+    - un brin de...
+    - ne pas avoir un brin de jugeote
+
+dont:
+  type: c.
+  definition: del que. de la que. uno de ellos.
+  example:
+    - plusieurs personnes ont téléphoné, dont ton frère
+    - les personnes dont je parle...
+
+notamment:
+  type: adverbe
+  definition: especialmente. particularmente.
+  example:
+
+amont:
+  type: n. m.
+  definition: curso
+  example:
+    - en amont. río arriba
+
+achever:
+  type: v.
+  definition: finir.
+  example:
+
+déçu:
+  type: adjectif.
+  definition: décevoir a le participe passé.
+  example:
+
+dommage:
+  type: n. m.
+  definition: .
+  example:
+    - C'est dommage. ¡Es una lástima!
+
+selon:
+  type: p.
+  definition: à proportion de. d'après. eu égard à. conformément à.
+  example:
+    - c'est selon. depende
+
+siège:
+  type: n. m.
+  definition: assise.
+  example:
+
+réel:
+  type: adjectif
+  definition: tout ce qui est rationnel.
+  example:
+    - _Tout ce qui est réel est rationnel, tout ce qui est rationnel est réel._
+
+lorsque:
+  type: conjonction
+  definition: _lors et que_. quand.
+  example:
+
+puisque:
+  type: conjonction
+  definition: _puis et que_. attendu que. dans la mesure où. du moment que. vu que.
+  example:
+
+puis:
+  type: adverbe
+  definition: .
+  example:
+
+lors:
+  type: adverbe
+  definition: à ce moment. là.
+  example:
+    - lors de...
+    - pour lors...
+    - depuis lors...
+
+reprendre:
+  type: v.
+  definition: re - prendre.
+  example:
+
+déceler:
+  type: v.
+  definition: detectar, descubrir.
+  example:
+
+angoisse:
+  type: n. f.
+  definition: angustia.
+  example:
+
+insouciance:
+  type: n. f.
+  definition: despreocupación.
+  example:
+
+cuistot:
+  type: n. m.
+  definition: .cocinero.
+  example:
+
+folie:
+  type: n. f.
+  definition: le fait d'être fou.
+  example:
+
+haine:
+  type: n. f.
+  definition: une grande détestation.
+  example:
+
+moquerie:
+  type: n. f.
+  definition: le fait de se moquer.
+  example:
+
+handicap:
+  type: n. m.
+  definition: une déficience.
+  example:
+
+érudition:
+  type: n. f.
+  definition: savoir approfondi.
+  example:
+
+assassinat:
+  type: n. m.
+  definition: homicide prémédité.
+  example:
+
+moche:
+  type: adj.
+  definition: laid. pas beau.
+  example:
+
+enlaidir:
+  type: v.
+  definition: devenir très moche.
+  example:
+
+embellir:
+  type: v.
+  definition: devenir très beau.
+  example:
+
+graine:
+  type: n. f.
+  definition: semilla.
+  example:
+
+mûrir:
+  type: v.
+  definition: madurar.
+  example:
+
+cassure:
+  type: n. f.
+  definition: ruptura. fractura.
+  example:
+
+effondrer:
+  type: v.
+  definition: demoler. derrumbar.
+  example:
+
+declencher:
+  type: v.
+  definition: desencadenar.
+  example:
+
+dehors:
+  type: adverbe \| n. f.
+  definition: afuera. exterior. fachada.
+  example:
+
+semer:
+  type: v.
+  definition: sembrar.
+  example:
+
+blessant:
+  type: adj.
+  definition: hiriente. ofensivo.
+  example:
+
+licencier:
+  type: v.
+  definition: despedir.
+  example:
+
+biais:
+  type: n. m.
+  definition: sesgo.
+  example:
+
+égard:
+  type: n. m.
+  definition: estima. consideración.
+  example:
+
+aménager:
+  type: v.
+  definition: organiser l'espace. acondicionar.
+  example:
+
+cort-circuite:
+  type: n. m.
+  definition: corto circuito.
+  example:
+
+ménager:
+  type: adj.
+  definition: relatif a la maison.
+  example:
+
+menagère:
+  type: n. f.
+  definition: femme qui administre un foyer. boite de fourchettes.
+  example:
+
+mener:
+  type: v.
+  definition: diriger. commander.
+  example:
+
+province:
+  type: n. f.
+  definition: provincia. fuera de la capital.
+  example:
+
+appuyer:
+  type: v.
+  definition: apoyar. colocar. poner
+  example:
+    - appuyé (adj.). insistente. persistente. reiterado.
+
+mêler:
+  type: v.
+  definition: mélanger.
+  example:
+    - mêle (adj.). disparate.
+
+vexer:
+  type: v.
+  definition: ofender.
+  example:
+
+héberger:
+  type: v.
+  definition: alojado.
+  example:
+
+insèrer:
+  type: v.
+  definition: insertar. meter.
+  example:
+
+releyer:
+  type: v.
+  definition: relevar. reemplazar
+  example:
+
+emtamer:
+  type: v.
+  definition: empezar. iniciar. gastar parte de...
+  example:
+
+nuance:
+  type: v.
+  definition: matiz. tono. toque.
+  example:
+
+nuancé:
+  type: adj.
+  definition: reservado. cauto. cauteloso. comedido. matizado.
+  example:
+
+déplaire à...:
+  type: expr.
+  definition: desagradarle a...
+  example:
+
+déballage:
+  type: n. m.
+  definition: desembalaje.siège
+  example:
+
+bribes:
+  type: n. f.
+  definition: migajas. fragmentos.
+  example:
+
+profane:
+  type: n. m. f.
+  definition: profano. laico.
+  example:
+
+redemandent:
+  type: v.
+  definition: re - demander.
+  example:
+
+épargne:
+  type: n. f.
+  definition: ahorro.
+  example:
+
+once:
+  type: n. f.
+  definition: onza.
+  example:
+
+prier:
+  type: v
+  definition: rezar. orar.
+  example:
+
+siège:
+  type: n. m.
+  definition: asiento. sede. oficina central. asedio.
+  example:
+
+trésor:
+  type: n. m.
+  definition: tesoro.
+  example:
+
+fournir:
+  type: v.
+  definition: proveer. abasteser. aprovisionar.
+  example:
+
+éventail:
+  type: n. m.
+  definition: abanico.
+  example:
+
+rumine:
+  type: v.
+  definition: rumiar. darle las vueltas a algo. repetir.
+  example:
+
+écume:
+  type: n. f.
+  definition: mousse blanchâtre. sueur animale.
+  example:
+
+ivresse:
+  type: n. f.
+  definition: embriaguez.
+  example:
+
+émettre:
+  type: v.
+  definition: produire au-dehors. exprimer. transmettre.
+  example:
+
+défouloir:
+  type: n. m.
+  definition: exutoire. desahogo.
+  example:
+
+constat:
+  type: n. m.
+  definition: bilan.
+  example:
+
+foule:
+  type: n. f.
+  definition: masse populaire.
+  example:
+
+nier:
+  type: v.
+  definition: rejeter. ne pas reconnaître.
+  example:
+
+tisser:
+  type: v.
+  definition: fabriquer un tissu.
+  example:
+
+tiser:
+  type: v.
+  definition: alimenter en combustible.
+  example:
+
+flicage:
+  type: n. m.
+  definition: surveillance excessive.
+  example:
+
+pencher:
+  type: v.
+  definition: incliner dans une direction.
+  example:
+
+foyers:
+  type: n. m.
+  definition: âtre.
+  example:
+
+âtre:
+  type: n. m.
+  definition: hogar.
+  example:
+
+fioul:
+  type: n. m.
+  definition: gasolina.
+  example:
+
+cochon:
+  type: n. m.
+  definition: porc.
+  example:
+
+ossature:
+  type: n. f.
+  definition: ensemble de os. structure.
+  example:
+
+grimper:
+  type: v.
+  definition: escalader.
+  example:
+    - nous tournons les obstacles ou nous grimpons péniblement par-dessus.
+
+parmi:
+  type: prép.
+  definition: dans. au nombre de. chez.
+  example:
+    - Parmis les tendances lourdes.
+
+concocter:
+  type: v.
+  definition: elaborer avec soin. concevoir. compiler.
+  example:
+    - se concocter sa petite philosophie pratique...
+
+mœurs:
+  type: n. f. pl.
+  definition: costumbres. tradiciones. hábitos.
+  example:
