@@ -808,7 +808,7 @@ cochon:
 
 ossature:
   type: n. f.
-  definition: ensemble de os. structure.
+  definition: ensemble des os. structure.
   example:
 
 grimper:
@@ -833,3 +833,17 @@ mœurs:
   type: n. f. pl.
   definition: costumbres. tradiciones. hábitos.
   example:
+
+rattacher:
+  type: v.
+  definition: re-attacher. faire dépendre. relier.
+  example:
+    - le témoignage a été relié.
+
+attacher:
+  type: v.
+  definition: fixer. lier. fermer.
+  example:
+    - le chien a été attaché.
+    - elle attache ses cheveux avec un ruban.
+    - tu as oublié d'attacher ta ceinture.
