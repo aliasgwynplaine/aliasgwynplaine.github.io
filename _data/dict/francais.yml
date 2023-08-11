@@ -462,9 +462,11 @@ lors:
   type: adverbe
   definition: à ce moment. là.
   example:
-    - lors de...
-    - pour lors...
-    - depuis lors...
+    - lors de... -> durante... en el transcurso de...
+    - dès lors... -> en consecuencia...
+    - pour lors... -> de momento... por ahora...
+    - depuis lors... -> desde entonces...
+    - dès lors que... -> tan pronto como...
 
 reprendre:
   type: v.
@@ -738,7 +740,7 @@ fournir:
   definition: abanico.
   example:
 
-rumine:
+ruminer:
   type: v.
   definition: rumiar. darle las vueltas a algo. repetir.
   example:
@@ -859,3 +861,69 @@ attacher:
     - le chien a été attaché.
     - elle attache ses cheveux avec un ruban.
     - tu as oublié d'attacher ta ceinture.
+
+métèque:
+  type: . m. f.
+  definition: étrangère (insultant).
+
+contrecarrer:
+  type: v.
+  definition: s'opposer. faire obstacle.
+  example:
+    - l'objectif c'est de contrecarrer les idées fausses.
+
+fléau:
+  type: n. m.
+  definition: plaga.
+  example:
+    - c'est un fléau.
+
+monter:
+  type: v.
+  definition: montar. subir. ensamblar. trepar a. subir a.
+  example:
+    - monter à -> trepar a
+    - monter sur -> subirse a
+    - monter dans -> montarse en
+
+char:
+  type: n. m.
+  definition: grand véhicule décoré. voiture.
+
+fédèrer:
+  type: v.
+  definition: unir. agrupar. federar.
+
+râler:
+  type: v.
+  definition: ronchoncher.
+  example:
+    - Fais des propopositions au lieu de râler !
+
+plaindre:
+  type: v.
+  definition: compatir avec quelqun
+
+se plaindre:
+  type: v.
+  definition: quejarse. lamentarse.
+
+compatir:
+  type: v.
+  definition: partager la souffrance.
+  example:
+    - je compatis à ta douleur.
+
+avoir la banane:
+  type: expr.
+  definition: être souriant.
+
+quand même:
+  type: expr.
+  definition: a pesar de todo. sin embargo. ¡no puede ser! ¡Chále!
+
+inciter:
+  type: v.
+  definition: incitar.
+  example:
+    - Quelques activités de la société incitent a la violence.
