@@ -1,15 +1,8 @@
 ---
-layout: page
+layout: dict
 title: Diccionario de regionalismos de Tarapoto
-autor: gwynplaine
+dictionary: regionalismos
 ---
 
 Este es un diccionario de regionalismos de la tierra en la que crecí. Tengo entendido de que se trata de una amalgama entre el quechua del antiguo pueblo Chanca y el español.
 
-+ shepleco. débil, escuálido.
-+ telensho. débil, escuálido.
-+ huaira huma. distraído.
-+ pishpira.
-+ buchi sapa. barrigón. gordo
-+ ishapayado.
-+ chulla chulla. percudido. viejo.
