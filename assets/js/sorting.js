@@ -1,4 +1,4 @@
-goa = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+goa = s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "")
 
 function filterTable(inputid, tableid) {
     var table   = document.getElementById(tableid)
@@ -6,10 +6,9 @@ function filterTable(inputid, tableid) {
     var word    = input.value
     var rows    = Array.from(table.rows)
     var nomatch = true
-    rows.pop()
     document.getElementById('no-match').style.display = "None"
 
-    for (var i = 0; i < rows.length; i++) {
+    for (var i = 0; i < rows.length - 1; i++) {
         if (goa(rows[i].id).indexOf(goa(word)) > -1) {
             rows[i].style.display = ""
             nomatch = false
