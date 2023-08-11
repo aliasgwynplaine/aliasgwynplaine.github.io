@@ -5,6 +5,8 @@ autor: gwynplaine
 ---
 
 Ici, j'écrirai les mots et les expressions que j'apprends.
+
+
 <script src="/assets/js/sorting.js"></script>
 <div>
     <input id="search-bar" type="text" placeholder="Search..." onkeyup="filterTable(this.id, 'dict-table')">
