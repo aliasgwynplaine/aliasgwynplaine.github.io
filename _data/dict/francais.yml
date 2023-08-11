@@ -89,7 +89,7 @@ aise:
     - être à l'aise
 
 justement:
-  type: adverb
+  type: adverbe
   definition: precisement.
   example:
 
@@ -115,7 +115,7 @@ fumeur, fumeuse:
 
 engager (s'):
   type: v.
-  definition: comprometer
+  definition: comprometer.
   example:
 
 événement:
@@ -135,7 +135,7 @@ espoir:
   example:
 
 prêt:
-  type: adjectif
+  type: adj.
   definition: préparé.
   example:
 
@@ -170,7 +170,7 @@ sur:
   example:
 
 courant:
-  type: adjectif
+  type: adj.
   definition: qui n'est pas terminé.
   example:
 
@@ -180,12 +180,12 @@ morceau:
   example:
 
 échec total:
-  type: expression
+  type: expr.
   definition: fracaso total
   example:
 
 j'ai peur:
-  type: expression
+  type: expr.
   definition: tengo miedo
   example:
 
@@ -210,12 +210,12 @@ environ:
   example:
 
 s'agit ...:
-  type: expression
+  type: expr.
   definition: se trata de ...
   example:
 
 s'il y avait ...:
-  type: expression
+  type: expr.
   definition: si hubiera ...
   example:
 
@@ -324,7 +324,7 @@ faillite:
   example:
 
 interdit:
-  type: adjectif
+  type: adj.
   definition: prohibido.
   example:
 
@@ -351,14 +351,14 @@ rassurer:
   example:
 
 depuis...:
-  type: expression
+  type: expr.
   definition: desde.
   example:
     - note que la acción no termina aún
     - j'etude le francais depuis 6 moins.
 
 aprés...:
-  type: expression
+  type: expr.
   definition: .
   example:
 
@@ -379,9 +379,11 @@ désormais:
 
 davantage:
   type: adverbe
-  definition: .
+  definition: plus. plus intensément. un temps plus long.
   example:
     - nous n'attendrons pas davantage
+    - davantage de...
+    - davantage que...
 
 brin:
   type: n. m.
@@ -414,7 +416,7 @@ achever:
   example:
 
 déçu:
-  type: adjectif.
+  type: adj.
   definition: décevoir a le participe passé.
   example:
 
@@ -436,7 +438,7 @@ siège:
   example:
 
 réel:
-  type: adjectif
+  type: adj.
   definition: tout ce qui est rationnel.
   example:
     - _Tout ce qui est réel est rationnel, tout ce qui est rationnel est réel._
@@ -621,15 +623,25 @@ province:
 
 appuyer:
   type: v.
-  definition: apoyar. colocar. poner
+  definition: apoyar. colocar. poner.
   example:
-    - appuyé (adj.). insistente. persistente. reiterado.
+
+appuyé:
+  type: adj. 
+  definition: insistente. persistente. reiterado.
 
 mêler:
   type: v.
-  definition: mélanger.
+  definition: mélanger. impliquer.
   example:
-    - mêle (adj.). disparate.
+    - il a mêlé son ami.
+
+mêle: 
+  type: adj.
+  definition: disparate. hétéroclite. en rapport avec.
+  example:
+    - ils sont d'objets disparates.
+    - il est mêle à l'affaire.
 
 vexer:
   type: v.
@@ -657,7 +669,7 @@ emtamer:
   example:
 
 nuance:
-  type: v.
+  type: n. f.
   definition: matiz. tono. toque.
   example:
 
