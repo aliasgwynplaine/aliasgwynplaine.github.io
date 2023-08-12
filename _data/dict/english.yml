@@ -5,3 +5,64 @@ turmoil:
 dictionary:
   type: n.
   definition: look it up in the dictionary
+
+former:
+  type: adj.
+  definition: previous. ex. one time.
+
+chilly:
+  type: adj.
+  definition: frío.
+
+purloin:
+  type: v.
+  definition: steal.
+  example:
+    - The purnoiled letter.
+
+smear:
+  type: n., v.
+  definition: dirty mark. smudge
+
+bumbling:
+  type: adj
+  definition: incompetent. clumsy.
+
+bumble:
+  type: v. i.
+  definition: be clumsy or bumbling.
+
+clumsy:
+  type: adj.
+  definition: torpe. patoso.
+
+well-meaning:
+  type: adj.
+  definition: having good intentions.
+
+knack:
+  type: n.
+  definition: special skill.
+
+burrow:
+  type: v. i., n.
+  definition: cavar. excavar. madriguera.
+  examples:
+    - burrow through something -> hurgar en algo.
+
+soil:
+  type: n., v. t. r.
+  definition: dirty. earth. get dirty.
+  example:
+    - home soil -> suelo nacional.
+    - native soil -> lugar de nacimiento.
+    - potting soil -> tierra para macetas.
+    - rich soil -> suelo fértil.
+
+forage:
+  type: v. i.
+  definition: search for food. rummage around.
+
+meadow:
+  type: n.
+  definition: campo. prado. pradera.
