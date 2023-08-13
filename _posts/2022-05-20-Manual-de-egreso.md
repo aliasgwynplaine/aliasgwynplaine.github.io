@@ -62,7 +62,7 @@ Este trámite es gratuito y se tiene que solicitar en tu escuela profesional. Ge
 correo electrónico y la constancia estuvo en mi bandeja de entrada unas \~3 horas después.
 
 ## Constancia de primera matrícula
-> Porque no están seguros de que sí te matriculaste por primera vez.
+> Porque no están seguros de que si te matriculaste por primera vez.
 
 Esto tiene que tramitarse en el pabellón central. La información oficial se encuentra 
 [aquí](https://www.orce.uni.edu.pe/constancia-primera-matricula.php) y aquí tienes un modelo de la solicitud 
@@ -162,9 +162,11 @@ la oficina de manera presencial y pregunta por el estado de tu trámite.
 ![Información del "lenteja"](/assets/img/ffc/seguimiento-javier.png)
 
 ## Agradecimientos
-Quiero dedicar este apartado a agradecer, desde el fondo de mi corazón, a Heidi. Quien hizo todo lo posible por insistir tanto a su superior como 
-a las personas del pabellón central para preguntar y presionar por el estado de los trámites que ya iban "a paso de vencedor". Si no fuera por ella, 
-muchas de las constancias, no solo las mías, tal vez seguirían perdidas en algún lugar del pabellón centrar o en el escritorio del director de mi escuela 
-profesional.
+Quiero dedicar este apartado a agradecer, desde el fondo de mi corazón, a dos personas. A mi 
+asesor de tésis, O., que hizo todo lo posible para ayudarme con estos trámites. Y a Heidi. Quien 
+hizo todo lo posible por insistir tanto a su superior como a las personas del pabellón central 
+para preguntar y presionar por el estado de los trámites que ya iban "a paso de vencedor". Si no 
+fuera por ella, muchas de las constancias, no solo las mías, tal vez seguirían perdidas en algún 
+lugar del pabellón centrar o en el escritorio del director de mi escuela profesional.
 
-Muchas gracias, _chama_. En cuanto pueda, te conseguiré una bolsa de café del bueno.
+Muchas gracias, _chama_.

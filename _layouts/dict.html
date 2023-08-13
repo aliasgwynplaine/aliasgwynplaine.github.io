@@ -18,7 +18,7 @@ layout: page
             {% for word_dat in site.data.dict[page.dictionary] %}
             {% assign word_id = word_dat[0] %}
             {% assign word    = word_dat[1] %}
-            <tr id="{{ word_id }}">
+            <tr id="{{ word_id }} ">
                 <td style="vertical-align: top">
                     {% if word.type.size > 0 %}
                         {{ word_id }} ({{ word.type }})
