@@ -966,3 +966,20 @@ passeur:
 des métiers exercés au noir:
   type: expr.
   definition: travail dans le clandestinité.
+
+robinet:
+  type: n. m.
+  definition: régulateur de débit d'eau.
+
+chômeur, chômeuse:
+  type: n. m. f.
+  definition: desempleado.
+
+quant à...:
+  type: expr.
+  definition: en cuanto a...
+  example:
+    - quant à moi...
+    - quant à soi...
+    - quant à faire...
+
