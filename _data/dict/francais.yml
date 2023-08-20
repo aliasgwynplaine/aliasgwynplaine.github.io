@@ -983,3 +983,53 @@ quant à...:
     - quant à soi...
     - quant à faire...
 
+génie:
+  type: 
+  definition: genio.
+  example:
+    - coup de génie
+
+géniteur:
+  type: n. m., n. f.
+  definition: progenitor
+  example:
+    - géniteur et genitrice.
+
+sucer:
+  type: v.
+  definition: chupar.
+  example:
+    - ne pas sucer que des glaçons
+
+bouffer:
+  type: v.
+  definition: comer.
+
+pouce:
+  type: n. m., expr.
+  definition: pulgar. pulgada. ¡Pausa!
+  example:
+    - faut l'sucer d'son pouse ou quoi ?
+    - le pouce anglais a une valeur de 25.4mm.
+    - pouce ! 
+
+lave-linge:
+  type: n. m.
+  definition: lava-colada.
+
+linge:
+  type: n. m.
+  definition: colada.
+
+chasser:
+  type: v.
+  definition: cazar.
+  example:
+    - chasser les idées reçues -> combatir estereotipos.
+    - chasser les préjuges -> combatir prejuicios.
+    - chasser une idée de son sprit -> sacarse una idea de la cabeza.
+
+chasseur de têtes:
+  type: n. m. f.
+  definition: cazatalentos.
+
