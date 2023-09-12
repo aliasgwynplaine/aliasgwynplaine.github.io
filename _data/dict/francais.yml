@@ -1078,3 +1078,69 @@ racheter:
 emprunter:
   type: v.
   definition: tomar prestado.
+
+mensonge:
+  type: n. m.
+  definition: mentira.
+
+éclater:
+  type: v.
+  definition: faire voler en morceaux.
+
+vaisselle:
+  type: n. f.
+  definition: vajilla.
+
+évier:
+  type: n. m.
+  definition: fregadero. lavaplatos.
+
+tronche:
+  type: n. f.
+  definition: cara. jeta. careto.
+
+foyer:
+  type: n. m.
+  definition: hogar. fogón.
+
+mûr:
+  type: adj.
+  definition: preparado
+  example:
+    - Ils sont mûrs pour le changement.
+
+réagir:
+  type: v.
+  definition: reaccionar
+
+redresser:
+  type: v.
+  definition: enderesar.
+
+puiser:
+  type: v.
+  definition: sacar. extraer. obtener.
+  example:
+    - Le piliers de mon analyse est de puiser des réponses dans l'experience.
+
+vertu:
+  type: n. f.
+  definition: virtud. valor. 
+
+alors:
+  type: adv.
+  definition: en ce cas... 
+  example:
+    - Et alors ?
+    - Alors, dit moi.
+    - Si..., alors...
+
+décrochage:
+  type: n. m.
+  definition: abandono. desenganceh. pérdida.
+  example:
+    - décrochage scolaire.
+
+vers:
+  type: prép.
+  definition: a. hacia.
