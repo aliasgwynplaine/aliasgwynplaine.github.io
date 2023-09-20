@@ -1144,3 +1144,54 @@ décrochage:
 vers:
   type: prép.
   definition: a. hacia.
+
+éloigner:
+  type: v.
+  definition: rendre plus lointain
+
+houlette:
+  type: n. f.
+  definition: paleta. cayado. supervisión. control.
+  examples:
+    - sous la houlette de...
+
+trac:
+  type: n. m.
+  definition: pánico escénico.
+
+entraide:
+  type: n. f.
+  definition: ayuda mutua. solidaridad. cooperación.
+
+exit:
+  type: interj.
+  definition: adiós a... dile adiós a... despídete de...
+  example:
+    - exit la competition.
+
+parvenu:
+  type: n. m.
+  definition: advenedizo.
+
+atout:
+  type: n. m.
+  definition: triunfo. ventaja.
+  examples:
+    - atout charme
+    - atout majeur
+    - jouer son dernier atout
+    - abattre son dernier atout
+
+apprenti:
+  type: n. m.
+  definition: aprendíz
+  example:
+    - apprenti sorcier.
+
+loge:
+  type: n. f.
+  definition: camerino. portería. conserjería.
+
+couteau:
+  type: n. m.
+  definition: cuchillo. hoja. navaja.
