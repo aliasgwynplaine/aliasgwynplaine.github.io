@@ -76,3 +76,47 @@ aftermath:
 womb:
   type: n.
   definition: matriz. vientre. útero.
+
+trawl:
+  type: v.
+  definition: pesca de arrastre. rastrear.
+
+edible:
+  type: adj.
+  definition: comestible.
+
+shore:
+  type: n.
+  definition: orilla.
+
+scavenger:
+  type: n.
+  definition: carroñero. chatarrero. removedor.
+
+realm:
+  type: n.
+  definition: reino. terreno. ámbito. campo.
+
+utterly:
+  type: adv.
+  definition: completely.
+
+stark:
+  type: adj.
+  definition: escueto. crudo. duro. riguroso. extremo. completamente.
+  examples:
+    - The stark landscape
+    - Stark weather is expected over the next few days.
+    - That's stark folly.
+
+wedded:
+  type: adj.
+  definition: cazado. ligado. unido.
+
+subtlety:
+  type: n.
+  definition: sutileza.
+
+disdain:
+  type: n.
+  definition: desdén. desprecio. menosprecio.
