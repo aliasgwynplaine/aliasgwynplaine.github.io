@@ -314,7 +314,7 @@ enlever:
 
 visage:
   type: n. m.
-  definition: rostro.
+  definition: tronche.
   example:
     - à visage découvert
 
@@ -1195,3 +1195,42 @@ loge:
 couteau:
   type: n. m.
   definition: cuchillo. hoja. navaja.
+
+désormais:
+  type: adv.
+  definition: a partir de ahora. en adelante. de aquí en adelante. hoy por hoy.
+
+congé:
+  type: n. m.
+  definition: vacaciones. baja temporal. licencia. terminación de contrato.
+
+entamer:
+  type: v.
+  definition: commencer à consommer. débuter. diminuer. réduire.
+
+salir:
+  type: v.
+  definition: ensuciar. manchar. mancillar.
+
+hébergement:
+  type: n. m.
+  definition: alojamiento.
+
+dénicher:
+  type: v.
+  definition: descubrir. buscar. desenterrar. desempolvar. expulsar.
+
+assombrir:
+  type: v.
+  definition: oscurecer. ensombrecer. ennegrecer.
+
+coin:
+  type: n. m.
+  definition: rincón. esquina. ángulo. cuña.
+  example:
+    - au coin de la rue.
+    - bon coin.
+    - causerie au coin de feu.
+    - calcul de coin de table.
+    - coin toilette.
+    - du coin de l'oeil
