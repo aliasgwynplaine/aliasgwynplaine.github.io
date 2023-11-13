@@ -1234,3 +1234,70 @@ coin:
     - calcul de coin de table.
     - coin toilette.
     - du coin de l'oeil
+
+enfourcher:
+  type: v.
+  definition: montar a horcajadas
+  example:
+    - j'enfourche mon scouter...
+
+couloir:
+  type: n. m.
+  definition: corredor
+
+sable:
+  type: n. m.
+  definition: arena
+  example:
+    - grain de sable
+péril:
+  type: n. m.
+  definition: peligro
+  example:
+    - mettre en péril
+
+s'rattraper:
+  type: v.
+  definition: ponerse al día.
+
+amortir:
+  type: v.
+  definition: amortizar.
+
+plonger:
+  type: v.
+  definition: zambullirse.
+  example:
+    - je me plonge dans un bon bouquin.
+
+bouquin:
+  type: n. m.
+  definition: libro.
+  example:
+    - je me plonge dans un bon bouquin.
+
+feullieter:
+  type: v.
+  definition: hojear.
+
+courir:
+  type: v.
+  definition: correr.
+
+rater:
+  type: v.
+  definition: perder.
+  example: 
+    - c'est raté !
+
+bulle:
+  type: n. f.
+  definition: burbuja.
+  example:
+    - ma petite bulle de tranquilité.
+
+atone:
+  type: adj.
+  definition: sans tonus. muet. apathique (personne).
+
+
