@@ -1306,4 +1306,34 @@ aléa:
   example:
     - la vie a ses aléas.
 
+toiture:
+  type: n. f.
+  definition: techado.
 
+orage:
+  type: n. m.
+  definition: phénomène atmosphérique. éclat de colère.
+
+bounché:
+  type: adj.
+  definition: atascado. atontado. cubierto.
+
+bounchée:
+  type: n. f.
+  definition: bocado. mordisco. mordida.
+  example:
+    - on va mettre les bouchées doubles -> haremos todo lo posible.
+
+boutoir:
+  type: n. m.
+  definition: límite.
+  example:
+    quelle est votre date butoir ?
+
+événementiel:
+  type: n. m., adj.
+  definition: eventos. actualidad. cronológico. fáctico.
+
+soulager:
+  type: v.
+  definition: aliviar. calmar. mitigar.
