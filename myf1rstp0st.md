@@ -2,7 +2,6 @@
 layout: post
 title:  Primera entrada
 date:   2021-02-04 11:58:59 -0500
-categories: jekyll update
 author: gwynplaine
 ---
 Esta será la primera entrada de este blog, espero que no sea la última.

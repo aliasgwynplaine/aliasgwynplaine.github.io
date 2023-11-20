@@ -8,7 +8,9 @@ author:     gwynplaine
 
 Una fotografía es una impresión del reflejo de la luz sobre una película 
 fotosensible. Este será la primera de una serie de publicaciones sobre 
-fotografía. En particular, el contenido de este será teórico en su totalidad. 
+fotografía. En particular, el contenido de este será teórico en su totalidad y 
+pensado como una introducción a los conceptos para los interesados en introducirse 
+en el mundo de la fotografía. 
 Se asume que el lector está familiarizado con algunas nociones elementales de 
 óptica y la naturaleza de la luz debido a su interacción cotidiana con la 
 realidad.
@@ -135,15 +137,19 @@ Ejemplo: 55mm
 #### Apertura del diafragma
 Está asociado la medida del diámetro de la abertura del diafragma y se mide con 
 el famoso número _f_ que puede despejarse de la siguiente ecuación:
+
 $$
 f = \frac{F}{D};
 $$
+
 donde $F$ es la distancia focal y $D$ es el tamaño del diámetro.
 
 Así, si despejamos $D$, tendremos:
+
 $$
 D = \frac{F}{f}
 $$
+
 En consecuencia, la apertura suele expresarse como F/_f_. Por ejemplo: F/8.6. 
 
 Observe que, para una abertura del diámetro dada, el número _f_ cambiará si es 
@@ -161,11 +167,18 @@ aproximación aceptable, inversamente proporcional a la apertura. Es decir, a
 mayor apertura, mejor profundidad de campo, y a menor apertura, mayor profundidad 
 de campo.
 
+### Síntesis
+Para resumirlo, una fotografía estará determinada por la configuración de los 
+parámetros antes mencionados. Sin embargo, aún nos faltan conceptos para tener 
+criterios más adecuados para poder aventurarnos a catalogar una fotografía de 
+buena o mala, y, debido a que este documento ya va quedando demasiado extenso, 
+estos conceptos serán tratados en un artículo posterior.
+
 ## Apreciaciones finales
 Empieza por la fotografía digital que tenga un modo manual (M). Toma muchas fotos. 
 Mira los detalles de tus fotografías y juega con los parámetros.
 
 ## Ligas útiles y fuentes
 
-+ [](https://www.dpreview.com/forums/thread/4134491)
-+ [](https://www.quora.com/How-is-ISO-implemented-in-digital-cameras)
++ (https://www.dpreview.com/forums/thread/4134491)
++ (https://www.quora.com/How-is-ISO-implemented-in-digital-cameras)
