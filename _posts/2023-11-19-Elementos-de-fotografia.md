@@ -175,8 +175,9 @@ buena o mala, y, debido a que este documento ya va quedando demasiado extenso,
 estos conceptos serán tratados en un artículo posterior.
 
 ## Apreciaciones finales
-Empieza por la fotografía digital que tenga un modo manual (M). Toma muchas fotos. 
-Mira los detalles de tus fotografías y juega con los parámetros.
+Empieza por la fotografía digital que tenga un modo manual (M) que te permita 
+ajustar los parámetros antes mencionados. Toma muchas fotos. Mira los detalles 
+de tus fotografías y juega con los parámetros.
 
 ## Ligas útiles y fuentes
 
