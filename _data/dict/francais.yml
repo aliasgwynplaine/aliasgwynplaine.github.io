@@ -1341,3 +1341,28 @@ soulager:
 désinvolte:
   type: adj.
   definition: desenvuelto. confiado. impertinente.
+
+ben:
+  type: adv.
+  definicion: pues. claro que... esto. ¡vaya!. ¡cielos!
+  example:
+    - ben oui !
+    - ben, j'en sais rien !
+
+dents de scie:
+  type: expr.
+  definition: dientes de cierra (lit.). parcours ou résultats irréguliers.
+
+quasiment:
+  type: adv.
+  definition: practicamente. casi. mejor dicho.
+
+tirer son épingle du jeu:
+  type: expr.
+  definition: se dégager adroitement d'une affaire qui tourne mal.
+  example:
+    - Quant à moi, je tire mon épingle du jeu.
+
+vis-à-vis:
+  type: expr.
+  definition: uno al frente del otro. à l'égard de...
