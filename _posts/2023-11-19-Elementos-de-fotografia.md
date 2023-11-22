@@ -135,8 +135,10 @@ grandes y menor ángulo de visión.
 Ejemplo: 55mm
 
 #### Apertura del diafragma
-Está asociado la medida del diámetro de la abertura del diafragma y se mide con 
-el famoso número _f_ que puede despejarse de la siguiente ecuación:
+Este parámetro regula la cantidad de luz que llega a incidir sobre el material 
+fotosensible y su valor máximo caracteriza la luminosidad que la lente puede 
+alcanzar. Está asociado la medida del diámetro de la abertura del diafragma y 
+se mide con el famoso número _f_ que puede despejarse de la siguiente ecuación:
 
 $$
 f = \frac{F}{D};
@@ -150,16 +152,15 @@ $$
 D = \frac{F}{f}
 $$
 
-En consecuencia, la apertura suele expresarse como F/_f_. Por ejemplo: F/8.6. 
+En consecuencia, la apertura suele expresarse como F/_f_. Por ejemplo: F/8.6 
+indica una apertura de $\frac{5}{43}$ veces la distancia focal. 
 
 Observe que, para una abertura del diámetro dada, el número _f_ cambiará si es 
 que se modifica la distancia focal.
 Así, para una distancia focal dada, un número _f_ mayor, denota una menor 
 apertura del diafragma, y uno menor, denota una mayor apertura del diafragma.
 
-Este parámetro regula la cantidad de luz que llega a incidir sobre el material 
-fotosensible y su valor máximo caracteriza la luminosidad que la lente puede 
-alcanzar. Sin embargo, también influyen sobre un concepto importante llamado 
+Además, la apertura también influye sobre un concepto importante llamado 
 _profundidad de campo_, que se entiende como la zona comprendida entre el punto 
 más cercano y el más lejano de nuestro campo que sea aceptable en cuanto a 
 nitidez. Para una misma distancia focal, la profundidad de campo depende, en una 
@@ -168,11 +169,13 @@ mayor apertura, mejor profundidad de campo, y a menor apertura, mayor profundida
 de campo.
 
 ### Síntesis
-Para resumirlo, una fotografía estará determinada por la configuración de los 
-parámetros antes mencionados. Sin embargo, aún nos faltan conceptos para tener 
-criterios más adecuados para poder aventurarnos a catalogar una fotografía de 
-buena o mala, y, debido a que este documento ya va quedando demasiado extenso, 
-estos conceptos serán tratados en un artículo posterior.
+Para resumirlo, una fotografía estará determinada, principalmente, por la 
+configuración de tres parámetros: la apertura del diafragma, la sensiblidad 
+del material fotosensible, y el tiempo de exposición. 
+Sin embargo, aún nos faltan conceptos para tener criterios más adecuados para 
+poder aventurarnos a catalogar una fotografía de "buena" o "mala", y, debido a 
+que este documento ya va quedando demasiado extenso, estos conceptos serán 
+tratados en un artículo posterior.
 
 ## Apreciaciones finales
 Empieza por la fotografía digital que tenga un modo manual (M) que te permita 
@@ -181,5 +184,5 @@ de tus fotografías y juega con los parámetros.
 
 ## Ligas útiles y fuentes
 
-+ (https://www.dpreview.com/forums/thread/4134491)
-+ (https://www.quora.com/How-is-ISO-implemented-in-digital-cameras)
++ [ISO does not influence noise, but aperture and shutter speed does](https://www.dpreview.com/forums/thread/4134491)
++ [How is ISO implemented in digital cameras?](https://www.quora.com/How-is-ISO-implemented-in-digital-cameras)
