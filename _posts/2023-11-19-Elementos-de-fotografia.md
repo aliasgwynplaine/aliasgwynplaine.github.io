@@ -97,7 +97,7 @@ Por otra parte, las cámaras digitales tienen sensores fotosensibles electrónic
 
 #### Escalas de sensibilidad
 Las escalas de sensibilidad fotográfica definen cuantitativamente la sensibilidad. 
-En general, n número de la escala alto indica que el valor de la sensibilidad del 
+En general, un número de la escala alto indica que el valor de la sensibilidad del 
 material fotosensible es grande.
 Si bien, fueron creadas para los materiales fotosensibles analógicos, su uso se 
 se ha adaptado para cámaras digitales.

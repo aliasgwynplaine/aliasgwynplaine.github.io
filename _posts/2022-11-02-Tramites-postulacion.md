@@ -12,7 +12,7 @@ Este es un registro personal del proceso de legalización de documentos académi
 El enlace de [SUNEDU en línea](https://enlinea.sunedu.gob.pe/) será útil.
 
 ## Traducción de los documentos
-Suelen requerir traducciones de documentos _oficiales_. Puedes encontrar una lista proporcionada por el Ministerio de 
+Suelen requerir traducciones _oficiales_ de documentos . Puedes encontrar una lista proporcionada por el Ministerio de 
 Relaciones Exteriores [aquí](http://www.consulado.pe/paginas/traductores.aspx).
 
 ## Apostillado de documentos
