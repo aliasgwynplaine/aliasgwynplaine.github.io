@@ -29,13 +29,17 @@ $$
 Pero sabemos que $\bigcup{\mathcal{P}(I_n)}$ es numerable por ser unión de conjuntos numerables.
 Como $\mathcal{P}_f(\mathbb{N})$ es un subconjunto de un conjunto numerable, entonces debe ser numerable.
 
+\\
 Para el segundo punto:
 
 Sabemos que no existen funciones $X \mapsto \mathcal{F}(X,\\{0,1\\})$ que sean sobreyectivas (ver 
-el teorema de Cantor).
+el teorema de Cantor). Además, existe una biyección entre $\mathcal{P}(X)$ y $\mathcal{F}(X,\\{0,1\\})$. 
+Luego, no existe una función sobreyectiva $X \mapsto \mathcal{P}(X)$. En particular, no 
+existe una función sobreyectiva $\mathbb{N} \mapsto \mathcal{P}(\mathbb{N})$. Ergo, $\mathcal{P}(\mathbb{N})$ 
+no puede ser numerable.
 
 ### Solución 2
-Para el primer punto:
+Esta es una solución alternativa para el primer punto:
 
 Sea $X = \\{ x_1, ..., x_n\\}\subset\mathbb{N}$. Asignemos un número a cada uno de los símbolos 
 que usamos para representar a $X$ por extensión:
@@ -59,7 +63,7 @@ Así, para el alfabeto $\Omega = \\{$'0' , '1' $,...,$ '9' , '{' , ',' , '}'$\\}
 
 $$
 \begin{aligned}
-\varphi : \Omega^* &\rightarrow \mathbb{N}\\\\\
+\varphi : \Omega^* &\to \mathbb{N}\\\\\
 s &\mapsto \sum\_{i = 0}^{\text{len}(s)} {s[\text{len}(s) - i] * D^i}
 \end{aligned}
 $$
@@ -70,7 +74,18 @@ La función $\varphi$ es una inyección de $\Omega^*$ en $\mathbb{N}$ debido a q
 polinomial de un número natural en una base dada es única.
 
 Claramente, el conjunto de las representaciones de cualquier $X\subset\mathbb{N}$ finito es 
-un subconjunto de $\Omega^*$. Luego, ese conjunto es un conjunto contable y $\mathcal{P}_f(\mathbb{N})$ es contable.
+un subconjunto de $\Omega^*$. Luego, ese conjunto es un conjunto contable.
+
+Ahora bien, es posible construir una función inyectiva de $\mathcal{P}_f(\mathbb{N})$ en $\Omega^*$:
+
+$$
+\begin{aligned}
+\texttt{to_string} : \mathcal{P}_f(\mathbb{N}) &\to \Omega^* \\\\\
+X = \\{x_1,...,x_n\\} &\mapsto \texttt{to_string}(X)
+\end{aligned}
+$$
+
+Así, $\mathcal{P}_f(\mathbb{N})$ es contable.
 
 ## Pregunta 2
 ### Enunciado
