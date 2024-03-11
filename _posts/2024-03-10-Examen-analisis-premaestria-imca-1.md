@@ -54,17 +54,25 @@ $$
 \\{ &\rightarrow C \\\\\
 \end{aligned}
 $$
-donde $A = 10$, $B = 11$, $C = 12$. Esto con el fin de representar cada conjunto $X$ como un 
-número en base $D = 13$ (o cualquier número mayor que $12$, en realidad). Es decir, por ejemplo:
+donde $A = 10$, $B = 11$, $C = 12$. 
+
+A la función que realiza estas asignaciones, la llamaremos 
+$\texttt{char2int}$, pues nos transforma un caracter en un número entero. Nos tomamos este trabajo 
+con el objetivo de representar cada conjunto $X$ como un número en base $D = 13$ (o cualquier número 
+mayor que $12$, en realidad). Es decir, por ejemplo:
 $$
-I_9 = \\{1, ..., 9\\} \rightarrow \overline{A1B2B...B9C}
+I_9 = \\{1,2,3,4,5,6,7,8,9\\} \to \overline{A1B2Bb3B4B5B6B7B8B9C}_D
+$$
+Otro ejemplo, sería:
+$$
+I\_{10} = \\{1,2,3,4,5,6,7,8,9,10\\} \to \overline{A1B2Bb3B4B5B6B7B8B9B10C}_D
 $$
 Así, para el alfabeto $\Omega = \\{$'0' , '1' $,...,$ '9' , '{' , ',' , '}'$\\}$ planteamos la siguiente función:
 
 $$
 \begin{aligned}
 \varphi : \Omega^* &\to \mathbb{N}\\\\\
-s &\mapsto \sum\_{i = 0}^{\text{len}(s)} {s[\text{len}(s) - i] * D^i}
+s &\mapsto \sum\_{i = 0}^{\text{len}(s)} {\texttt{char2int}(s[\text{len}(s) - i]) \cdot D^i}
 \end{aligned}
 $$
 donde $D = 13$, y $\Omega^*$ denota el [conjunto de todas las cadenas de longitud finita](https://en.wikipedia.org/wiki/Kleene_star) 
@@ -73,8 +81,8 @@ que se pueden formar con $\Omega$.
 La función $\varphi$ es una inyección de $\Omega^*$ en $\mathbb{N}$ debido a que la representación 
 polinomial de un número natural en una base dada es única.
 
-Claramente, el conjunto de las representaciones de cualquier $X\subset\mathbb{N}$ finito es 
-un subconjunto de $\Omega^*$. Luego, ese conjunto es un conjunto contable.
+Claramente, el conjunto de las representaciones como cadena de caracteres de cualquier $X\subset\mathbb{N}$ 
+finito es un subconjunto de $\Omega^*$. Luego, ese conjunto es un conjunto contable.
 
 Ahora bien, es posible construir una función inyectiva de $\mathcal{P}_f(\mathbb{N})$ en $\Omega^*$:
 
