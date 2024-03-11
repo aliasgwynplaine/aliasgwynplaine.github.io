@@ -67,10 +67,10 @@ $$
 donde ambos factores son primos. Así, podemos calcular rápidamente:
 
 $$
-\begin{align*}
-\varphi(n) &= (834484082192663321522350796531179531-1)(962783008358270223405333797438320127-1)\\
+\begin{aligned}
+\varphi(n) &= (834484082192663321522350796531179531-1)(962783008358270223405333797438320127-1) \\\\\
 \varphi(n) &= 803427095080542426781920458218201790745848368755347930735322384518220780
-\end{align*}
+\end{aligned}
 $$
 
 Con nuestro $\varphi(n)$ ya podemos calcular la llave privada que sería
@@ -114,10 +114,10 @@ expmod(password.map(x => BigInt(x)).reduce((x,y) => (x << 8n) + y), pub, mod)
 Esto quiere decir que, sea $\text{password} = \overline{p_1p_2p_3...p_t}$, donde $p_i$ es el valor ASCII una letra minúscula, tendremos que nuestro criptograma será un número que tendrá la forma
 
 $$
-\begin{align*}
-&((...((p_i\cdot 2^8+p_2)\cdot 2^8 + p_3)\cdot 2^8+...)\cdot2^8+p_t) \\
+\begin{aligned}
+&((...((p_i\cdot 2^8+p_2)\cdot 2^8 + p_3)\cdot 2^8+...)\cdot2^8+p_t) \\\\\
 \Rightarrow \hspace{0.5cm} &p_1\cdot 2^{8t} + p_2\cdot 2^{8(t-1)} + p_3\cdot 2^{8(t-2)} +... + p_{t-1}\cdot2^8 + p_t
-\end{align*}
+\end{aligned}
 $$
 
 Razonemos que esta es la desconposición polinómica de nuestro $\text{password}$ y, por lo tanto, es el valor **en base 10** de nuestro mensaje. Para poder encontrar la contraseña todo lo que tenemos que hacer es aplicar divisiones sucesivas para encontrar el valor de `raw` en la base $2^8$. Esto es sencillo de hacer con `python3`.
