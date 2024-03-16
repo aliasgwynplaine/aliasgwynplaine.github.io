@@ -158,9 +158,9 @@ $$
 
 Luego, $u_n \to 0$.
 
-
+<br><br>
 
 Si hay alguna observación respecto a alguna de las soluciones mostradas, estaré encantado 
 de saberlo :\)
 
-La segunda parte del solucionario se encuentra en el siguiente [enlace]({% post_url 2024-03-11-Examen-analisis-premaestria-imca-2 %}).
+La segunda parte del solucionario se encuentra en el siguiente [enlace]({% post_url 2024-03-16-Examen-analisis-premaestria-imca-2 %}).

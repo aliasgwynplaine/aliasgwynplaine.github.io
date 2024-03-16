@@ -159,3 +159,7 @@ Sabemos que si $(f_n)$ es uniformemente convergente, con $f_n\to f$, entonces se
 que $\lim{\int_a^b{f_n}} = \int_a^b{\lim f_n} = \int_a^b f$. Usando el contrareciproco, vemos 
 que $\lim_{n\to\infty}{\int_0^1 {f_n} = 1\neq 0 = \int_0^1{\lim f_n}}$. Luego, $f_n$ no es 
 uniformemente convergente.
+
+<br><br>
+Eso es todo. Si hay alguna observación respecto a alguna de las soluciones mostradas, estaré encantado 
+de saberlo :\)
