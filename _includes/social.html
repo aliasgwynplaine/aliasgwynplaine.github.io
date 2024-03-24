@@ -53,6 +53,15 @@
     </a>
   </li>
   {%- endif -%}
+  {%- if site.letterboxd_username -%}
+  <li>
+    <a href="https://letterboxd.com/{{ site.letterboxd_username | cgi_escape | escape }}" target="_blank">
+      <svg class="svg-icon">
+      <use xlink:href="{{ '/assets/img/minima-social-icons.svg#letterboxd' | relative_url }}"></use>
+    </svg>
+    </a>
+  </li>
+  {%- endif -%}
   {%- if site.rss -%}
   <li>
     <a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon">
