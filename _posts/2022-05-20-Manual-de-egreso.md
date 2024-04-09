@@ -2,7 +2,7 @@
 layout:  post
 title: Fugando de la Facultad de Ciencias de la UNI
 date:  2022-05-20 12:23:59 -0500
-categories: blog uni
+categories: blog uni estudios
 author: gwynplaine
 ---
 
