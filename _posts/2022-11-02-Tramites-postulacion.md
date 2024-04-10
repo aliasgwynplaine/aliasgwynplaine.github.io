@@ -9,13 +9,13 @@ author: 	gwynplaine
 Este es un registro personal del proceso de legalización de documentos académicos 
 para realizar postulaciones a universidades extrangeras no hipanófonas. 
 Espero que pueda serle útil a estudiantes peruanos. De todas formas, es muy 
-posible que algunos procesos hayan cambiado, de manera que os recomiendo que 
+posible que algunos procesos hayan cambiado, de manera que recomiendo que se 
 revisen los procesos de las fuentes oficiales antes de tomar cualquier decisión 
 o de realizar cualquier pago.
 
-Los documentos que deberás preparar dependerán en gran medida de la universidad 
-a la que se está postulando. Sin embargo, es muy probable sí que necesites una 
-traducción oficial de tu grado de bachiller, constancia de egresado y tu historial 
+Los documentos que se deberá preparar dependerán en gran medida de la universidad 
+a la que se está postulando. Sin embargo, es muy probable sí que se necesite una 
+traducción oficial del grado de bachiller, constancia de egresado y el historial 
 de notas. Es preciso tener todos estos documentos escaneados.
 
 Para poder traducir estos documentos, primero debemos apostillarlos, y para 
@@ -24,7 +24,7 @@ apostillarlos, primero necesitamos que la SUNEDU los valide.
 ## Validación de la SUNEDU
 Este paso es sencillo, deberás entrar al enlace de [SUNEDU en línea](https://enlinea.sunedu.gob.pe/). 
 El objetivo es obtener una constancia de verificación de datos de las autoridades 
-que firmaron el documento a validar. E.g., en mi caso, tuve que validar mi grado 
+que firmaron el documento a validar. _E.g._, en mi caso, tuve que validar mi grado 
 de bachiller, mi cerfificado de notas y una constancia de orden de mérito. Para 
 hacerlo, tendrás que cargar estos documentos a la plataforma y especificar el 
 número de folios y los datos de la autoridad cuya firma aparece en el documento.
