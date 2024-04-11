@@ -2,13 +2,13 @@
 layout:     post
 title:      Table d'abréviations
 date:       2024-04-09 17:53:59 -0500
-categories: blog fr uni
+categories: blog fr estudios
 author:     gwynplaine
 ---
 
-Este es un registro de acrónimos, siglas y abreviaciones usadas en el ambiente 
-universitario francés. Espero que le sea de útilidad a alguien que tiene 
-intenciones o se encuentra aplicando o estudiando en un país francófono. 
+Il s'agit d'un registre d'acronymes, d'abréviations et de sigles utilisés dans 
+le environnement universitaire français. J'espère qu'il sera utile à tous ceux 
+qui ont l'intention de postuler ou d'étudier dans un pays francophone.
 
 
 + **UE** Unité d'enseignement.
@@ -26,5 +26,5 @@ intenciones o se encuentra aplicando o estudiando en un país francófono.
 + **TP**. Travaux pratiques
 + **TME**. 
 
-Iré actualizando este _post_ a medida que las siglas vayan llegando.
+Je mettrai à jour cet _post_ au fur et à mesure que j'en apprendrai d'autres.
 

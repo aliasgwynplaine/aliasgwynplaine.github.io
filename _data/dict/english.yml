@@ -104,7 +104,7 @@ utterly:
 stark:
   type: adj.
   definition: escueto. crudo. duro. riguroso. extremo. completamente.
-  examples:
+  example:
     - The stark landscape
     - Stark weather is expected over the next few days.
     - That's stark folly.
@@ -124,3 +124,9 @@ disdain:
 adrift:
   type: adj.
   definition: a la deriva. sin rumbo.
+
+rascal:
+  type: n.
+  definition: pillo. mocoso. granuja. canalla. bandido.
+  example:
+    - little rascal

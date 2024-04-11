@@ -2,7 +2,7 @@
 layout:     post
 title:      Elementos de fotografía
 date:       2023-11-19 21:53:59 -0500
-categories: blog fotografía
+categories: blog fotografía es
 author:     gwynplaine
 ---
 
