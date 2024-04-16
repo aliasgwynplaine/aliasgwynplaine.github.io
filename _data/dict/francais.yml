@@ -1370,3 +1370,13 @@ vis-à-vis:
 ténu:
   type: adj.
   definition: delgado. fino. ténue. sutil.
+
+enjeu:
+  type: n. m.
+  definition: c'est qu'est en jeu.
+  example:
+    - La qualité de l’accueil des étudiants est un enjeu fondamental.
+
+barème:
+  type: n. m.
+  definition: baremo. escala

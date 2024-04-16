@@ -15,6 +15,7 @@ qui ont l'intention de postuler ou d'étudier dans un pays francophone.
 + **ECTS**. European Credits Transfer System.
 + **CM**. Cours magistraux.
 + **CROUS**. Centre Régional des Œuvres Universitaires et Scolaires.
++ **DSE**. Dosier Social Étudiant.
 + **BU**. Bibliothèque Universitaire
 + **Amphi**. Amphithéâtre
 + **Fac**. Faculté.
@@ -23,8 +24,9 @@ qui ont l'intention de postuler ou d'étudier dans un pays francophone.
 + **FP**. Formation professionelle.
 + **FC**. Formation continue.
 + **TD**. Travaux Dirigés.
-+ **TP**. Travaux pratiques
++ **TP**. Travaux pratiques.
 + **TME**. 
++ **CVEC**. Contribution Vie Étudiante et de Campus.
 
 Je mettrai à jour cet _post_ au fur et à mesure que j'en apprendrai d'autres.
 
