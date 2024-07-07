@@ -19,7 +19,7 @@ existe $x\in [0,1]$ tal que $f(x)=g(x)$
 Observemos que, como $f$ y $g$ son continuas, entonces existen $x,y\in [0,1]$ tales que $f(x)=x$ y $g(y)=y$ 
 
 
-Sea $F = {x\in[0,1] | f(x)=x}$, afirmamos que $F$ es cerrado.
+Sea $F = \{x\in[0,1] | f(x)=x\} $, afirmamos que $F$ es cerrado.
 
 Sea $(x_n)\subset F$ una sucesión convergente con $x_n \to x\in [0,1]$, entonces $f(x_n) \to f(x)$. Pero 
 tenemos que $f(x_n) = x_n, \forall n\in\mathbb{N}$, por ser estos puntos fijos de $f$.
