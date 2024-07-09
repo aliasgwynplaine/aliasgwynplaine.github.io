@@ -8,10 +8,11 @@ author:     gwynplaine
 
 Lista de recursos para aprender sobre computadoras y ciberseguridad.
 
-## Linux: bash & scripting
+## Wargames
 + [Over the wire](https://overthewire.org/wargames/){:target="_blank"}
-+ [Oracle Free Tier](https://www.oracle.com/cloud/free/){:target="_blank"}
-
++ [SmashTheStack](https://www.smashthestack.org/main.html){:target="_blank"}
++ [Lords Of SQLInjection](https://los.rubiya.kr/){:target="_blank"}
++ [IO](https://io.netgarage.org){:target="_blank"}
 
 ## Windows
 + [Windows Internals](https://learn.microsoft.com/es-es/sysinternals/resources/windows-internals){:target="_blank"}
@@ -30,7 +31,11 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 + [TryHackMe](https://tryhackme.com/){:target="_blank"}
 + [HackTheBox](https://www.hackthebox.com/){:target="_blank"}
 + [OffSecLabs](https://portal.offsec.com/labs/play){:target="_blank"}
++ [CyberDefenders](https://cyberdefenders.org/){:target="_blank"}
+
+## Libros
 + [Hacking APIs](https://www.amazon.com/-/es/Corey-J-Ball/dp/1718502443){:target="_blank"}
+
 
 ## Pentesting methodology
 + [Pentesting execution standard](http://www.pentest-standard.org/index.php/Main_Page){:target="_blank"}{:target="_blank"}
@@ -45,6 +50,7 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 + [ctftime](https://ctftime.org/){:target="_blank"}
 + [picoCTF](https://picoctf.org/){:target="_blank"}
 + [W3Calls](https://w3challs.com/){:target="_blank"}
++ [CryptoHack](https://cryptohack.org/){:target="_blank"}
 
 
 ## Reversing & lowlevel
@@ -75,6 +81,8 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 
 ## Blog
 + [desdes.xyz](https://desdes.xyz/){:target="_blank"}
++ [g4t13l](https://g4t13l.github.io/){:target="_blank"}
++ [x0pr4nt3s.xyz](https://x0pr4nt3s.xyz/){:target="_blank"}
 + [mrd0x](https://mrd0x.com/){:target="_blank"}
 + [vay3t.org](https://vay3t.org/){:target="_blank"}
 + [dplastico](https://dplastico.github.io/){:target="_blank"}
@@ -97,4 +105,4 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 + [InternalAllTheThings](https://github.com/swisskyrepo/InternalAllTheThings){:target="_blank"}
 + [oa4o](https://www.oa4o.pe/){:target="_blank"}
 + [Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/){:target="_blank"}
-
++ [Oracle Free Tier](https://www.oracle.com/cloud/free/){:target="_blank"}
