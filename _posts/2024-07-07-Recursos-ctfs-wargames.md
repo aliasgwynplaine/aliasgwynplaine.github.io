@@ -16,6 +16,7 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 
 ## Windows
 + [Windows Internals](https://learn.microsoft.com/es-es/sysinternals/resources/windows-internals){:target="_blank"}
++ [Win32 API](https://learn.microsoft.com/en-us/windows/win32/api/){:target="_blank"}
 + [massgrave.dev](https://massgrave.dev/){:target="_blank"}
 + [windows-syscalls](https://github.com/j00ru/windows-syscalls){:target="_blank"}
 
@@ -36,12 +37,10 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 ## Libros
 + [Hacking APIs](https://www.amazon.com/-/es/Corey-J-Ball/dp/1718502443){:target="_blank"}
 
-
 ## Pentesting methodology
 + [Pentesting execution standard](http://www.pentest-standard.org/index.php/Main_Page){:target="_blank"}{:target="_blank"}
 + [OSSTMM 3](https://www.isecom.org/OSSTMM.3.pdf){:target="_blank"}
 + [RITx's Cybersecurity MicroMasters](https://www.edx.org/masters/micromasters/ritx-cybersecurity){:target="_blank"}
-
 
 ## Hardware
 + [iFixIt](https://es.ifixit.com/){:target="_blank"}
@@ -49,9 +48,8 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 ## CTFs
 + [ctftime](https://ctftime.org/){:target="_blank"}
 + [picoCTF](https://picoctf.org/){:target="_blank"}
-+ [W3Calls](https://w3challs.com/){:target="_blank"}
++ [W3Challs](https://w3challs.com/){:target="_blank"}
 + [CryptoHack](https://cryptohack.org/){:target="_blank"}
-
 
 ## Reversing & lowlevel
 + [crackmes.one](https://crackmes.one/){:target="_blank"}
@@ -64,6 +62,7 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 + [Hasherezade](https://hasherezade.github.io/){:target="_blank"}
 + [theZoo](https://github.com/ytisf/theZoo){:target="_blank"}
 + [vx-underground](https://vx-underground.org/){:target="_blank"}
++ [cocomelonc](https://cocomelonc.github.io/){:target="_blank"}  
 
 ## YouTube & Twitch
 + [0x90](https://www.youtube.com/@x90cs){:target="_blank"}. hacking.
@@ -77,7 +76,6 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 + [soyelmago](https://www.twitch.tv/soyelmago){:target="_blank"}. hacking. bug bounty.
 + [cazz](https://www.youtube.com/@cazz){:target="_blank"}. hacking. reversing. 
 + [ippsec](https://www.youtube.com/@ippsec){:target="_blank"}. writeups. ctf
-
 
 ## Blog
 + [desdes.xyz](https://desdes.xyz/){:target="_blank"}
