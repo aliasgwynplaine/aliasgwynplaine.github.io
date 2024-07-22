@@ -83,6 +83,7 @@ Lista de recursos para aprender sobre computadoras y ciberseguridad.
 + [x0pr4nt3s.xyz](https://x0pr4nt3s.xyz/){:target="_blank"}
 + [mrd0x](https://mrd0x.com/){:target="_blank"}
 + [vay3t.org](https://vay3t.org/){:target="_blank"}
++ [modexp](https://modexp.wordpress.com){:target="_blank"}
 + [dplastico](https://dplastico.github.io/){:target="_blank"}
 + [dirkjanm.io](https://dirkjanm.io/){:target="_blank"}
 + [MalwareTechBlog](https://malwaretech.com/){:target="_blank"}
