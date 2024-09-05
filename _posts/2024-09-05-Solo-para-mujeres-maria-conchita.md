@@ -203,7 +203,7 @@ y lo necesario. <br>
 Que la garúa mágica <br>
 de estos días <br>
 moje tu rostro <br>
-y sueñes con la humendad <br>
+y sueñes con la humedad <br>
 de nuestro amor <br>
 cuando estás dentro de mí. <br>
 
