@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Apuntes para un proyecto en Google Apps Script
-date:       2024-05-31 21:53:59 -0500
+date:       2024-10-31 21:53:59 -0500
 categories: blog dev
 author:     gwynplaine
 ---
