@@ -3,7 +3,7 @@ layout:     post
 title:      Solo para mujeres
 date:       2024-09-05 17:05:59 -0500
 categories: blog poesía literatura
-author: gwynplaine, Maria Conchita
+author: gwynplaine, María Conchita
 ---
 
 No soy el autor de este poemario, pero no logré encontrarlo en ningún otro lado fuera de la casa de mi abuelo.
@@ -22,14 +22,14 @@ Agradezco a A. Ch., por haberme ayudado con la transcripción de este poemario y
 <br><br><br>
 
 SOLO PARA MUJERES
-Maria Conchita
+María Conchita
 
 <br><br><br>
 Primera edición: febrero del 2016
 
 <br>
 Portada:
-Sergio Ruiz Villacis
+Sergio Ruiz Villacís
 
 <br>
 Arte final de portada:
