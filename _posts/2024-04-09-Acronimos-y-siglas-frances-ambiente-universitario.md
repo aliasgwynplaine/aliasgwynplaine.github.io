@@ -25,12 +25,12 @@ qui ont l'intention de postuler ou d'étudier dans un pays francophone.
 + **FC**. Formation continue.
 + **TD**. Travaux Dirigés.
 + **TP**. Travaux pratiques.
-+ **TME**. 
++ **TME**. Travaux sur Machines Encadrés.
 + **CVEC**. Contribution Vie Étudiante et de Campus.
-+ **VISALE**. Visa pour le Logement et l’Emploi
-+ **CAF**.
-+ **AMELI**.
-+ **RER**.
++ **VISALE**. Visa pour le Logement et l’Emploi.
++ **CAF**. Caisse d'Allocations Familiales.
++ **AMELI**. Assurance maladie en ligne.
++ **RER**. Réseau Express Régional.
 
 Je mettrai à jour cet _post_ au fur et à mesure que j'en apprendrai d'autres.
 
