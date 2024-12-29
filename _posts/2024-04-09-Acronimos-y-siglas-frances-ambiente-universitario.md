@@ -31,6 +31,7 @@ qui ont l'intention de postuler ou d'étudier dans un pays francophone.
 + **CAF**. Caisse d'Allocations Familiales.
 + **AMELI**. Assurance maladie en ligne.
 + **RER**. Réseau Express Régional.
++ **BU**. Bibliothèque Universitaire.
 
 Je mettrai à jour cet _post_ au fur et à mesure que j'en apprendrai d'autres.
 
