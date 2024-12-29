@@ -2,7 +2,7 @@
 layout:     post
 title:      Análisis Real - pre-maestría IMCA 2024 | parte 2
 date:       2024-03-16 18:12:59 -0500
-categories: blog matemática uni es
+categories: blog matemática uni es imca
 author:     gwynplaine
 ---
 
