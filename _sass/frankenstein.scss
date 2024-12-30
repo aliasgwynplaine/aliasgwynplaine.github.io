@@ -28,7 +28,9 @@ p { margin: 1rem 0; text-align: justify; }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: yellow; }
+.catdiv { display: none }
+
+div:target { display: block }
 
 .w {
   max-width: 60rem;

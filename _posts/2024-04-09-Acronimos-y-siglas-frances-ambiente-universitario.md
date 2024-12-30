@@ -2,7 +2,7 @@
 layout:     post
 title:      Table d'abréviations
 date:       2024-04-09 17:53:59 -0500
-categories: blog fr estudios
+categories: fr estudios
 author:     gwynplaine
 ---
 
