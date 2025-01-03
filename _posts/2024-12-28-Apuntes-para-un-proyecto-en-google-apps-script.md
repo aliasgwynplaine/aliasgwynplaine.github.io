@@ -27,7 +27,7 @@ el tipo hábil, joven e inteligente que es, había tomado la higiénica decisió
 reemplazar el sistema anterior de la oficina de estadística, que basaba casi 
 todo su funcionamiento en la tecnología del papiro, las secretarias y las notas 
 _post-it_, para reemplazarlo por uno de hojas de cálculo relacionadas entre sí. 
-Y como la licencia de Microsoft&reg de la organización había caducado, se resolvió 
+Y como la licencia de Microsoft® de la organización había caducado, se resolvió 
 por hacerlo usando al suite de ofimática de Google.
 
 Dado que gran parte de la información de la organización ya se encontraba en las 
