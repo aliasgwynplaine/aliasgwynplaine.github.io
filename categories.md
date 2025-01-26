@@ -1,8 +1,18 @@
 ---
 layout: page
 ---
+## categorías
 
 <div>
+  <p>
+  {%- for cat in site.categories -%}
+  {%- capture cat_name -%}{{ cat | first }}{%- endcapture -%}
+  <a href="{{ site.baseurl }}/categories#{{cat_name}}">
+    <strong>#{{cat_name}} </strong>
+  </a>
+  {%- endfor -%}
+  </p>
+
   <ul>
     {% for category in site.categories %}
     
