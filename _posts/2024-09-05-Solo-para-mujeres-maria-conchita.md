@@ -459,7 +459,7 @@ torno de nosotros. <br>
 
 <br><br><br>
 
-> No es que muera de amor, muerto de ti. <br>
+> No es que muera de amor, muero de ti. <br>
 > Muero de ti, amor, de amor de ti, <br>
 > de urgencia mía de mi piel de ti, <br>
 > de mi alma, de ti y de mi boca <br>
