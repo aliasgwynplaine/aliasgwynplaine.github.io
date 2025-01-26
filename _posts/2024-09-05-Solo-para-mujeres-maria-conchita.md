@@ -470,4 +470,7 @@ torno de nosotros. <br>
 
 
 ---
-Se terminó de transcribir el 5 de setiembre en Lima, y el 6 de setiembre en Paris, de 2024, cuando florescian los cimientos de un amor bonito, inseguro, sincero y transparente, regado a distancia a través de dos pantallas, cables, antenas, miles de kilometros y ondas electromagnéticas.
+
+Se terminó de transcribir el 5 de setiembre en Lima, y el 6 de setiembre en 
+Paris, de 2024, cuando florescian los cimientos de un amor, regado a distancia 
+a través de cables, antenas, y ondas electromagnéticas.
