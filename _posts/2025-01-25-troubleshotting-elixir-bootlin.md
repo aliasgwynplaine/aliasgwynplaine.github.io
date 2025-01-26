@@ -12,7 +12,7 @@ than one repository with C code distributed in many files. I decided to use
 elixir and placed in an online server to have access from anywhere.
 
 Follow the instruction from the [repo](https://github.com/bootlin/elixir). Then, 
-if you have any trouble, you can check if here's the solution.
+if you have any trouble, you can check if the solution is here.
 
 ## A little remark on Apache2 modules
 
@@ -24,7 +24,8 @@ sudo a2enmod wsgi
 ```
 
 ## Some remarks on the `000-default.conf` file
-The repo does not specify in details what you need to change in the file. I 
+The repo does not specify in details what you need to change in the file. Ergo, 
+You are likely to encounter a 404 Not Found or a 500 Internal Server Error. I 
 present the contents of the file highlighting with **YOUMAYNEEDTOCHANGETHIS** 
 what needs to be changed.
 
@@ -62,7 +63,7 @@ what needs to be changed.
 </VirtualHost>
 ```
 
-Note: I need to change the css in order to have a proper highlighting.
+> Note: I need to change the css in order to have a proper highlighting.
 
 ## Tags were not showing
 Looking at the logs, we can see that caused by a _dubious ownership in the repositories_ 
