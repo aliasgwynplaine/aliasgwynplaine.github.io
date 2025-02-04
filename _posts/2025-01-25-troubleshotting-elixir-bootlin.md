@@ -2,7 +2,7 @@
 layout:     post
 title:      Troubleshooting installing elixir-bootlin for a custom  C/C++ project
 date:       2025-01-25 21:35:59 +0200
-categories: kernel sorbonne en
+tags: kernel sorbonne en
 author:     gwynplaine
 ---
 

@@ -2,7 +2,7 @@
 layout: 	post
 title:  	Registro de trámites para legalización de documentos académicos
 date:   	2022-11-02 11:03:59 -0500
-categories: uni estudios es
+tags: uni estudios es
 author: 	gwynplaine
 ---
 

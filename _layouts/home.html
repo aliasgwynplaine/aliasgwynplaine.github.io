@@ -20,14 +20,14 @@ layout: default
   </ul>
 {%- endif -%}
 
-{%- if site.categories.size > 0 -%}
+{%- if site.tags.size > 0 -%}
 
-<h2>Categorías</h2>
+<h2>Etiquetas</h2>
   <p>
-  {%- for cat in site.categories -%}
-  {%- capture cat_name -%}{{ cat | first }}{%- endcapture -%}
-  <a href="{{ site.baseurl }}/categories#{{cat_name}}">
-    <strong>#{{cat_name}} </strong>
+  {%- for tag in site.tags -%}
+  {%- capture tag_name -%}{{ tag | first }}{%- endcapture -%}
+  <a href="{{ site.baseurl }}/tags#{{tag_name}}">
+    <strong>#{{tag_name}} </strong>
   </a>
   {%- endfor -%}
 </p>

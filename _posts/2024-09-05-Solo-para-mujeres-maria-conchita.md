@@ -2,7 +2,7 @@
 layout:     post
 title:      Solo para mujeres
 date:       2024-09-05 17:05:59 -0500
-categories: poesía literatura
+tags: poesía literatura
 author: gwynplaine, María Conchita
 ---
 

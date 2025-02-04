@@ -2,7 +2,7 @@
 layout:     post
 title:      Álgebra lineal - pre-maestría IMCA 2024 | parte 2
 date:       2024-03-22 16:27:59 -0500
-categories: matemática uni es imca
+tags: matemática uni es imca
 author:     gwynplaine
 ---
 ## Pregunta 3 

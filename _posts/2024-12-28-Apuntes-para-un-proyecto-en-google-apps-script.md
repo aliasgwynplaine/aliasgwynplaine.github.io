@@ -2,7 +2,7 @@
 layout:     post
 title:      Apuntes para un proyecto en Google Apps Script
 date:       2024-12-28 21:53:59 -0500
-categories: dev bot gas
+tags: dev bot gas
 author:     gwynplaine
 ---
 

@@ -2,7 +2,7 @@
 layout:  post
 title: Notas sobre Timelapse - HTB
 date:  2022-05-29 21:53:59 -0500
-categories: htb es
+tags: htb es
 author: gwynplaine
 ---
 
