@@ -16,3 +16,10 @@ layout: home
   </ul>
 
 <h2><a href="/about.html">About</a></h2>
+
+<p>
+  <a href='http://srvr.xn--ida.live:12345/?prv=xn--ida.live'>&lt;&lt;&lt;</a>
+  este sitio pertenece a <a href='http://srvr.xn--ida.live:12345/'>[el círculo]</a> 
+  <a href='http://srvr.xn--ida.live:12345/?nxt=xn--ida.live'>&gt;&gt;&gt;</a>
+</p>
+    
