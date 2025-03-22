@@ -1,58 +1,58 @@
 turmoil:
   type: n.
-  definition: disturbance. agitation.
+  def: disturbance. agitation.
 
 dictionary:
   type: n.
-  definition: look it up in the dictionary
+  def: look it up in the dictionary
 
 former:
   type: adj.
-  definition: previous. ex. one time.
+  def: previous. ex. one time.
 
 chilly:
   type: adj.
-  definition: frío.
+  def: frío.
 
 purloin:
   type: v.
-  definition: steal.
+  def: steal.
   example:
     - The purnoiled letter.
 
 smear:
   type: n., v.
-  definition: dirty mark. smudge
+  def: dirty mark. smudge
 
 bumbling:
   type: adj
-  definition: incompetent. clumsy.
+  def: incompetent. clumsy.
 
 bumble:
   type: v. i.
-  definition: be clumsy or bumbling.
+  def: be clumsy or bumbling.
 
 clumsy:
   type: adj.
-  definition: torpe. patoso.
+  def: torpe. patoso.
 
 well-meaning:
   type: adj.
-  definition: having good intentions.
+  def: having good intentions.
 
 knack:
   type: n.
-  definition: special skill.
+  def: special skill.
 
 burrow:
   type: v. i., n.
-  definition: cavar. excavar. madriguera.
+  def: cavar. excavar. madriguera.
   examples:
     - burrow through something -> hurgar en algo.
 
 soil:
   type: n., v. t. r.
-  definition: dirty. earth. get dirty.
+  def: dirty. earth. get dirty.
   example:
     - home soil -> suelo nacional.
     - native soil -> lugar de nacimiento.
@@ -61,49 +61,49 @@ soil:
 
 forage:
   type: v. i.
-  definition: search for food. rummage around.
+  def: search for food. rummage around.
 
 meadow:
   type: n.
-  definition: campo. prado. pradera.
+  def: campo. prado. pradera.
 
 aftermath:
   type: n.
-  definition: consecuencia. resultado. secuela.
+  def: consecuencia. resultado. secuela.
   example:
     - in the aftermath...
 
 womb:
   type: n.
-  definition: matriz. vientre. útero.
+  def: matriz. vientre. útero.
 
 trawl:
   type: v.
-  definition: pesca de arrastre. rastrear.
+  def: pesca de arrastre. rastrear.
 
 edible:
   type: adj.
-  definition: comestible.
+  def: comestible.
 
 shore:
   type: n.
-  definition: orilla.
+  def: orilla.
 
 scavenger:
   type: n.
-  definition: carroñero. chatarrero. removedor.
+  def: carroñero. chatarrero. removedor.
 
 realm:
   type: n.
-  definition: reino. terreno. ámbito. campo.
+  def: reino. terreno. ámbito. campo.
 
 utterly:
   type: adv.
-  definition: completely.
+  def: completely.
 
 stark:
   type: adj.
-  definition: escueto. crudo. duro. riguroso. extremo. completamente.
+  def: escueto. crudo. duro. riguroso. extremo. completamente.
   example:
     - The stark landscape
     - Stark weather is expected over the next few days.
@@ -111,22 +111,22 @@ stark:
 
 wedded:
   type: adj.
-  definition: cazado. ligado. unido.
+  def: cazado. ligado. unido.
 
 subtlety:
   type: n.
-  definition: sutileza.
+  def: sutileza.
 
 disdain:
   type: n.
-  definition: desdén. desprecio. menosprecio.
+  def: desdén. desprecio. menosprecio.
 
 adrift:
   type: adj.
-  definition: a la deriva. sin rumbo.
+  def: a la deriva. sin rumbo.
 
 rascal:
   type: n.
-  definition: pillo. mocoso. granuja. canalla. bandido.
+  def: pillo. mocoso. granuja. canalla. bandido.
   example:
     - little rascal

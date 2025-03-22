@@ -1,242 +1,242 @@
 
 nouvelle:
   type: n. f.
-  definition: information nouveau. bref histoire écrit.
+  def: information nouveau. bref histoire écrit.
   example:
 
 dictionnaire:
   type: n. m.
-  definition: cherchez dans le dictionnaire.
+  def: cherchez dans le dictionnaire.
   example:
 
 étonner:
   type: v.
-  definition: surprendre
+  def: surprendre
   example:
 
 nécessaire:
   type: adj.
-  definition: que ne peux pas ne pas être.
+  def: que ne peux pas ne pas être.
   example:
 
 boîte:
   type: n. f.
-  definition: contenant
+  def: contenant
   example:
     - aller en boîte -> aller a une fête ou une discothèque.
 
 souci:
   type: n. m.
-  definition: préoccupátion.
+  def: préoccupátion.
   example:
     - Je vis sans souci.
 
 palais:
   type: n. m.
-  definition: résidence vaste et somptueuse.
+  def: résidence vaste et somptueuse.
   example:
 
 intellectuel:
   type: n. f.
-  definition: celui qui se consacre à la culture, sciences et arts.
+  def: celui qui se consacre à la culture, sciences et arts.
   example:
 
 partager:
   type: v.
-  definition: compartir.
+  def: compartir.
   example:
 
 exprimer (s'):
   type: v.
-  definition: explicarse.
+  def: explicarse.
   example:
 
 efficace:
   type: adj.
-  definition: eficaz.
+  def: eficaz.
   example:
 
 pote:
   type: n. m.
-  definition: ami. copain.
+  def: ami. copain.
   example:
 
 honte:
   type: n. f.
-  definition: vergüenza
+  def: vergüenza
   example:
 
 bonheur:
   type: n. m.
-  definition: circonstance favorable.
+  def: circonstance favorable.
   example:
 
 liberté:
   type: n. f.
-  definition: .
+  def: .
   example:
     - La guerre, c'est la paix. La liberté, c'est l'esclavage. L'ignorance, c'est la force.
 
 abaisser:
   type: v.
-  definition: diminuer la valeur.
+  def: diminuer la valeur.
   example:
 
 aise:
   type: n. f.
-  definition: cómodo
+  def: cómodo
   example:
     - être à l'aise
 
 justement:
   type: adverbe
-  definition: precisement.
+  def: precisement.
   example:
 
 réussite:
   type: n. f.
-  definition: .
+  def: .
   example:
 
 fiche:
   type: n. f.
-  definition: petite plaque utilisée pour prendre des notes.
+  def: petite plaque utilisée pour prendre des notes.
   example:
 
 critère:
   type: n. m.
-  definition: principe de référence. méthode pratique.
+  def: principe de référence. méthode pratique.
   example:
 
 fumeur, fumeuse:
   type: n.
-  definition: persone qui recherche un cancer.
+  def: persone qui recherche un cancer.
   example:
 
 engager (s'):
   type: v.
-  definition: comprometer.
+  def: comprometer.
   example:
 
 événement:
   type: n. m.
-  definition: phénomène qui se produit.
+  def: phénomène qui se produit.
   example:
 
 poursuivre:
   type: v.
-  definition: suivre vivement. continuer.
+  def: suivre vivement. continuer.
   example:
     - L'homme en noir fuyait à travers le désert, et le Pistolero le <b>suivait</b>.
 
 espoir:
   type: n. m.
-  definition: promesa. esperanza
+  def: promesa. esperanza
   example:
 
 prêt:
   type: adj.
-  definition: préparé.
+  def: préparé.
   example:
 
 sommet:
   type: n. m.
-  definition: cime. point commun à deux côtés consécutifs d'une ligne polygonale ou d'un polygone.
+  def: cime. point commun à deux côtés consécutifs d'une ligne polygonale ou d'un polygone.
   example:
 
 stage:
   type: n. m.
-  definition: période d'études practiques.
+  def: période d'études practiques.
   example:
 
 surtout:
   type: adverbe
-  definition: littéraire sur-tout
+  def: littéraire sur-tout
   example:
 
 apprendre:
   type: v.
-  definition: acquérir des connaissances.
+  def: acquérir des connaissances.
   example:
 
 dans:
   type: préposition
-  definition: l'interieur.
+  def: l'interieur.
   example:
 
 sur:
   type: préposition
-  definition: au-dessus de.
+  def: au-dessus de.
   example:
 
 courant:
   type: adj.
-  definition: qui n'est pas terminé.
+  def: qui n'est pas terminé.
   example:
 
 morceau:
   type: n. m.
-  definition: débris. fragment.
+  def: débris. fragment.
   example:
 
 échec total:
   type: expr.
-  definition: fracaso total
+  def: fracaso total
   example:
 
 j'ai peur:
   type: expr.
-  definition: tengo miedo
+  def: tengo miedo
   example:
 
 tournage:
   type: n. m.
-  definition: action de faire une films. "tornear"
+  def: action de faire une films. "tornear"
   example:
 
 remettre:
   type: v.
-  definition: re-mettre.
+  def: re-mettre.
   example:
 
 usine:
   type: n. f.
-  definition: fábrica, factoría.
+  def: fábrica, factoría.
   example:
 
 environ:
   type: adverbe
-  definition: approximativement.
+  def: approximativement.
   example:
 
 s'agit ...:
   type: expr.
-  definition: se trata de ...
+  def: se trata de ...
   example:
 
 s'il y avait ...:
   type: expr.
-  definition: si hubiera ...
+  def: si hubiera ...
   example:
 
 dehors:
   type: adverbe
-  definition: exterior.
+  def: exterior.
   example:
 
 hors:
   type: adj.
-  definition: fuera.
+  def: fuera.
   example:
 
 il n'y a pas que les études:
   type: expr.
-  definition: .
+  def: .
   example:
 
 moitié:
   type: n. f.
-  definition: une des deux parties.
+  def: une des deux parties.
   example:
     - à moitié fou.
     - faire quelque chose à moitié.
@@ -245,141 +245,141 @@ moitié:
 
 ainsi:
   type: adverb
-  definition: así. de esta forma. de esta manera.
+  def: así. de esta forma. de esta manera.
   example:
 
 presse:
   type: n. f.
-  definition: journalistes.
+  def: journalistes.
   example:
 
 métier:
   type: n. m.
-  definition: oficio.
+  def: oficio.
   example:
     - avoir du métier.
     - être du métier.
 
 charge:
   type: n. m.
-  definition: .
+  def: .
   example:
 
 course:
   type: n. f.
-  definition: action de courir.
+  def: action de courir.
   example:
 
 coursier:
   type: n. m.
-  definition: mensajero.
+  def: mensajero.
   example:
 
 livreur:
   type: n. m.
-  definition: repartidor.
+  def: repartidor.
   example:
 
 couloir:
   type: n. m.
-  definition: corredor
+  def: corredor
   example:
 
 accrocher:
   type: v.
-  definition: suspendre.
+  def: suspendre.
   example:
     - il a accrochée les clés au porte.
 
 escabeau:
   type: n. m.
-  definition: échelle pliante à deux pans.
+  def: échelle pliante à deux pans.
   example:
 
 perceuse:
   type: n. f.
-  definition: taladro! taladro!
+  def: taladro! taladro!
   example:
 
 dégager:
   type: v.
-  definition: désencombrer. rendre libre.
+  def: désencombrer. rendre libre.
   example:
 
 enlever:
   type: v.
-  definition: quitar. retirar. sacar.
+  def: quitar. retirar. sacar.
   example:
     - enlèver un manteau.
 
 visage:
   type: n. m.
-  definition: tronche.
+  def: tronche.
   example:
     - à visage découvert
 
 faillite:
   type: n. f.
-  definition: quiebra. bancarrota.
+  def: quiebra. bancarrota.
   example:
 
 interdit:
   type: adj.
-  definition: prohibido.
+  def: prohibido.
   example:
 
 ailleurs:
   type: adverbe
-  definition: otra parte
+  def: otra parte
   example:
     - d'ailleur...
     - par ailleur...
 
 chambre:
   type: s. f.
-  definition: piaule
+  def: piaule
   example:
 
 faigant:
   type: s. m.
-  definition: fainéant.
+  def: fainéant.
   example:
 
 rassurer:
   type: v.
-  definition: calmer. se rentre tranquille
+  def: calmer. se rentre tranquille
   example:
 
 depuis...:
   type: expr.
-  definition: desde.
+  def: desde.
   example:
     - note que la acción no termina aún
     - j'etude le francais depuis 6 moins.
 
 aprés...:
   type: expr.
-  definition: .
+  def: .
   example:
 
 déchet:
   type: n. m.
-  definition: desechos
+  def: desechos
   example:
 
 feter:
   type: v.
-  definition: botar.
+  def: botar.
   example:
 
 désormais:
   type: adverbe
-  definition: a partir de ahora. de ahora en adelante
+  def: a partir de ahora. de ahora en adelante
   example:
 
 davantage:
   type: adverbe
-  definition: plus. plus intensément. un temps plus long.
+  def: plus. plus intensément. un temps plus long.
   example:
     - nous n'attendrons pas davantage
     - davantage de...
@@ -387,80 +387,80 @@ davantage:
 
 brin:
   type: n. m.
-  definition: filamento. hebra. brizna
+  def: filamento. hebra. brizna
   example:
     - un brin de...
     - ne pas avoir un brin de jugeote
 
 dont:
   type: c.
-  definition: del que. de la que. uno de ellos.
+  def: del que. de la que. uno de ellos.
   example:
     - plusieurs personnes ont téléphoné, dont ton frère
     - les personnes dont je parle...
 
 notamment:
   type: adverbe
-  definition: especialmente. particularmente.
+  def: especialmente. particularmente.
   example:
 
 amont:
   type: n. m.
-  definition: curso
+  def: curso
   example:
     - en amont. río arriba
 
 achever:
   type: v.
-  definition: finir.
+  def: finir.
   example:
 
 déçu:
   type: adj.
-  definition: décevoir a le participe passé.
+  def: décevoir a le participe passé.
   example:
 
 dommage:
   type: n. m.
-  definition: .
+  def: .
   example:
     - C'est dommage. ¡Es una lástima!
 
 selon:
   type: p.
-  definition: à proportion de. d'après. eu égard à. conformément à.
+  def: à proportion de. d'après. eu égard à. conformément à.
   example:
     - c'est selon. depende
 
 siège:
   type: n. m.
-  definition: assise.
+  def: assise.
   example:
 
 réel:
   type: adj.
-  definition: tout ce qui est rationnel.
+  def: tout ce qui est rationnel.
   example:
     - _Tout ce qui est réel est rationnel, tout ce qui est rationnel est réel._
 
 lorsque:
   type: conjonction
-  definition: _lors et que_. quand.
+  def: _lors et que_. quand.
   example:
 
 puisque:
   type: conjonction
-  definition: _puis et que_. attendu que. dans la mesure où. du moment que. vu que.
+  def: _puis et que_. attendu que. dans la mesure où. du moment que. vu que.
   example:
 
 puis:
   type: adverbe
-  definition: .
+  def: .
   example:
 
 lors:
   type: adverbe
-  definition: à ce moment. là.
+  def: à ce moment. là.
   example:
     - lors de... -> durante... en el transcurso de...
     - dès lors... -> en consecuencia...
@@ -470,393 +470,393 @@ lors:
 
 reprendre:
   type: v.
-  definition: re - prendre.
+  def: re - prendre.
   example:
 
 déceler:
   type: v.
-  definition: detectar, descubrir.
+  def: detectar, descubrir.
   example:
 
 angoisse:
   type: n. f.
-  definition: angustia.
+  def: angustia.
   example:
 
 insouciance:
   type: n. f.
-  definition: despreocupación.
+  def: despreocupación.
   example:
 
 cuistot:
   type: n. m.
-  definition: .cocinero.
+  def: .cocinero.
   example:
 
 folie:
   type: n. f.
-  definition: le fait d'être fou.
+  def: le fait d'être fou.
   example:
 
 haine:
   type: n. f.
-  definition: une grande détestation.
+  def: une grande détestation.
   example:
 
 moquerie:
   type: n. f.
-  definition: le fait de se moquer.
+  def: le fait de se moquer.
   example:
 
 handicap:
   type: n. m.
-  definition: une déficience.
+  def: une déficience.
   example:
 
 érudition:
   type: n. f.
-  definition: savoir approfondi.
+  def: savoir approfondi.
   example:
 
 assassinat:
   type: n. m.
-  definition: homicide prémédité.
+  def: homicide prémédité.
   example:
 
 moche:
   type: adj.
-  definition: laid. pas beau.
+  def: laid. pas beau.
   example:
 
 enlaidir:
   type: v.
-  definition: devenir très moche.
+  def: devenir très moche.
   example:
 
 embellir:
   type: v.
-  definition: devenir très beau.
+  def: devenir très beau.
   example:
 
 graine:
   type: n. f.
-  definition: semilla.
+  def: semilla.
   example:
 
 mûrir:
   type: v.
-  definition: madurar.
+  def: madurar.
   example:
 
 cassure:
   type: n. f.
-  definition: ruptura. fractura.
+  def: ruptura. fractura.
   example:
 
 effondrer:
   type: v.
-  definition: demoler. derrumbar.
+  def: demoler. derrumbar.
   example:
 
 declencher:
   type: v.
-  definition: desencadenar.
+  def: desencadenar.
   example:
 
 dehors:
   type: adverbe \| n. f.
-  definition: afuera. exterior. fachada.
+  def: afuera. exterior. fachada.
   example:
 
 semer:
   type: v.
-  definition: sembrar.
+  def: sembrar.
   example:
 
 blessant:
   type: adj.
-  definition: hiriente. ofensivo.
+  def: hiriente. ofensivo.
   example:
 
 licencier:
   type: v.
-  definition: despedir.
+  def: despedir.
   example:
 
 biais:
   type: n. m.
-  definition: sesgo.
+  def: sesgo.
   example:
 
 égard:
   type: n. m.
-  definition: estima. consideración.
+  def: estima. consideración.
   example:
 
 aménager:
   type: v.
-  definition: organiser l'espace. acondicionar.
+  def: organiser l'espace. acondicionar.
   example:
 
 cort-circuite:
   type: n. m.
-  definition: corto circuito.
+  def: corto circuito.
   example:
 
 ménager:
   type: adj.
-  definition: relatif a la maison.
+  def: relatif a la maison.
   example:
 
 menagère:
   type: n. f.
-  definition: femme qui administre un foyer. boite de fourchettes.
+  def: femme qui administre un foyer. boite de fourchettes.
   example:
 
 mener:
   type: v.
-  definition: diriger. commander.
+  def: diriger. commander.
   example:
 
 province:
   type: n. f.
-  definition: provincia. fuera de la capital.
+  def: provincia. fuera de la capital.
   example:
 
 appuyer:
   type: v.
-  definition: apoyar. colocar. poner.
+  def: apoyar. colocar. poner.
   example:
 
 appuyé:
   type: adj. 
-  definition: insistente. persistente. reiterado.
+  def: insistente. persistente. reiterado.
 
 mêler:
   type: v.
-  definition: mélanger. impliquer.
+  def: mélanger. impliquer.
   example:
     - il a mêlé son ami.
 
 mêle: 
   type: adj.
-  definition: disparate. hétéroclite. en rapport avec.
+  def: disparate. hétéroclite. en rapport avec.
   example:
     - ils sont d'objets disparates.
     - il est mêle à l'affaire.
 
 vexer:
   type: v.
-  definition: ofender.
+  def: ofender.
   example:
 
 héberger:
   type: v.
-  definition: alojado.
+  def: alojado.
   example:
 
 insèrer:
   type: v.
-  definition: insertar. meter.
+  def: insertar. meter.
   example:
 
 releyer:
   type: v.
-  definition: relevar. reemplazar
+  def: relevar. reemplazar
   example:
 
 emtamer:
   type: v.
-  definition: empezar. iniciar. gastar parte de...
+  def: empezar. iniciar. gastar parte de...
   example:
 
 nuance:
   type: n. f.
-  definition: matiz. tono. toque.
+  def: matiz. tono. toque.
   example:
 
 nuancé:
   type: adj.
-  definition: reservado. cauto. cauteloso. comedido. matizado.
+  def: reservado. cauto. cauteloso. comedido. matizado.
   example:
 
 déplaire à...:
   type: expr.
-  definition: desagradarle a...
+  def: desagradarle a...
   example:
 
 déballage:
   type: n. m.
-  definition: desembalaje.siège
+  def: desembalaje.siège
   example:
 
 bribes:
   type: n. f.
-  definition: migajas. fragmentos.
+  def: migajas. fragmentos.
   example:
 
 profane:
   type: n. m. f.
-  definition: profano. laico.
+  def: profano. laico.
   example:
 
 redemandent:
   type: v.
-  definition: re - demander.
+  def: re - demander.
   example:
 
 épargne:
   type: n. f.
-  definition: ahorro.
+  def: ahorro.
   example:
 
 once:
   type: n. f.
-  definition: onza.
+  def: onza.
   example:
 
 prier:
   type: v
-  definition: rezar. orar.
+  def: rezar. orar.
   example:
 
 siège:
   type: n. m.
-  definition: asiento. sede. oficina central. asedio.
+  def: asiento. sede. oficina central. asedio.
   example:
 
 trésor:
   type: n. m.
-  definition: tesoro.
+  def: tesoro.
   example:
 
 fournir:
   type: v.
-  definition: proveer. abasteser. aprovisionar.
+  def: proveer. abasteser. aprovisionar.
   example:
 
 éventail:
   type: n. m.
-  definition: abanico.
+  def: abanico.
   example:
 
 ruminer:
   type: v.
-  definition: rumiar. darle las vueltas a algo. repetir.
+  def: rumiar. darle las vueltas a algo. repetir.
   example:
 
 écume:
   type: n. f.
-  definition: mousse blanchâtre. sueur animale.
+  def: mousse blanchâtre. sueur animale.
   example:
 
 ivresse:
   type: n. f.
-  definition: embriaguez.
+  def: embriaguez.
   example:
 
 émettre:
   type: v.
-  definition: produire au-dehors. exprimer. transmettre.
+  def: produire au-dehors. exprimer. transmettre.
   example:
 
 défouloir:
   type: n. m.
-  definition: exutoire. desahogo.
+  def: exutoire. desahogo.
   example:
 
 constat:
   type: n. m.
-  definition: bilan.
+  def: bilan.
   example:
 
 foule:
   type: n. f.
-  definition: masse populaire.
+  def: masse populaire.
   example:
 
 nier:
   type: v.
-  definition: rejeter. ne pas reconnaître.
+  def: rejeter. ne pas reconnaître.
   example:
 
 tisser:
   type: v.
-  definition: fabriquer un tissu.
+  def: fabriquer un tissu.
   example:
 
 tiser:
   type: v.
-  definition: alimenter en combustible.
+  def: alimenter en combustible.
   example:
 
 flicage:
   type: n. m.
-  definition: surveillance excessive.
+  def: surveillance excessive.
   example:
 
 pencher:
   type: v.
-  definition: incliner dans une direction.
+  def: incliner dans une direction.
   example:
 
 foyers:
   type: n. m.
-  definition: âtre.
+  def: âtre.
   example:
 
 âtre:
   type: n. m.
-  definition: hogar.
+  def: hogar.
   example:
 
 fioul:
   type: n. m.
-  definition: gasolina.
+  def: gasolina.
   example:
 
 cochon:
   type: n. m.
-  definition: porc.
+  def: porc.
   example:
 
 ossature:
   type: n. f.
-  definition: ensemble des os. structure.
+  def: ensemble des os. structure.
   example:
 
 grimper:
   type: v.
-  definition: escalader.
+  def: escalader.
   example:
     - nous tournons les obstacles ou nous grimpons péniblement par-dessus.
 
 parmi:
   type: prép.
-  definition: dans. au nombre de. chez.
+  def: dans. au nombre de. chez.
   example:
     - Parmis les tendances lourdes.
 
 concocter:
   type: v.
-  definition: elaborer avec soin. concevoir. compiler.
+  def: elaborer avec soin. concevoir. compiler.
   example:
     - se concocter sa petite philosophie pratique...
 
 mœurs:
   type: n. f. pl.
-  definition: costumbres. tradiciones. hábitos.
+  def: costumbres. tradiciones. hábitos.
   example:
 
 rattacher:
   type: v.
-  definition: re-attacher. faire dépendre. relier.
+  def: re-attacher. faire dépendre. relier.
   example:
     - le témoignage a été relié.
 
 attacher:
   type: v.
-  definition: fixer. lier. fermer.
+  def: fixer. lier. fermer.
   example:
     - le chien a été attaché.
     - elle attache ses cheveux avec un ruban.
@@ -864,23 +864,23 @@ attacher:
 
 métèque:
   type: . m. f.
-  definition: étrangère (insultant).
+  def: étrangère (insultant).
 
 contrecarrer:
   type: v.
-  definition: s'opposer. faire obstacle.
+  def: s'opposer. faire obstacle.
   example:
     - l'objectif c'est de contrecarrer les idées fausses.
 
 fléau:
   type: n. m.
-  definition: plaga.
+  def: plaga.
   example:
     - c'est un fléau.
 
 monter:
   type: v.
-  definition: montar. subir. ensamblar. trepar a. subir a.
+  def: montar. subir. ensamblar. trepar a. subir a.
   example:
     - monter à -> trepar a
     - monter sur -> subirse a
@@ -888,96 +888,96 @@ monter:
 
 char:
   type: n. m.
-  definition: grand véhicule décoré. voiture.
+  def: grand véhicule décoré. voiture.
 
 fédèrer:
   type: v.
-  definition: unir. agrupar. federar.
+  def: unir. agrupar. federar.
 
 râler:
   type: v.
-  definition: ronchoncher.
+  def: ronchoncher.
   example:
     - Fais des propopositions au lieu de râler !
 
 plaindre:
   type: v.
-  definition: compatir avec quelqun
+  def: compatir avec quelqun
 
 se plaindre:
   type: v.
-  definition: quejarse. lamentarse.
+  def: quejarse. lamentarse.
 
 compatir:
   type: v.
-  definition: partager la souffrance.
+  def: partager la souffrance.
   example:
     - je compatis à ta douleur.
 
 avoir la banane:
   type: expr.
-  definition: être souriant.
+  def: être souriant.
 
 quand même:
   type: expr.
-  definition: a pesar de todo. sin embargo. ¡no puede ser! ¡Chále!
+  def: a pesar de todo. sin embargo. ¡no puede ser! ¡Chále!
 
 inciter:
   type: v.
-  definition: incitar.
+  def: incitar.
   example:
     - Quelques activités de la société incitent a la violence.
 
 acquis:
   type: n. m., adj.
-  definition: 
+  def: 
   example:
     - ceux peu acquis à l'idée...
 
 sans-papiers:
   type: n. m. f.
-  definition: indocumentado.
+  def: indocumentado.
 
 soumettre:
   type: v.
-  definition: someter. dominar. 
+  def: someter. dominar. 
 
 contrevenant:
   type: n. m.
-  definition: personne qui ne respecte pas une règle.
+  def: personne qui ne respecte pas une règle.
   example:
 
 séjour:
   type: n. m.
-  definition: résidence temporaire.
+  def: résidence temporaire.
   example:
     - J'ai passé un séjour à l'hôpital.
 
 découler:
   type: v.
-  definition: discurrir.
+  def: discurrir.
   example:
     - rien de bon ne va découler pas de z
 
 passeur:
   type: n. m.
-  definition: batelier. contrebandier. guide clandestin
+  def: batelier. contrebandier. guide clandestin
 
 des métiers exercés au noir:
   type: expr.
-  definition: travail dans le clandestinité.
+  def: travail dans le clandestinité.
 
 robinet:
   type: n. m.
-  definition: régulateur de débit d'eau.
+  def: régulateur de débit d'eau.
 
 chômeur, chômeuse:
   type: n. m. f.
-  definition: desempleado.
+  def: desempleado.
 
 quant à...:
   type: expr.
-  definition: en cuanto a...
+  def: en cuanto a...
   example:
     - quant à moi...
     - quant à soi...
@@ -985,29 +985,29 @@ quant à...:
 
 génie:
   type: 
-  definition: genio.
+  def: genio.
   example:
     - coup de génie
 
 géniteur:
   type: n. m., n. f.
-  definition: progenitor
+  def: progenitor
   example:
     - géniteur et genitrice.
 
 sucer:
   type: v.
-  definition: chupar.
+  def: chupar.
   example:
     - ne pas sucer que des glaçons
 
 bouffer:
   type: v.
-  definition: comer.
+  def: comer.
 
 pouce:
   type: n. m., expr.
-  definition: pulgar. pulgada. ¡Pausa!
+  def: pulgar. pulgada. ¡Pausa!
   example:
     - faut l'sucer d'son pouse ou quoi ?
     - le pouce anglais a une valeur de 25.4mm.
@@ -1015,15 +1015,15 @@ pouce:
 
 lave-linge:
   type: n. m.
-  definition: lava-colada.
+  def: lava-colada.
 
 linge:
   type: n. m.
-  definition: colada.
+  def: colada.
 
 chasser:
   type: v.
-  definition: cazar.
+  def: cazar.
   example:
     - chasser les idées reçues -> combatir estereotipos.
     - chasser les préjuges -> combatir prejuicios.
@@ -1031,105 +1031,105 @@ chasser:
 
 chasseur de têtes:
   type: n. m. f.
-  definition: cazatalentos.
+  def: cazatalentos.
 
 navette:
   type: n. m. 
-  definition:
+  def:
 
 putsch: 
   type: n. m.
-  definition: coup d'État militaire.
+  def: coup d'État militaire.
 
 bouleverser:
   type: v.
-  definition: trouver profondément. conmocionar. transtornar.
+  def: trouver profondément. conmocionar. transtornar.
 
 coincé:
   type: adj.
-  definition: bloqueado.
+  def: bloqueado.
 
 acheminer:
   type: v.
-  definition: enviar.
+  def: enviar.
 
 puce:
   type: n. f.
-  definition: pulga.
+  def: pulga.
   example:
     - puce electronique
 
 muer:
   type: v.
-  definition: mudar.
+  def: mudar.
 
 ancré:
   type: adj.
-  definition: anclado.
+  def: anclado.
 
 atelier:
   type: n. m.
-  definition: taller. estudio.
+  def: taller. estudio.
 
 racheter:
   type: v.
-  definition: re-acheter.
+  def: re-acheter.
 
 emprunter:
   type: v.
-  definition: tomar prestado.
+  def: tomar prestado.
 
 mensonge:
   type: n. m.
-  definition: mentira.
+  def: mentira.
 
 éclater:
   type: v.
-  definition: faire voler en morceaux.
+  def: faire voler en morceaux.
 
 vaisselle:
   type: n. f.
-  definition: vajilla.
+  def: vajilla.
 
 évier:
   type: n. m.
-  definition: fregadero. lavaplatos.
+  def: fregadero. lavaplatos.
 
 tronche:
   type: n. f.
-  definition: cara. jeta. careto.
+  def: cara. jeta. careto.
 
 foyer:
   type: n. m.
-  definition: hogar. fogón.
+  def: hogar. fogón.
 
 mûr:
   type: adj.
-  definition: preparado
+  def: preparado
   example:
     - Ils sont mûrs pour le changement.
 
 réagir:
   type: v.
-  definition: reaccionar
+  def: reaccionar
 
 redresser:
   type: v.
-  definition: enderesar.
+  def: enderesar.
 
 puiser:
   type: v.
-  definition: sacar. extraer. obtener.
+  def: sacar. extraer. obtener.
   example:
     - Le piliers de mon analyse est de puiser des réponses dans l'experience.
 
 vertu:
   type: n. f.
-  definition: virtud. valor. 
+  def: virtud. valor. 
 
 alors:
   type: adv.
-  definition: en ce cas... 
+  def: en ce cas... 
   example:
     - Et alors ?
     - Alors, dit moi.
@@ -1137,45 +1137,45 @@ alors:
 
 décrochage:
   type: n. m.
-  definition: abandono. desenganceh. pérdida.
+  def: abandono. desenganceh. pérdida.
   example:
     - décrochage scolaire.
 
 vers:
   type: prép.
-  definition: a. hacia.
+  def: a. hacia.
 
 éloigner:
   type: v.
-  definition: rendre plus lointain
+  def: rendre plus lointain
 
 houlette:
   type: n. f.
-  definition: paleta. cayado. supervisión. control.
+  def: paleta. cayado. supervisión. control.
   examples:
     - sous la houlette de...
 
 trac:
   type: n. m.
-  definition: pánico escénico.
+  def: pánico escénico.
 
 entraide:
   type: n. f.
-  definition: ayuda mutua. solidaridad. cooperación.
+  def: ayuda mutua. solidaridad. cooperación.
 
 exit:
   type: interj.
-  definition: adiós a... dile adiós a... despídete de...
+  def: adiós a... dile adiós a... despídete de...
   example:
     - exit la competition.
 
 parvenu:
   type: n. m.
-  definition: advenedizo.
+  def: advenedizo.
 
 atout:
   type: n. m.
-  definition: triunfo. ventaja.
+  def: triunfo. ventaja.
   examples:
     - atout charme
     - atout majeur
@@ -1184,49 +1184,49 @@ atout:
 
 apprenti:
   type: n. m.
-  definition: aprendíz
+  def: aprendíz
   example:
     - apprenti sorcier.
 
 loge:
   type: n. f.
-  definition: camerino. portería. conserjería.
+  def: camerino. portería. conserjería.
 
 couteau:
   type: n. m.
-  definition: cuchillo. hoja. navaja.
+  def: cuchillo. hoja. navaja.
 
 désormais:
   type: adv.
-  definition: a partir de ahora. en adelante. de aquí en adelante. hoy por hoy.
+  def: a partir de ahora. en adelante. de aquí en adelante. hoy por hoy.
 
 congé:
   type: n. m.
-  definition: vacaciones. baja temporal. licencia. terminación de contrato.
+  def: vacaciones. baja temporal. licencia. terminación de contrato.
 
 entamer:
   type: v.
-  definition: commencer à consommer. débuter. diminuer. réduire.
+  def: commencer à consommer. débuter. diminuer. réduire.
 
 salir:
   type: v.
-  definition: ensuciar. manchar. mancillar.
+  def: ensuciar. manchar. mancillar.
 
 hébergement:
   type: n. m.
-  definition: alojamiento.
+  def: alojamiento.
 
 dénicher:
   type: v.
-  definition: descubrir. buscar. desenterrar. desempolvar. expulsar.
+  def: descubrir. buscar. desenterrar. desempolvar. expulsar.
 
 assombrir:
   type: v.
-  definition: oscurecer. ensombrecer. ennegrecer.
+  def: oscurecer. ensombrecer. ennegrecer.
 
 coin:
   type: n. m.
-  definition: rincón. esquina. ángulo. cuña.
+  def: rincón. esquina. ángulo. cuña.
   example:
     - au coin de la rue.
     - bon coin.
@@ -1237,110 +1237,110 @@ coin:
 
 enfourcher:
   type: v.
-  definition: montar a horcajadas
+  def: montar a horcajadas
   example:
     - j'enfourche mon scouter...
 
 couloir:
   type: n. m.
-  definition: corredor
+  def: corredor
 
 sable:
   type: n. m.
-  definition: arena
+  def: arena
   example:
     - grain de sable
 péril:
   type: n. m.
-  definition: peligro
+  def: peligro
   example:
     - mettre en péril
 
 s'rattraper:
   type: v.
-  definition: ponerse al día.
+  def: ponerse al día.
 
 amortir:
   type: v.
-  definition: amortizar.
+  def: amortizar.
 
 plonger:
   type: v.
-  definition: zambullirse.
+  def: zambullirse.
   example:
     - je me plonge dans un bon bouquin.
 
 bouquin:
   type: n. m.
-  definition: libro.
+  def: libro.
   example:
     - je me plonge dans un bon bouquin.
 
 feullieter:
   type: v.
-  definition: hojear.
+  def: hojear.
 
 courir:
   type: v.
-  definition: correr.
+  def: correr.
 
 rater:
   type: v.
-  definition: perder.
+  def: perder.
   example: 
     - c'est raté !
 
 bulle:
   type: n. f.
-  definition: burbuja.
+  def: burbuja.
   example:
     - ma petite bulle de tranquilité.
 
 atone:
   type: adj.
-  definition: sans tonus. muet. apathique (personne).
+  def: sans tonus. muet. apathique (personne).
 
 aléa:
   type: n. m.
-  definition: capricho. imprevisto.
+  def: capricho. imprevisto.
   example:
     - la vie a ses aléas.
 
 toiture:
   type: n. f.
-  definition: techado.
+  def: techado.
 
 orage:
   type: n. m.
-  definition: phénomène atmosphérique. éclat de colère.
+  def: phénomène atmosphérique. éclat de colère.
 
 bounché:
   type: adj.
-  definition: atascado. atontado. cubierto.
+  def: atascado. atontado. cubierto.
 
 bounchée:
   type: n. f.
-  definition: bocado. mordisco. mordida.
+  def: bocado. mordisco. mordida.
   example:
     - on va mettre les bouchées doubles -> haremos todo lo posible.
 
 boutoir:
   type: n. m.
-  definition: límite.
+  def: límite.
   example:
     quelle est votre date butoir ?
 
 événementiel:
   type: n. m., adj.
-  definition: eventos. actualidad. cronológico. fáctico.
+  def: eventos. actualidad. cronológico. fáctico.
 
 soulager:
   type: v.
-  definition: aliviar. calmar. mitigar.
+  def: aliviar. calmar. mitigar.
 
 désinvolte:
   type: adj.
-  definition: desenvuelto. confiado. impertinente.
+  def: desenvuelto. confiado. impertinente.
 
 ben:
   type: adv.
@@ -1351,32 +1351,32 @@ ben:
 
 dents de scie:
   type: expr.
-  definition: dientes de cierra (lit.). parcours ou résultats irréguliers.
+  def: dientes de cierra (lit.). parcours ou résultats irréguliers.
 
 quasiment:
   type: adv.
-  definition: practicamente. casi. mejor dicho.
+  def: practicamente. casi. mejor dicho.
 
 tirer son épingle du jeu:
   type: expr.
-  definition: se dégager adroitement d'une affaire qui tourne mal.
+  def: se dégager adroitement d'une affaire qui tourne mal.
   example:
     - Quant à moi, je tire mon épingle du jeu.
 
 vis-à-vis:
   type: expr.
-  definition: uno al frente del otro. à l'égard de...
+  def: uno al frente del otro. à l'égard de...
 
 ténu:
   type: adj.
-  definition: delgado. fino. ténue. sutil.
+  def: delgado. fino. ténue. sutil.
 
 enjeu:
   type: n. m.
-  definition: c'est qu'est en jeu.
+  def: c'est qu'est en jeu.
   example:
     - La qualité de l’accueil des étudiants est un enjeu fondamental.
 
 barème:
   type: n. m.
-  definition: baremo. escala
+  def: baremo. escala
