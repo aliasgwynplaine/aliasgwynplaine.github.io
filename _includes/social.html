@@ -1,73 +1,57 @@
-<ul class="social-media-list">
+
   {%- if site.github_username -%}
-  <li>
-    <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank">
-      <svg class="svg-icon">
+    <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
         <use xlink:href="{{ '/assets/img/minima-social-icons.svg#github' | relative_url }}"></use>
       </svg>
     </a>
-  </li>
   {%- endif -%}
   {%- if site.linkedin_username -%}
-  <li>
-    <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" target="_blank">
-      <svg class="svg-icon">
+    <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
         <use xlink:href="{{ '/assets/img/minima-social-icons.svg#linkedin' | relative_url }}"></use>
       </svg> 
     </a>
-  </li>
   {%- endif -%}
   {%- if site.twitter_username -%}
-  <li>
-    <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" target="_blank">
-      <svg class="svg-icon">
+    <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
         <use xlink:href="{{ '/assets/img/minima-social-icons.svg#twitter' | relative_url }}" target="_blank"></use>
       </svg> 
     </a>
-  </li>
   {%- endif -%}
   {%- if site.instagram_username -%}
-  <li>
-    <a href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}"  target="_blank">
-      <svg class="svg-icon">
+    <a href="https://www.instagram.com/{{ site.instagram_username| cgi_escape | escape }}"  target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
         <use xlink:href="{{ '/assets/img/minima-social-icons.svg#instagram' | relative_url }}"></use>
       </svg> 
     </a>
-  </li>
   {%- endif -%}
   {%- if site.flickr_username -%}
-  <li>
-    <a href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}" target="_blank">
-      <svg class="svg-icon">
+    <a href="https://www.flickr.com/photos/{{ site.flickr_username| cgi_escape | escape }}" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
         <use xlink:href="{{ '/assets/img/minima-social-icons.svg#flickr' | relative_url }}"></use>
       </svg> 
     </a>
-  </li>
   {%- endif -%}
   {%- if site.youtube_username -%}
-  <li>
-    <a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}">
-      <svg class="svg-icon">
+    <a href="https://youtube.com/{{ site.youtube_username| cgi_escape | escape }}" class="icon-box" role="link" tabindex="0">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
         <use xlink:href="{{ '/assets/img/minima-social-icons.svg#youtube' | relative_url }}"></use>
       </svg>
     </a>
-  </li>
   {%- endif -%}
   {%- if site.letterboxd_username -%}
-  <li>
-    <a href="https://letterboxd.com/{{ site.letterboxd_username | cgi_escape | escape }}" target="_blank">
-      <svg class="svg-icon">
+    <a href="https://letterboxd.com/{{ site.letterboxd_username | cgi_escape | escape }}" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewBox="0 0 16 16" aria-hidden="true">
       <use xlink:href="{{ '/assets/img/minima-social-icons.svg#letterboxd' | relative_url }}"></use>
     </svg>
     </a>
-  </li>
   {%- endif -%}
   {%- if site.rss -%}
-  <li>
-    <a href="{{ 'feed.xml' | relative_url }}"><svg class="svg-icon">
+    <a href="{{ 'feed.xml' | relative_url }}" class="icon-box" role="link" tabindex="0">
+    <svg viewBox="0 0 16 16" aria-hidden="true">
       <use xlink:href="{{ '/assets/img/minima-social-icons.svg#rss' | relative_url }}"></use>
     </svg>
     </a>
-  </li>
   {%- endif -%}
-</ul>

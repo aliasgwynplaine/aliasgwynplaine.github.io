@@ -242,26 +242,40 @@ $on-large:         $on-laptop !default;
  * Icons
 **/
 
-.svg-icon {
-  width: 1.25em;
-  height: 1.25em;
-  fill: currentColor;
-  padding: 0.5em 0.3em 0 0.5em;
-  vertical-align: text-bottom;
+.social-icons {
+  gap: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.social-media-list {
-  display: table;
-  margin: 0 auto;
-  li {
-    float: left;
-    margin: 5px 10px 5px 0;
-    &:last-of-type { margin-right: 0 }
-    a {
-      display: block;
-      padding: $spacing-unit * 0.25;
-      border: 1px solid $border-color-01;
-      &:hover { border-color: $border-color-02 }
-    }
-  }
+.icon-box {
+  width: 8vw;
+  max-width: 48px;
+  min-width: 32px;
+  aspect-ratio: 1;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid #2a2a2a;
+  transition: border 0.3s;
+}
+
+.icon-box:hover {
+  border: 1px solid #d4d4d4;
+  transform: scale(1);
+}
+
+.icon-box svg {
+  width: 60%;
+  height: 60%;
+  fill: #0413e0;
+}
+
+/* Focus styles for accessibility */
+.icon-box:focus {
+  outline: 2px solid #ffffff;
+  text-decoration: none;
 }
