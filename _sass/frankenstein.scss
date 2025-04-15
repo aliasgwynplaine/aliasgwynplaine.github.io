@@ -42,8 +42,7 @@ hr {
   text-align: center;
   border: 0;
 
-  &:before { content: '/////' }
-  &:after { content: attr(data-content) '/////' }
+  &:after { content: attr(data-content) '§' }
 }
 
 
@@ -141,7 +140,6 @@ $on-large:         $on-laptop !default;
   font-size: #{$ratio}rem;
 }
 
-
 .site-footer {
   border-top: 1px solid $border-color-01;
   padding: $spacing-unit 0;
@@ -210,7 +208,6 @@ $on-large:         $on-laptop !default;
     }
   }
 }
-
 
 /**
  * Pagination navbar
