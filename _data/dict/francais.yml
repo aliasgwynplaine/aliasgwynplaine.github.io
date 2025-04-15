@@ -1375,8 +1375,24 @@ enjeu:
   type: n. m.
   def: c'est qu'est en jeu.
   example:
-    - La qualité de l’accueil des étudiants est un enjeu fondamental.
+    - La qualité de l'accueil des étudiants est un enjeu fondamental.
 
 barème:
   type: n. m.
   def: baremo. escala
+
+meuf:
+  type: verlan. n. f.
+  def: femme.
+
+ouf:
+  type: verlan. adj.
+  def: fou.
+
+fada:
+  type: adj.
+  def: fou.
+
+dégun:
+  type: n. f. pron. 
+  def: personne.
