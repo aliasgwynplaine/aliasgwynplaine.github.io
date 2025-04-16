@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Apuntes para un proyecto en Google Apps Script</title>
+  
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Apuntes para un proyecto en Google Apps Script">
+<meta name="author" content="gwynplaine">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Este artículo trata sobre los apuntes que hice al hacer un bot de Telegram usando Google Apps Scripts.">
+<meta property="og:description" content="Este artículo trata sobre los apuntes que hice al hacer un bot de Telegram usando Google Apps Scripts.">
+<link rel="canonical" href="https://xn--ida.live/2024/12/29/Apuntes-para-un-proyecto-en-google-apps-script.html">
+<meta property="og:url" content="https://xn--ida.live/2024/12/29/Apuntes-para-un-proyecto-en-google-apps-script.html">
+<meta property="og:site_name" content="blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-12-29T02:53:59+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Apuntes para un proyecto en Google Apps Script">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"gwynplaine"},"dateModified":"2024-12-29T02:53:59+00:00","datePublished":"2024-12-29T02:53:59+00:00","description":"Este artículo trata sobre los apuntes que hice al hacer un bot de Telegram usando Google Apps Scripts.","headline":"Apuntes para un proyecto en Google Apps Script","mainEntityOfPage":{"@type":"WebPage","@id":"https://xn--ida.live/2024/12/29/Apuntes-para-un-proyecto-en-google-apps-script.html"},"url":"https://xn--ida.live/2024/12/29/Apuntes-para-un-proyecto-en-google-apps-script.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <h2>
+    <a href="/">[ ../ ] </a>
+</h2>
+
+
+<div>
+  <p class="post-meta">
+    <time datetime="2024-12-29 02:53:59 +0000">29-12-2024</time>
+  </p>
+  
+  <h1 id="title">Apuntes para un proyecto en Google Apps Script</h1>
+  <p>by <i>gwynplaine</i> </p>
+
+  <p>Este artículo trata sobre los apuntes que hice al hacer un bot de Telegram 
+usando Google Apps Scripts.</p>
+
+<h2 id="introducción-slice-of-life">Introducción: slice of life</h2>
+<p>Durante la pandemia, mi buen amigo O. V. se había quedado a cargo de la oficina 
+de estadística de su organización y había tenido que enfrentarse a los problemas 
+que emergieron con la virtualidad. Entre otros, uno de los problemas principales 
+se trataba de la gestión de las grabaciones de las reuniones de la organización. 
+La organización en cuestión era una que ya de por sí tenía poco presupuesto y 
+que, además, había decidido usarlo en adquirir una licencia de zoom para llevar 
+a cabo las susodichas reuniones. Sin embargo, se olvidaron de que las reuniones 
+iban a ser guardadas y el acuerdo con zoom solo involucró un almacenamiento de 
+las grabaciones por 48h (o 24h?). El punto: era necesario descargar las grabaciones 
+del día para subirlas a algún otro lugar, menos efímero, todos los días. Estamos 
+hablando de decenas de GB al día.</p>
+
+<p>Por suerte, O. ya se había preparado, sin pretenderlo, para este momento. Como 
+el tipo hábil, joven e inteligente que es, había tomado la higiénica decisión de 
+reemplazar el sistema anterior de la oficina de estadística, que basaba casi 
+todo su funcionamiento en la tecnología del papiro, las secretarias y las notas 
+<em>post-it</em>, para reemplazarlo por uno de hojas de cálculo relacionadas entre sí. 
+Y como la licencia de Microsoft® de la organización había caducado, se resolvió 
+por hacerlo usando al suite de ofimática de Google.</p>
+
+<p>Dado que gran parte de la información de la organización ya se encontraba en las 
+hojas de cálculo de Google Spreadsheets, además de que el hecho, difícil de 
+ignorar, de no tener presupuesto para un servidor adicional, decidió utilizar 
+Google Apps Scripts para conectar la nube de Google Drive a la nube de Zoom y 
+descargar las grabaciones de las reuniones directamente. Es decir, Google Apps 
+Scripts se encargaba de gestionar automáticamente la copia de las grabaciones 
+en cuanto estas estuvieran disponibles sin necesidad de un servidor adicional.</p>
+
+<p>Esta idea, me encantó. De manera que tomé la decisión de aprenderlo y usar Google 
+Apps Scripts como <em>backend</em> para un bot de Telegram. Para sorpresa de nadie, esta 
+idea ya había sido explorada por otras personas y había muchos tutoriales al 
+respecto. Sin embargo, la documentación de Google Apps Scripts fue un poco 
+confuza para mi. Dado que los tutoriales no se me dan bien, decidí publicar la 
+lista de apuntes que hice para quien sea que se interese y necesite información 
+rápida a la mano.</p>
+
+<h2 id="pero-cómo-exactamente-funciona-esto">Pero… ¿cómo <em>exactamente</em> funciona esto?</h2>
+<p>No pasó mucho antes de que me diera cuenta que escribir algo en este coso no era 
+realmente de la misma manera a la que estaba habituado. He escrito más en C (y 
+varianes) y python. Es importante darle una leída a las <a href="https://developers.google.com/apps-script/guides/import-export?hl=es-419#features_and_limitations">referencias</a> aunque ya 
+voy diciendo que hay cosas que no pueden encontrarse. Algunas notas que tomé:</p>
+
+<ul>
+  <li>No existe una función <code class="language-plaintext highlighter-rouge">main</code>. Todos los archivos se cargan en el mismo <em>namespace</em> 
+con cada ejecución.</li>
+  <li>No existe persistencia en ninguna variable local entre dos ejecuciones. Si 
+necesitas persistencias, puedes usar archivos en GDrive, el servicio de <a href="https://developers.google.com/apps-script/reference/cache?hl=es-419">Caché</a> o el servicio de <a href="https://developers.google.com/apps-script/guides/properties?hl=es-419">Propiedades</a>.</li>
+  <li>Hay cuotas y límites diarios. Puedes revisarlas <a href="https://developers.google.com/apps-script/guides/services/quotas?hl=es-419">aquí</a>.</li>
+</ul>
+
+<h2 id="google-apps-script-herramientas-e-ideas">Google Apps Script. Herramientas e ideas.</h2>
+<p><a href="https://github.com/oshliaer/google-apps-script-awesome-list">Aquí</a> puedes 
+encontrar una lista de herramientas, tutoriales e ideas para desarrollar con 
+G.A.S..</p>
+
+<h2 id="google-claps"><a href="https://github.com/google/clasp">Google claps</a></h2>
+<p>Herramienta interesante para trabajar de manera local y luego subir los cambios 
+al Proyecto Apps Scripts.</p>
+
+<h2 id="resultados-y-conclusiones">Resultados y Conclusiones</h2>
+<p>G.A.S. funciona bastante bien como <em>backend</em> para el <a href="https://github.com/aliasgwynplaine/stonks_bot">bot de Telegram</a> que escribí. 
+Se trata básicamente de un bot de gestión de gastos y lista de tareas. 
+Aunque la lógica para programarlo sea un poco distinta en relación la forma en 
+que se haría si se tratara de otras tecnologías, la integración natural con GDrive 
+y con GSpreadsheets lo hace bastante útil para soluciones sencillas.</p>
+
+<p>Que nadie te diga que no puedes usar una hoja de cálculo como base de datos.</p>
+
+</div>
+      </div>
+    </main><script data-goatcounter="https://gwynplaine.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="social-icons">
+<a href="https://github.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+      </svg>
+    </a><a href="https://www.twitter.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#twitter" target="_blank"></use>
+      </svg> 
+    </a><a href="https://www.instagram.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#instagram"></use>
+      </svg> 
+    </a><a href="https://www.flickr.com/photos/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#flickr"></use>
+      </svg> 
+    </a><a href="https://letterboxd.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+      <use xlink:href="/assets/img/minima-social-icons.svg#letterboxd"></use>
+    </svg>
+    </a>
+</div>
+  </div>
+
+  <p style="text-align: center; font-size: medium;">
+    <a href="http://srvr.xn--ida.live:12345/?prv=xn--ida.live">&lt;&lt;&lt;</a>
+    <a href="http://srvr.xn--ida.live:12345/">[el círculo]</a> 
+    <a href="http://srvr.xn--ida.live:12345/?nxt=xn--ida.live">&gt;&gt;&gt;</a>
+  </p>
+
+</footer>
+</body>
+</html>
