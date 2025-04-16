@@ -2,7 +2,7 @@
 layout:     post
 title:      Recursos, wargames y CTFs
 date:       2025-03-22 22:22:59 +0200
-categories: sec pentesting es ctf
+tags:       sec pentesting es ctf
 author:     gwynplaine
 ---
 
