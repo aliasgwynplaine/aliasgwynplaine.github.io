@@ -31,7 +31,7 @@ Y como la licencia de Microsoft® de la organización había caducado, se resolv
 por hacerlo usando al suite de ofimática de Google.
 
 Dado que gran parte de la información de la organización ya se encontraba en las 
-hojas de cálculo de Google Spreadsheets, además del que el hecho, difícil de 
+hojas de cálculo de Google Spreadsheets, además de que el hecho, difícil de 
 ignorar, de no tener presupuesto para un servidor adicional, decidió utilizar 
 Google Apps Scripts para conectar la nube de Google Drive a la nube de Zoom y 
 descargar las grabaciones de las reuniones directamente. Es decir, Google Apps 

@@ -41,8 +41,8 @@ div:target { display: block }
 hr {
   text-align: center;
   border: 0;
-
-  &:after { content: attr(data-content) '§' }
+  &:before {content: attr(data-content) '-------------------'}
+  &:after { content: attr(data-content) '[ § ]-------------------' }
 }
 
 
