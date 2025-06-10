@@ -11,7 +11,7 @@ No soy el autor de este poemario, pero no logré encontrarlo en ningún otro lad
 Considero que esta producción literaria es genial, y lo publico _AS IS_, para que todo aquel que se cruce por aquí, tenga la oportunidad de leerlo.
 
 
-Agradezco a A. Ch., por haberme ayudado con la transcripción de este poemario y la revisión de este artículo, y por acompañar las noches en las que pensé que estaría solo.
+Agradezco a A. Ch., por haberme ayudado con la transcripción de este poemario y la revisión de este artículo.
 
 
 ---
@@ -472,5 +472,4 @@ torno de nosotros. <br>
 ---
 
 Se terminó de transcribir el 5 de setiembre en Lima, y el 6 de setiembre en 
-Paris, de 2024, cuando florescian los cimientos de un amor, regado a distancia 
-a través de cables, antenas, y ondas electromagnéticas.
+Paris, de 2024.
