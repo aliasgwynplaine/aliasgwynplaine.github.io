@@ -19,6 +19,7 @@ This list will change as I discover more resources.
 5. [firecracker-docs-actions](https://github.com/firecracker-microvm/firecracker/blob/main/docs/api_requests/actions.md). API. HTTP. unix sockets.
 6. [firecracker-docs-prod-host-setup](https://github.com/firecracker-microvm/firecracker/blob/main/docs/prod-host-setup.md). host setup for production envinronments.
 7. [firecracker-docs-device-api](https://github.com/firecracker-microvm/firecracker/blob/main/docs/device-api.md). API. HTTP.
+8. [firecracker-docs-mmds](https://github.com/firecracker-microvm/firecracker/blob/main/docs/mmds/mmds-user-guide.md)
 
 > To inspect the Firecracker API, you may want use the [swagger editor](https://editor.swagger.io/). The specification is [here](https://github.com/firecracker-microvm/firecracker/blob/main/src/firecracker/swagger/firecracker.yaml)
 
