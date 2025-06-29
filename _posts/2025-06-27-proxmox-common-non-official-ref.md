@@ -56,7 +56,7 @@ SIGKILL after `$timeout`.  `$opts` must be a reference to a hash with a key `aft
 #### `run_fork`
 The function receives two arguments: `$code` and `$opts`. Then calls `run_fork_with_timeout(undef, $code, $opts)`. Not exported.
 
-##### `pipe_socket_to_command`
+#### `pipe_socket_to_command`
 Runs a command with a tcp socket as standard input. Takes `$cmd`, `$ip` and `$port`. Returns `undef`.
 
 #### `file_get_contents`
