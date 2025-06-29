@@ -1,7 +1,7 @@
 ---
 layout: post
 title: pve-common and pve-guest-common | a non-official reference
-date: 2025-06-28 13:25:59 +0200
+date: 2025-06-27 13:25:59 +0200
 tags: en dev cloud proxmox
 author: gwynplaine
 ---
