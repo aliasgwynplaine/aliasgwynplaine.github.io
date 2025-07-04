@@ -6,9 +6,21 @@ tags: en dev cloud proxmox
 author: gwynplaine
 ---
 
-This is a non-official reference for the tools at the [pve-common](https://git.proxmox.com/?p=pve-common.git) and [pve-guest-common](https://git.proxmox.com/?p=pve-guest-common.git) repos.
+> DISCLAIMER: Those are the notes i've been taking for some project at a lab where
+> i am intern (2025). As an open-source project, it's likely this reference will 
+> become outdated soon. The only way to be sure what a function does, is reading 
+> the source code by yourself. So go ahead, don't be afraid to read, it's just 
+> some perl code :P 
 
-Remember to take a look to the [README.dev](https://git.proxmox.com/?p=pve-common.git;a=blob_plain;f=README.dev;hb=HEAD) at the git repo.
+This is a non-official personal reference for the tools at the [pve-common](https://git.proxmox.com/?p=pve-common.git) and [pve-guest-common](https://git.proxmox.com/?p=pve-guest-common.git) repos. 
+I'll try to write about the relationship a repo has with another.
+
+Remember to take a look to the [README.dev](https://git.proxmox.com/?p=pve-common.git;a=blob_plain;f=README.dev;hb=HEAD) at the git repo before doing anything. There, you'll find instructions to setup the dev environment.
+
+This reference is organized in the next way:
++ repo (e.g. pve-common)
+    + package (e.g. PVE::ProcFSTools)
+        + function (e.g. check_process_running)
 
 ## pve-common
 ### PVE::ProcFSTools
