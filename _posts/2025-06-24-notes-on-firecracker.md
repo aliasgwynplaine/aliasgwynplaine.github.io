@@ -16,6 +16,7 @@ This list will change as I discover more resources.
 1. [firecracker-docs-getting-started](https://github.com/firecracker-microvm/firecracker/blob/main/docs/getting-started.md) installation. "hello world".
 2. [firecracker-docs-network-setup](https://github.com/firecracker-microvm/firecracker/blob/main/docs/network-setup.md) network. routes. firewall.
 3. [firecracker-docs-rootfs-kernel-set-up](https://github.com/firecracker-microvm/firecracker/blob/main/docs/rootfs-and-kernel-setup.md). custom rootfs and kernel image. freeBSD.
+4. [firecracker-docs-vsocks](https://github.com/firecracker-microvm/firecracker/blob/main/docs/vsock.md).
 5. [firecracker-docs-actions](https://github.com/firecracker-microvm/firecracker/blob/main/docs/api_requests/actions.md). API. HTTP. unix sockets.
 6. [firecracker-docs-prod-host-setup](https://github.com/firecracker-microvm/firecracker/blob/main/docs/prod-host-setup.md). host setup for production envinronments.
 7. [firecracker-docs-device-api](https://github.com/firecracker-microvm/firecracker/blob/main/docs/device-api.md). API. HTTP.
