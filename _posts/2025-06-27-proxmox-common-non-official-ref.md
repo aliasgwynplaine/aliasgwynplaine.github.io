@@ -57,7 +57,7 @@ From the source code:
 + `outfunc`. function to process the text output.
 + `errfunc`
 + `logfunc`
-+ `afterfork`
++ `afterfork`. function to be executed after the command.
 + `noerr`
 + `keeplocale`
 + `quiet`
