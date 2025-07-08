@@ -1,8 +1,12 @@
 ---
 layout: post
-title: pve-common and pve-guest-common | a non-official reference
+title: proxmox-ve | a non-official dev reference
 date: 2025-06-27 13:25:59 +0200
-tags: en dev cloud proxmox
+tags:
+  - en
+  - dev
+  - cloud
+  - proxmox
 author: gwynplaine
 ---
 
@@ -33,7 +37,15 @@ Reads the stat from a `$pid` passed as argument. Returns a reference to a hash c
 #### `read_memory_usage`
 Returns memory usage of the current process. 
 
+## PVE::INotify
+### `nodename`
+returns the name of the current node.
+
 ### PVE::Tools
+### `run_with_timeout`
+Takes `$timeout`, `$code` and `@param` as arguments. Then, it runs `&$code(@param)` with `$timeout`. Depending on the context, will return
++ `($res, $got_timeout)`
++ `$res`
 #### `run_command`
 run a command in shell. Takes two parameters: `$cmd` and `%param`. Returns the exit code of the command.
 `$cmd` may be:
@@ -70,7 +82,11 @@ The function receives two arguments: `$code` and `$opts`. Then calls `run_fork_w
 
 #### `pipe_socket_to_command`
 Runs a command with a tcp socket as standard input. Takes `$cmd`, `$ip` and `$port`. Returns `undef`.
-
+### `file_copy`.
+Makes a copy of a file. Takes `$filename`, `$dst`, `$max`, `$perm` as arguments. The, it makes
+```perl
+file_set_contents($dst, file_get_contents($filename, $max), $perm)
+```
 #### `file_get_contents`
 Takes `$filename`, `$max` as arguments. Get contents of a file.
 
