@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Análisis Real - pre-maestría IMCA 2024 | parte 2</title>
+  
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Análisis Real - pre-maestría IMCA 2024 parte 2">
+<meta name="author" content="gwynplaine">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Esta es la segunda parte del solucionario del examen del curso de análisis real de la pre-maestría del IMCA, 2024. Para ver la primara parte, puedes hacer clic en el siguiente enlace.">
+<meta property="og:description" content="Esta es la segunda parte del solucionario del examen del curso de análisis real de la pre-maestría del IMCA, 2024. Para ver la primara parte, puedes hacer clic en el siguiente enlace.">
+<link rel="canonical" href="https://xn--ida.live/2024/03/16/Examen-analisis-premaestria-imca-2.html">
+<meta property="og:url" content="https://xn--ida.live/2024/03/16/Examen-analisis-premaestria-imca-2.html">
+<meta property="og:site_name" content="blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-03-16T23:12:59+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Análisis Real - pre-maestría IMCA 2024 parte 2">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"gwynplaine"},"dateModified":"2024-03-16T23:12:59+00:00","datePublished":"2024-03-16T23:12:59+00:00","description":"Esta es la segunda parte del solucionario del examen del curso de análisis real de la pre-maestría del IMCA, 2024. Para ver la primara parte, puedes hacer clic en el siguiente enlace.","headline":"Análisis Real - pre-maestría IMCA 2024 parte 2","mainEntityOfPage":{"@type":"WebPage","@id":"https://xn--ida.live/2024/03/16/Examen-analisis-premaestria-imca-2.html"},"url":"https://xn--ida.live/2024/03/16/Examen-analisis-premaestria-imca-2.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  <script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <h2>
+    <a href="/">[ ../ ] </a>
+</h2>
+
+
+<div>
+  <p class="post-meta">
+    <time datetime="2024-03-16 23:12:59 +0000">16-03-2024</time>
+  </p>
+  
+  <h1 id="title">Análisis Real - pre-maestría IMCA 2024 | parte 2</h1>
+  <p>by <i>gwynplaine</i> </p>
+
+  <p>Esta es la segunda parte del solucionario del examen del curso de análisis real de la 
+pre-maestría del IMCA, 2024. Para ver la primara parte, puedes hacer clic en el siguiente 
+<a href="/2024/03/11/Examen-analisis-premaestria-imca-1.html">enlace</a>.</p>
+
+<h2 id="pregunta-3">Pregunta 3</h2>
+<h3 id="enunciado">Enunciado</h3>
+<p>Sea $f,g : [0,1] \rightarrow [0,1]$ dos funciones continuas tales que $f\circ g = g\circ f$. Muestre que 
+existe $x\in [0,1]$ tal que $f(x)=g(x)$</p>
+
+<h3 id="solución">Solución</h3>
+<p>Observemos que, como $f$ y $g$ son continuas, entonces existen $x,y\in [0,1]$ tales que $f(x)=x$ y $g(y)=y$</p>
+
+<p>Sea $F = \{x\in [0,1], f(x)=x \} $, afirmamos que $F$ es cerrado.</p>
+
+<p>Sea $(x_n)\subset F$ una sucesión convergente con $x_n \to x\in [0,1]$, entonces $f(x_n) \to f(x)$. Pero 
+tenemos que $f(x_n) = x_n, \forall n\in\mathbb{N}$, por ser estos puntos fijos de $f$.
+$$
+\Rightarrow f(x_n) = x_n \to x = f(x)
+$$
+Luego, toda sucesión $x_n$ de puntos en $F$ converge a un punto de $F$. Ergo, $F$ es cerrado; y como $F\subset[0,1]$, 
+$F$ es acotado. De ahí, $F$ es compacto.</p>
+
+<p>Sean $a=\inf{F}$ y $b=\sup{F}$, $a,b\in F$ por ser $F$ compacto. Además, la restricción de $g|_{[a,b]}$ es continua 
+y se cumple que $g(a) \geq a$ y $g(b) \leq b$, debido a que $g(a), g(b)\in F$.</p>
+
+<p>Definimos la función 
+$$
+\begin{aligned}
+h : [a,b] &amp;\to \mathbb{R}\\<br>
+x &amp;\mapsto h(x) = f(x) - g(x)
+\end{aligned}
+$$</p>
+
+<p>Observe que $h(a) = f(a) - g(a) = a - g(a) \leq 0$ y $h(b) = f(b) - g(b) = b - g(b) \geq 0$. Como $h$ es continua 
+por ser diferencia de funciones continuas, entonces existe $z\in[a,b], h(z) = 0$. Luego $f(z) = g(z)$.</p>
+
+<h2 id="pregunta-4">Pregunta 4</h2>
+<h3 id="enunciado-principio-de-condensación-de-cauchy">Enunciado (Principio de condensación de Cauchy)</h3>
+<p>Sea $b&gt;1$ entero, y sea $(a_n)_{n\in\mathbb{N}}$ una sucesión decreciente de números reales no negativos. 
+Pruebe que la serie $\sum_{n=1}^{\infty}{a_n}$ es convergente si, y solo si, la serie $\sum_{n=1}^{\infty}{b^n a_{b^n}}$ 
+es convergente.</p>
+
+<h3 id="solución-1">Solución</h3>
+
+<p>$(\Rightarrow)$ veamos. Como $(a_n)$ es decreciente, tendremos:
+$$
+\begin{aligned}
+(b-1)\cdot a_b &amp;\leq a_1+a_2+…+a_b \\<br>
+(b^2-b)\cdot a_{b^2} &amp;\leq a_{b+1}+a_{b+2}…+a_{b^2}\\<br>
+(b^3-b^2)\cdot a_{b^3} &amp;\leq a_{b^2+1}+a_{b^2+2}…+a_{b^3}\\<br>
+(b^4-b^3)\cdot a_{b^4} &amp;\leq a_{b^3+1}+a_{b^3+2}…+a_{b^4}\\<br>
+&amp;\vdots\\<br>
+(b^n-b^{n-1})\cdot a_{b^n} &amp;\leq a_{b^{n-1}+1}+a_{b^{n-1}+2}…+a_{b^n}\\<br>
+\end{aligned}
+$$
+lo que es equivalente a 
+$$
+\begin{aligned}
+(b-1)\cdot a_b &amp;\leq a_1+a_2+…+a_b \\<br>
+(b-1)\cdot b\cdot a_{b^2} &amp;\leq a_{b+1}+a_{b+2}…+a_{b^2}\\<br>
+(b-1)\cdot b^2\cdot a_{b^3} &amp;\leq a_{b^2+1}+a_{b^2+2}…+a_{b^3}\\<br>
+(b-1)\cdot b^3\cdot a_{b^4} &amp;\leq a_{b^3+1}+a_{b^3+2}…+a_{b^4}\\<br>
+&amp;\vdots\\<br>
+(b-1)\cdot b^{n-1}\cdot a_{b^n} &amp;\leq a_{b^{n-1}+1}+a_{b^{n-1}+2}…+a_{b^n}\\<br>
+\end{aligned}
+$$</p>
+
+<p>Sumando, obtendremos:
+$$
+\begin{aligned}
+(b-1)\cdot\sum_{k=1}^n {b^{k-1}\cdot a_{b^k}} &amp;\leq \sum_{k=1}^n {a_k} \\<br>
+\Rightarrow \sum_{k=1}^n {b^{k-1}\cdot a_{b^k}} &amp;\leq \frac{1}{b-1}\cdot\sum_{k=1}^n {a_k}\\<br>
+\Rightarrow \sum_{k=1}^n {b^{k}\cdot a_{b^k}} &amp;\leq \frac{b}{b-1}\cdot\sum_{k=1}^n {a_k}
+\end{aligned}
+$$
+Como $\sum_{k=1}^{\infty}{a_k}$ es convergente, entonces $\sum_{k=1}^{\infty} {b^{k}\cdot a_{b^k}}$ está 
+acotada superiormente. Como los términos son no negativos, entonces $(\sum {b^{k}\cdot a_{b^k}})_{k\in\mathbb{N}}$ 
+es una sucesión creciente, luego es convergente.</p>
+
+<p>$(\Leftarrow)$ de manera similar, vemos que:
+$$
+\begin{aligned}
+a_1+a_2+…+a_b^2 &amp;\leq a_b+…+a_b = (b^2-b)\cdot a_b \\<br>
+a_{b^2+1}+a_{b^2+2}…+a_{b^3} &amp;\leq a_b^2+…+a_b^2 = (b^3-b^2)\cdot a_{b^3}\\<br>
+&amp;\vdots\\<br>
+a_{b^{n-1}+1}+a_{b^{n-1}+2}…+a_{b^n} &amp;\leq a_{b^{n-1}}+…+a_{b^{n-1}}= (b^n-b^{n-1})\cdot a_{b^{n-1}}\\<br>
+\end{aligned}
+$$</p>
+
+<p>Sumando, obtendremos:
+$$
+\begin{aligned}
+\sum_{k=b+1}^{b^n} {a_k} &amp;\leq \sum_{k=2}^n {(b^k-b^{k-1})\cdot a_{b^k}} = (b-1)\cdot\sum_{k=1}^n {b^{k-1}\cdot a_{b^k}}\\<br>
+\Rightarrow \sum_{k=b+1}^{b^n} {a_k} &amp;\leq \frac{b-1}{b}\cdot\sum_{k=1}^n {b^{k}\cdot a_{b^k}}\\<br>
+\end{aligned}
+$$</p>
+
+<p>Usando el mismo razonamiento que antes, se tiene que $(\sum {a_k})$ converge.</p>
+
+<h2 id="pregunta-5">Pregunta 5</h2>
+<h3 id="enunciado-1">Enunciado</h3>
+<p>Considere la sucesión de funciones $(f_n)_{n\in\mathbb{N}}$ dada por 
+$$
+f_n(x) = \left\{\begin{matrix}
+n &amp;\text{ si } n\in(0,\frac{1}{n})\\<br>
+0 &amp;\text{ caso contrario}
+\end{matrix}\right.
+$$</p>
+
+<p>(1) Muestra que $(f_n)_{n\in\mathbb{N}}$ converge puntualmente a la función idénticamente nula en $[0,1]$.</p>
+
+<p>(2) Muestre que $$\lim_{n\to +\infty}{\int_0^1 {f_n(x)\mathrm{d}x}}.$$</p>
+
+<p>(3) Determine (con justificación) si la sucesión $(f_n)_{n\in\mathbb{N}}$ es uniformemente convergente.</p>
+
+<h3 id="solución-2">Solución</h3>
+<h4 id="1">1.</h4>
+<p>Sea $x\in[0,1]$.</p>
+
+<p>Si $x\in\{0,1\}\Rightarrow f_n(x) = 0, \forall n\in\mathbb{N}$</p>
+
+<p>Si $x\in(0,1)\Rightarrow \exists n_0\in\mathbb{N}: \frac{1}{n_0} &lt; x$, por el principio arquimediano. 
+Luego, $\forall n\in\mathbb{N}: n &gt; n_0: f_n(x)=0$, ya que $\frac{1}{n} &lt;\frac{1}{n_0} &lt; x$. 
+Así, tenemos que $f_n\to 0, \forall x\in[0,1]$. Es decir, $(f_n)_{n\in\mathbb{N}}$ converge a 0 de 
+de manera puntual.</p>
+
+<h4 id="2">2.</h4>
+<p>Veamos 
+$$
+\lim_{n\to +\infty}{\int_0^1 {f_n(x)\mathrm{d}x}} = 
+\lim_{n\to +\infty}{\left\{\int_0^{\frac{1}{n}} {f_n(x)\mathrm{d}x}+ 
+\int_{\frac{1}{n}}^1 {f_n(x)\mathrm{d}x}\right\} }
+$$</p>
+
+<p>Pero $\int_{\frac{1}{n}}^1 {f_n(x)\mathrm{d}x} = 0$
+$$
+\Rightarrow \lim_{n\to +\infty}{\left\{\int_0^{\frac{1}{n}} {f_n(x)\mathrm{d}x}\right\}}=
+\lim_{n\to +\infty}{\left\{\int_0^{\frac{1}{n}} {n\cdot\mathrm{d}x}\right\}}
+$$
+$$
+\Rightarrow\lim_{n\to +\infty}{\left\{n\cdot\left(\frac{1}{n}-0\right)\right\}}=
+\lim_{n\to +\infty}{\left\{\frac{n}{n}\right\}} = 1 \neq 0
+$$</p>
+
+<h4 id="3">3.</h4>
+<p>Sabemos que si $(f_n)$ es uniformemente convergente, con $f_n\to f$, entonces se debe cumplir 
+que $\lim{\int_a^b{f_n}} = \int_a^b{\lim f_n} = \int_a^b f$. Usando el contrareciproco, vemos 
+que $\lim_{n\to\infty}{\int_0^1 {f_n} = 1\neq 0 = \int_0^1{\lim f_n}}$. Luego, $f_n$ no es 
+uniformemente convergente.</p>
+
+<p><br><br>
+Eso es todo. Si hay alguna observación respecto a alguna de las soluciones mostradas, estaré encantado 
+de saberlo :)</p>
+
+</div>
+      </div>
+    </main><script data-goatcounter="https://gwynplaine.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="social-icons">
+<a href="https://github.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+      </svg>
+    </a><a href="https://www.twitter.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#twitter" target="_blank"></use>
+      </svg> 
+    </a><a href="https://www.instagram.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#instagram"></use>
+      </svg> 
+    </a><a href="https://www.flickr.com/photos/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#flickr"></use>
+      </svg> 
+    </a><a href="https://letterboxd.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+      <use xlink:href="/assets/img/minima-social-icons.svg#letterboxd"></use>
+    </svg>
+    </a>
+</div>
+  </div>
+
+  <p style="text-align: center; font-size: medium;">
+    <a href="http://srvr.xn--ida.live:12345/?prv=xn--ida.live">&lt;&lt;&lt;</a>
+    <a href="http://srvr.xn--ida.live:12345/">[el círculo]</a> 
+    <a href="http://srvr.xn--ida.live:12345/?nxt=xn--ida.live">&gt;&gt;&gt;</a>
+  </p>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>proxmox-ve dev notes | non-official guide</title>
+  
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="proxmox-ve dev notes non-official guide">
+<meta name="author" content="gwynplaine">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Proxmox VE is a set of perl scripts (and some C code) that interact with each other, all together with a HTTP Server.">
+<meta property="og:description" content="Proxmox VE is a set of perl scripts (and some C code) that interact with each other, all together with a HTTP Server.">
+<link rel="canonical" href="https://xn--ida.live/2025/07/08/proxmox-dev-guide.html">
+<meta property="og:url" content="https://xn--ida.live/2025/07/08/proxmox-dev-guide.html">
+<meta property="og:site_name" content="blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2025-07-08T15:01:59+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="proxmox-ve dev notes non-official guide">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"gwynplaine"},"dateModified":"2025-07-08T15:01:59+00:00","datePublished":"2025-07-08T15:01:59+00:00","description":"Proxmox VE is a set of perl scripts (and some C code) that interact with each other, all together with a HTTP Server.","headline":"proxmox-ve dev notes non-official guide","mainEntityOfPage":{"@type":"WebPage","@id":"https://xn--ida.live/2025/07/08/proxmox-dev-guide.html"},"url":"https://xn--ida.live/2025/07/08/proxmox-dev-guide.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <h2>
+    <a href="/">[ ../ ] </a>
+</h2>
+
+
+<div>
+  <p class="post-meta">
+    <time datetime="2025-07-08 15:01:59 +0000">08-07-2025</time>
+  </p>
+  
+  <h1 id="title">proxmox-ve dev notes | non-official guide</h1>
+  <p>by <i>gwynplaine</i> </p>
+
+  <p>Proxmox VE is a set of perl scripts (and some C code) that interact with each other, all together with a HTTP Server.</p>
+
+<p>I couldn’t find (jun 2025) a proper documentation to understand the code in order to develop functionalities. The existing docs seem to be oriented to users (sysadmins). As a consequence, I was forced to read a lot (A LOT) of perl code to understand how this different components interact with each other, and I thought it would be a good idea to share my notes so anyone curious or somebody trying to start into proxmox dev could learn something.</p>
+
+<p>Don’t forget to take a look at the official <a href="https://git.proxmox.com/?p=pve-common.git;a=blob_plain;f=README.dev;hb=HEAD">README.dev</a> before doing anything.</p>
+
+<hr>
+
+<p>If you want functions and packages reference, you may take a look to <a href="/2025/06/27/proxmox-common-non-official-ref.html">this post</a></p>
+
+<hr>
+<h2 id="filesystem">Filesystem</h2>
+<p>Usually, the files in the repos follow the next structure:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pve-component
+├── PVE
+│   ├── API2
+│   │   ├── Stuff ...
+|   |   └── Component.pm   
+│   ├── CLI
+|   |   ├── Stuff ...
+|   |   └── Component.pm
+│   └── Stuff ...
+└── Stuf ...
+</code></pre></div></div>
+<p>The <code class="language-plaintext highlighter-rouge">PVE/CLI</code> folder contains the definition of the command line component-associated tool. For example, <code class="language-plaintext highlighter-rouge">qemu-server/PVE/CLI/qm.pm</code> contains the the code that is run every time the tool <code class="language-plaintext highlighter-rouge">qm</code> is called.</p>
+<h2 id="how-is-the-http-api-defined-">How is the HTTP API defined ?</h2>
+<p>You’ll find a <code class="language-plaintext highlighter-rouge">PVE/API2</code> folder in every component. There you will find the API routes, requirements and code triggered every time a endpoint is invoked, everything defined using the <code class="language-plaintext highlighter-rouge">register_method</code> function. They must be include in some file (package) at the pve-manager component, which will inherit <code class="language-plaintext highlighter-rouge">PVE::RestHandler</code>.</p>
+
+<p>For example, in pve-manager, the file <code class="language-plaintext highlighter-rouge">PVE/API2/Nodes.pm</code> you may find the next lines:</p>
+<div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">__PACKAGE__</span><span class="o">-&gt;</span><span class="nv">register_method</span><span class="p">({</span>
+    <span class="s">subclass</span> <span class="o">=&gt;</span> <span class="p">"</span><span class="s2">PVE::API2::LXC</span><span class="p">",</span>
+    <span class="s">path</span> <span class="o">=&gt;</span> <span class="p">'</span><span class="s1">lxc</span><span class="p">',</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>And, in the component pve-containter, you’ll find the package <code class="language-plaintext highlighter-rouge">PVE::API2::LXC</code>, and in this package, you’ll see a call to <code class="language-plaintext highlighter-rouge">register_method</code>:</p>
+<div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">__PACKAGE__</span><span class="o">-&gt;</span><span class="nv">register_method</span><span class="p">({</span>
+    <span class="s">subclass</span> <span class="o">=&gt;</span> <span class="p">"</span><span class="s2">PVE::API2::LXC::Config</span><span class="p">",</span>
+    <span class="s">path</span> <span class="o">=&gt;</span> <span class="p">'</span><span class="s1">{vmid}/config</span><span class="p">',</span>
+<span class="p">});</span>
+</code></pre></div></div>
+<p>Which in turn, will contain registered:</p>
+<div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">__PACKAGE__</span><span class="o">-&gt;</span><span class="nv">register_method</span><span class="p">({</span>
+    <span class="s">name</span> <span class="o">=&gt;</span> <span class="p">'</span><span class="s1">vm_config</span><span class="p">',</span>
+    <span class="s">path</span> <span class="o">=&gt;</span> <span class="p">'',</span>
+    <span class="s">method</span> <span class="o">=&gt;</span> <span class="p">'</span><span class="s1">GET</span><span class="p">'</span>
+    <span class="c1"># ... </span>
+<span class="p">});</span>
+<span class="c1"># ...</span>
+<span class="nv">__PACKAGE__</span><span class="o">-&gt;</span><span class="nv">register_method</span><span class="p">({</span>
+    <span class="s">name</span> <span class="o">=&gt;</span> <span class="p">'</span><span class="s1">update_vm</span><span class="p">',</span>
+    <span class="s">path</span> <span class="o">=&gt;</span> <span class="p">'',</span>
+    <span class="s">method</span> <span class="o">=&gt;</span> <span class="p">'</span><span class="s1">PUT</span><span class="p">',</span>
+<span class="c1"># ...</span>
+<span class="p">});</span>
+<span class="c1">#...</span>
+</code></pre></div></div>
+<p>This will place an endpoint at <code class="language-plaintext highlighter-rouge">/api2/json/nodes/&lt;nodename&gt;/lxc/&lt;vmid&gt;/config</code> with the methods PUT and GET triggering the code specified at <code class="language-plaintext highlighter-rouge">PVE::API2::LXC::Config</code>.</p>
+
+<h2 id="components">Components</h2>
+<h3 id="pve-manager">pve-manager</h3>
+<p>This component handles the web interface. It has a <code class="language-plaintext highlighter-rouge">PVE::HTTPServer</code> package.</p>
+
+<p>You may be interested in the folder <code class="language-plaintext highlighter-rouge">PVE/Services</code> where you will find interesting stuff such as:</p>
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">pveproxy.pm</code>. actually runs the HTTP server at 8006 calling <code class="language-plaintext highlighter-rouge">PVE::HTTPServer-&gt;new(...)</code>. Inherits <code class="language-plaintext highlighter-rouge">PVE::Daemon</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">pvedaemon.pm</code>. runs an HTTP Server at 85 locally. Inherits <code class="language-plaintext highlighter-rouge">PVE::Daemon</code>
+</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">pvescheduler.pm</code>.</li>
+</ul>
+
+<p>The files at <code class="language-plaintext highlighter-rouge">PVE/API2</code> inheriting <code class="language-plaintext highlighter-rouge">PVE::RESTHandler</code> define the HTTP API. Those files are added by <code class="language-plaintext highlighter-rouge">PVE/API2.pm</code>.</p>
+<h3 id="pve-common">pve-common</h3>
+<p>This component is important for developing purposes. You may want to read it and see what functions can be used in case you have some task that it’s likely to be executed frequently, e.g., running a command, getting stats for a file, getting the name of the current node, etc.</p>
+
+<p>It also contains different package that define clases that are inherit by all the the other components.</p>
+<h3 id="pve-guest-common">pve-guest-common</h3>
+<p>The component that contain helpers to manage the vms from the guest perspective.
+One important package you could find in this component is <code class="language-plaintext highlighter-rouge">PVE::AbstractConfig</code>, which may be used (inherited) to define the config files (in the pmxcfs) in case you want to add a new technology (like another type of vm different from <code class="language-plaintext highlighter-rouge">lxc</code> or <code class="language-plaintext highlighter-rouge">qemu</code>).</p>
+
+<p>Another important component may be <code class="language-plaintext highlighter-rouge">PVE::AbstractMigrate</code>.</p>
+<h3 id="pve-cluster">pve-cluster</h3>
+<p>This component contains the <code class="language-plaintext highlighter-rouge">pmxcfs</code> (written in C). This filesystem is shared between the nodes and uses FUSE and corosync<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">pmxcfs</code> is mounted in <code class="language-plaintext highlighter-rouge">/etc/pve/</code> and every node in the cluster may have its own folder inside the <code class="language-plaintext highlighter-rouge">nodes</code> folder. For instance, if our node is called <code class="language-plaintext highlighter-rouge">node1</code>, there will be a folder  <code class="language-plaintext highlighter-rouge">/etc/pve/nodes/node1</code> and inside this folder you will have the config files of the VMs and containers, inside the <code class="language-plaintext highlighter-rouge">qemu-server</code> and <code class="language-plaintext highlighter-rouge">lxc</code> folders respectively. More info about this in <a href="https://pve.proxmox.com/wiki/Proxmox_Cluster_File_System_(pmxcfs)">the official docs</a></p>
+<h3 id="qemu-server">qemu-server</h3>
+<p>This component contains the scripts that handle the virtual machines. Proxmox uses Qemu as the virtualisation technology for the VMs.</p>
+<h3 id="pve-container">pve-container</h3>
+<p>This component contains the scripts that handle the containers. Proxmox uses LXC as the virtualisation technology for the containers.</p>
+
+<h2 id="building">Building</h2>
+<p>If you take a look to the makefiles, you’ll see that the components use <code class="language-plaintext highlighter-rouge">sbuild</code> to build.</p>
+
+<hr>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>https://pve.proxmox.com/wiki/Proxmox_Cluster_File_System_(pmxcfs) <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
+
+</div>
+      </div>
+    </main><script data-goatcounter="https://gwynplaine.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="social-icons">
+<a href="https://github.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+      </svg>
+    </a><a href="https://www.twitter.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#twitter" target="_blank"></use>
+      </svg> 
+    </a><a href="https://www.instagram.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#instagram"></use>
+      </svg> 
+    </a><a href="https://www.flickr.com/photos/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#flickr"></use>
+      </svg> 
+    </a><a href="https://letterboxd.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+      <use xlink:href="/assets/img/minima-social-icons.svg#letterboxd"></use>
+    </svg>
+    </a>
+</div>
+  </div>
+
+  <p style="text-align: center; font-size: medium;">
+    <a href="http://srvr.xn--ida.live:12345/?prv=xn--ida.live">&lt;&lt;&lt;</a>
+    <a href="http://srvr.xn--ida.live:12345/">[el círculo]</a> 
+    <a href="http://srvr.xn--ida.live:12345/?nxt=xn--ida.live">&gt;&gt;&gt;</a>
+  </p>
+
+</footer>
+</body>
+</html>

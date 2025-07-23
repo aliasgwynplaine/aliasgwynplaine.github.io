@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Troubleshooting installing elixir-bootlin for a custom  C/C++ project</title>
+  
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Troubleshooting installing elixir-bootlin for a custom C/C++ project">
+<meta name="author" content="gwynplaine">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Context For a project at the university (actually two), I had the need to check more than one repository with C code distributed in many files. I decided to use elixir and placed in an online server to have access from anywhere.">
+<meta property="og:description" content="Context For a project at the university (actually two), I had the need to check more than one repository with C code distributed in many files. I decided to use elixir and placed in an online server to have access from anywhere.">
+<link rel="canonical" href="https://xn--ida.live/2025/01/25/troubleshotting-elixir-bootlin.html">
+<meta property="og:url" content="https://xn--ida.live/2025/01/25/troubleshotting-elixir-bootlin.html">
+<meta property="og:site_name" content="blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2025-01-25T19:35:59+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Troubleshooting installing elixir-bootlin for a custom C/C++ project">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"gwynplaine"},"dateModified":"2025-01-25T19:35:59+00:00","datePublished":"2025-01-25T19:35:59+00:00","description":"Context For a project at the university (actually two), I had the need to check more than one repository with C code distributed in many files. I decided to use elixir and placed in an online server to have access from anywhere.","headline":"Troubleshooting installing elixir-bootlin for a custom C/C++ project","mainEntityOfPage":{"@type":"WebPage","@id":"https://xn--ida.live/2025/01/25/troubleshotting-elixir-bootlin.html"},"url":"https://xn--ida.live/2025/01/25/troubleshotting-elixir-bootlin.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <h2>
+    <a href="/">[ ../ ] </a>
+</h2>
+
+
+<div>
+  <p class="post-meta">
+    <time datetime="2025-01-25 19:35:59 +0000">25-01-2025</time>
+  </p>
+  
+  <h1 id="title">Troubleshooting installing elixir-bootlin for a custom  C/C++ project</h1>
+  <p>by <i>gwynplaine</i> </p>
+
+  <h2 id="context">Context</h2>
+<p>For a project at the university (actually two), I had the need to check more 
+than one repository with C code distributed in many files. I decided to use 
+elixir and placed in an online server to have access from anywhere.</p>
+
+<p>Follow the instruction from the <a href="https://github.com/bootlin/elixir">repo</a>. Then, 
+if you have any trouble, you can check if the solution is here.</p>
+
+<h2 id="a-little-remark-on-apache2-modules">A little remark on Apache2 modules</h2>
+
+<p>You may need to enable the modules <code class="language-plaintext highlighter-rouge">rewrite</code> and <code class="language-plaintext highlighter-rouge">wsgi</code> if they are not enabled 
+by default. You can do it with</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>a2enmod write
+<span class="nb">sudo </span>a2enmod wsgi
+</code></pre></div></div>
+
+<h2 id="some-remarks-on-the-000-defaultconf-file">Some remarks on the <code class="language-plaintext highlighter-rouge">000-default.conf</code> file</h2>
+<p>The repo does not specify in details what you need to change in the file. Ergo, 
+You are likely to encounter a 404 Not Found or a 500 Internal Server Error. I 
+present the contents of the file highlighting with <strong>YOUMAYNEEDTOCHANGETHIS</strong> 
+what needs to be changed.</p>
+
+<div class="language-conf highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;<span class="n">Directory</span> /<span class="n">usr</span>/<span class="n">local</span>/<span class="n">elixir</span>/&gt;
+    <span class="n">AllowOverride</span> <span class="n">None</span>
+    <span class="n">Require</span> <span class="n">all</span> <span class="n">denied</span>
+    &lt;<span class="n">FilesMatch</span> <span class="s2">"wsgi.py"</span>&gt;
+        <span class="n">Require</span> <span class="n">all</span> <span class="n">granted</span>
+    &lt;/<span class="n">FilesMatch</span>&gt;
+&lt;/<span class="n">Directory</span>&gt;
+&lt;<span class="n">Directory</span> /<span class="n">usr</span>/<span class="n">local</span>/<span class="n">elixir</span>/<span class="n">static</span>/&gt;
+    <span class="n">AllowOverride</span> <span class="n">None</span>
+    <span class="n">Require</span> <span class="n">all</span> <span class="n">granted</span>
+&lt;/<span class="n">Directory</span>&gt;
+&lt;<span class="n">VirtualHost</span> *:<span class="m">80</span>&gt;
+    <span class="n">ServerName</span> <span class="n">MY_LOCAL_IP</span>
+    <span class="n">DocumentRoot</span> /<span class="n">usr</span>/<span class="n">local</span>/<span class="n">elixir</span>/
+
+    <span class="n">SetEnv</span> <span class="n">LXR_PROJ_DIR</span> <span class="n">YOUMAYNEEDTOCHANGETHIS</span>
+    <span class="c"># restart-interval is 12 hours
+</span>    <span class="n">WSGIDaemonProcess</span> <span class="n">Elixir</span> <span class="n">processes</span>=<span class="m">16</span> <span class="n">threads</span>=<span class="m">1</span> \
+        <span class="n">display</span>-<span class="n">name</span>=%{<span class="n">GROUP</span>} <span class="n">restart</span>-<span class="n">interval</span>=<span class="m">43200</span> \
+        <span class="n">home</span>=/<span class="n">usr</span>/<span class="n">local</span>/<span class="n">elixir</span>/ <span class="n">python</span>-<span class="n">home</span>=/<span class="n">usr</span>/<span class="n">local</span>/<span class="n">elixir</span>/<span class="n">venv</span>/
+    <span class="n">WSGIApplicationGroup</span> %{<span class="n">GLOBAL</span>}
+
+    <span class="n">WSGIProcessGroup</span> <span class="n">Elixir</span>
+    <span class="n">WSGIScriptAliasMatch</span> <span class="s2">"^/(?!static/)"</span> /<span class="n">usr</span>/<span class="n">local</span>/<span class="n">elixir</span>/<span class="n">wsgi</span>.<span class="n">py</span>/$<span class="m">1</span>
+
+    <span class="n">AllowEncodedSlashes</span> <span class="n">On</span>
+    <span class="n">RewriteEngine</span> <span class="n">on</span>
+    <span class="n">RewriteRule</span> <span class="s2">"^/$"</span> <span class="s2">"YOUMAYNEEDTOCHANGETHIS"</span> [<span class="n">R</span>]
+    <span class="n">RewriteRule</span> <span class="s2">"^/robots.txt$"</span> <span class="s2">"/static/robots.txt"</span> [<span class="n">L</span>]
+    <span class="n">RewriteRule</span> <span class="s2">"^/favicon.ico$"</span> <span class="s2">"/static/img/favicon.ico"</span> [<span class="n">L</span>]
+&lt;/<span class="n">VirtualHost</span>&gt;
+</code></pre></div></div>
+
+<blockquote>
+  <p>Note: I need to change the css in order to have a proper highlighting.</p>
+</blockquote>
+
+<h2 id="tags-were-not-showing">Tags were not showing</h2>
+<p>Looking at the logs, we can see that caused by a <em>dubious ownership in the repositories</em> 
+and git recomends us to add a global config.
+<img src="/assets/img/lxr/elixir-apache-logs.png" alt="apache-logs"></p>
+
+<p>However, this is not precise because it does not take in account the user who 
+will be executing git, which will be <code class="language-plaintext highlighter-rouge">www-data</code>. Executing <code class="language-plaintext highlighter-rouge">git config --global *</code> 
+will only change the <code class="language-plaintext highlighter-rouge">.gitconfig</code> in the home directory of the user executing 
+the command. But, we need to change the config file of <code class="language-plaintext highlighter-rouge">www-data</code>, which has a 
+his home directory set at <code class="language-plaintext highlighter-rouge">/var/www</code>. So, there where we need to place the 
+<code class="language-plaintext highlighter-rouge">.gitconfig</code> which should look something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[user]
+        email = dummy@sorbonne-universite.fr
+        name = dummy
+
+[safe]
+        directory = $PATH_TO_YOUR_PROJECT/repo
+        directory = /usr/local/elixir
+</code></pre></div></div>
+<p>where <code class="language-plaintext highlighter-rouge">$PATH_TO_YOUR_PROJECT</code> is the path to your project directory.</p>
+
+<p>I wouldn’t have come to this solution if it wasn’t for this 
+<a href="https://www.youtube.com/watch?v=B6-afXtFd50">russian guys’ video</a>. The solution 
+was also posted in an <a href="https://github.com/bootlin/elixir/issues/223">issue</a> in 
+the github repo.</p>
+
+
+</div>
+      </div>
+    </main><script data-goatcounter="https://gwynplaine.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="social-icons">
+<a href="https://github.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+      </svg>
+    </a><a href="https://www.twitter.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#twitter" target="_blank"></use>
+      </svg> 
+    </a><a href="https://www.instagram.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#instagram"></use>
+      </svg> 
+    </a><a href="https://www.flickr.com/photos/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#flickr"></use>
+      </svg> 
+    </a><a href="https://letterboxd.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+      <use xlink:href="/assets/img/minima-social-icons.svg#letterboxd"></use>
+    </svg>
+    </a>
+</div>
+  </div>
+
+  <p style="text-align: center; font-size: medium;">
+    <a href="http://srvr.xn--ida.live:12345/?prv=xn--ida.live">&lt;&lt;&lt;</a>
+    <a href="http://srvr.xn--ida.live:12345/">[el círculo]</a> 
+    <a href="http://srvr.xn--ida.live:12345/?nxt=xn--ida.live">&gt;&gt;&gt;</a>
+  </p>
+
+</footer>
+</body>
+</html>

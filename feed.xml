@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <channel>
+  <title>blog</title>
+  <description>gwynplaine&apos;s personal blog. nada serio</description>  
+  <link>https://xn--ida.live</link>
+  <atom:link href="https://xn--ida.live/feed.xml" rel="self" type="application/rss+xml" />
+  
+   <item>
+     <title>proxmox-ve dev notes | non-official guide</title>
+     <description></description>
+     <pubDate>Tue, 08 Jul 2025 15:01:59 +0000</pubDate>
+     <link>https://xn--ida.live/2025/07/08/proxmox-dev-guide.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2025/07/08/proxmox-dev-guide.html</guid>
+   </item>
+  
+   <item>
+     <title>proxmox-ve | a non-official dev reference</title>
+     <description></description>
+     <pubDate>Fri, 27 Jun 2025 11:25:59 +0000</pubDate>
+     <link>https://xn--ida.live/2025/06/27/proxmox-common-non-official-ref.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2025/06/27/proxmox-common-non-official-ref.html</guid>
+   </item>
+  
+   <item>
+     <title>notes on firecracker microvms</title>
+     <description></description>
+     <pubDate>Tue, 24 Jun 2025 11:25:59 +0000</pubDate>
+     <link>https://xn--ida.live/2025/06/24/notes-on-firecracker.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2025/06/24/notes-on-firecracker.html</guid>
+   </item>
+  
+   <item>
+     <title>entonces... cómo hacer respuestas sin ser chabacano</title>
+     <description></description>
+     <pubDate>Wed, 16 Apr 2025 11:25:59 +0000</pubDate>
+     <link>https://xn--ida.live/2025/04/16/como-responder-preguntas.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2025/04/16/como-responder-preguntas.html</guid>
+   </item>
+  
+   <item>
+     <title>Recursos, wargames y CTFs</title>
+     <description></description>
+     <pubDate>Sat, 22 Mar 2025 20:22:59 +0000</pubDate>
+     <link>https://xn--ida.live/2025/03/22/recursos-seguridad.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2025/03/22/recursos-seguridad.html</guid>
+   </item>
+  
+   <item>
+     <title>Troubleshooting installing elixir-bootlin for a custom  C/C++ project</title>
+     <description></description>
+     <pubDate>Sat, 25 Jan 2025 19:35:59 +0000</pubDate>
+     <link>https://xn--ida.live/2025/01/25/troubleshotting-elixir-bootlin.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2025/01/25/troubleshotting-elixir-bootlin.html</guid>
+   </item>
+  
+   <item>
+     <title>...........</title>
+     <description></description>
+     <pubDate>Fri, 03 Jan 2025 19:35:59 +0000</pubDate>
+     <link>https://xn--ida.live/2025/01/03/je-tant-neige-pour-que-tu-dormes.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2025/01/03/je-tant-neige-pour-que-tu-dormes.html</guid>
+   </item>
+  
+   <item>
+     <title>Apuntes para un proyecto en Google Apps Script</title>
+     <description></description>
+     <pubDate>Sun, 29 Dec 2024 02:53:59 +0000</pubDate>
+     <link>https://xn--ida.live/2024/12/29/Apuntes-para-un-proyecto-en-google-apps-script.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2024/12/29/Apuntes-para-un-proyecto-en-google-apps-script.html</guid>
+   </item>
+  
+   <item>
+     <title>Solo para mujeres</title>
+     <description></description>
+     <pubDate>Thu, 05 Sep 2024 22:05:59 +0000</pubDate>
+     <link>https://xn--ida.live/2024/09/05/Solo-para-mujeres-maria-conchita.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2024/09/05/Solo-para-mujeres-maria-conchita.html</guid>
+   </item>
+  
+   <item>
+     <title>Table d&apos;abréviations</title>
+     <description></description>
+     <pubDate>Tue, 09 Apr 2024 22:53:59 +0000</pubDate>
+     <link>https://xn--ida.live/2024/04/09/Acronimos-y-siglas-frances-ambiente-universitario.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2024/04/09/Acronimos-y-siglas-frances-ambiente-universitario.html</guid>
+   </item>
+  
+   <item>
+     <title>Álgebra lineal - pre-maestría IMCA 2024 | parte 2</title>
+     <description></description>
+     <pubDate>Fri, 22 Mar 2024 21:27:59 +0000</pubDate>
+     <link>https://xn--ida.live/2024/03/22/Examen-algebra-premaestria-imca-2.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2024/03/22/Examen-algebra-premaestria-imca-2.html</guid>
+   </item>
+  
+   <item>
+     <title>Álgebra lineal - pre-maestría IMCA 2024 | parte 1</title>
+     <description></description>
+     <pubDate>Sun, 17 Mar 2024 17:12:09 +0000</pubDate>
+     <link>https://xn--ida.live/2024/03/17/Examen-algebra-premaestria-imca-1.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2024/03/17/Examen-algebra-premaestria-imca-1.html</guid>
+   </item>
+  
+   <item>
+     <title>Análisis Real - pre-maestría IMCA 2024 | parte 2</title>
+     <description></description>
+     <pubDate>Sat, 16 Mar 2024 23:12:59 +0000</pubDate>
+     <link>https://xn--ida.live/2024/03/16/Examen-analisis-premaestria-imca-2.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2024/03/16/Examen-analisis-premaestria-imca-2.html</guid>
+   </item>
+  
+   <item>
+     <title>Análisis Real - pre-maestría IMCA 2024 | parte 1</title>
+     <description></description>
+     <pubDate>Mon, 11 Mar 2024 04:27:59 +0000</pubDate>
+     <link>https://xn--ida.live/2024/03/11/Examen-analisis-premaestria-imca-1.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2024/03/11/Examen-analisis-premaestria-imca-1.html</guid>
+   </item>
+  
+   <item>
+     <title>Elementos de fotografía</title>
+     <description></description>
+     <pubDate>Mon, 20 Nov 2023 02:53:59 +0000</pubDate>
+     <link>https://xn--ida.live/2023/11/20/Elementos-de-fotografia.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2023/11/20/Elementos-de-fotografia.html</guid>
+   </item>
+  
+   <item>
+     <title>Registro de trámites para legalización de documentos académicos</title>
+     <description></description>
+     <pubDate>Wed, 02 Nov 2022 16:03:59 +0000</pubDate>
+     <link>https://xn--ida.live/2022/11/02/Tramites-postulacion.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2022/11/02/Tramites-postulacion.html</guid>
+   </item>
+  
+   <item>
+     <title>Notas sobre Timelapse - HTB</title>
+     <description></description>
+     <pubDate>Mon, 30 May 2022 02:53:59 +0000</pubDate>
+     <link>https://xn--ida.live/2022/05/30/Timelapse.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2022/05/30/Timelapse.html</guid>
+   </item>
+  
+   <item>
+     <title>Fugando de la Facultad de Ciencias de la UNI</title>
+     <description></description>
+     <pubDate>Fri, 20 May 2022 17:23:59 +0000</pubDate>
+     <link>https://xn--ida.live/2022/05/20/Manual-de-egreso.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2022/05/20/Manual-de-egreso.html</guid>
+   </item>
+  
+   <item>
+     <title>Primera entrada</title>
+     <description></description>
+     <pubDate>Thu, 04 Feb 2021 16:58:59 +0000</pubDate>
+     <link>https://xn--ida.live/2021/02/04/Primera-entrada.html</link>
+     <guid isPermaLink="true">https://xn--ida.live/2021/02/04/Primera-entrada.html</guid>
+   </item>
+  
+ </channel>
+</rss>

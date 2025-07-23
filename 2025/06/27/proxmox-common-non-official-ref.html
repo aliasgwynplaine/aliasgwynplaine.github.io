@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>proxmox-ve | a non-official dev reference</title>
+  
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="proxmox-ve a non-official dev reference">
+<meta name="author" content="gwynplaine">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="[!DISCLAIMER] Those are the notes i’ve been taking for some project at a lab where i am intern (2025). As an open-source project, it’s likely this reference will become outdated soon. The only way to be sure what a function does, is reading the source code by yourself. So go ahead, don’t be afraid to read, it’s just some perl code :P">
+<meta property="og:description" content="[!DISCLAIMER] Those are the notes i’ve been taking for some project at a lab where i am intern (2025). As an open-source project, it’s likely this reference will become outdated soon. The only way to be sure what a function does, is reading the source code by yourself. So go ahead, don’t be afraid to read, it’s just some perl code :P">
+<link rel="canonical" href="https://xn--ida.live/2025/06/27/proxmox-common-non-official-ref.html">
+<meta property="og:url" content="https://xn--ida.live/2025/06/27/proxmox-common-non-official-ref.html">
+<meta property="og:site_name" content="blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2025-06-27T11:25:59+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="proxmox-ve a non-official dev reference">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"gwynplaine"},"dateModified":"2025-06-27T11:25:59+00:00","datePublished":"2025-06-27T11:25:59+00:00","description":"[!DISCLAIMER] Those are the notes i’ve been taking for some project at a lab where i am intern (2025). As an open-source project, it’s likely this reference will become outdated soon. The only way to be sure what a function does, is reading the source code by yourself. So go ahead, don’t be afraid to read, it’s just some perl code :P","headline":"proxmox-ve a non-official dev reference","mainEntityOfPage":{"@type":"WebPage","@id":"https://xn--ida.live/2025/06/27/proxmox-common-non-official-ref.html"},"url":"https://xn--ida.live/2025/06/27/proxmox-common-non-official-ref.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <h2>
+    <a href="/">[ ../ ] </a>
+</h2>
+
+
+<div>
+  <p class="post-meta">
+    <time datetime="2025-06-27 11:25:59 +0000">27-06-2025</time>
+  </p>
+  
+  <h1 id="title">proxmox-ve | a non-official dev reference</h1>
+  <p>by <i>gwynplaine</i> </p>
+
+  <blockquote>
+  <p>[!DISCLAIMER]
+Those are the notes i’ve been taking for some project at a lab where
+i am intern (2025). As an open-source project, it’s likely this reference will 
+become outdated soon. The only way to be sure what a function does, is reading 
+the source code by yourself. So go ahead, don’t be afraid to read, it’s just 
+some perl code :P</p>
+</blockquote>
+
+<p>This is a non-official personal reference for the tools at the <a href="https://git.proxmox.com/?p=pve-common.git">pve-common</a> and <a href="https://git.proxmox.com/?p=pve-guest-common.git">pve-guest-common</a>, and some other repos from the Proxmox Virtual Environment. I’ll try to write about the relationship a repo has with another.</p>
+
+<p>Remember to take a look to the <a href="https://git.proxmox.com/?p=pve-common.git;a=blob_plain;f=README.dev;hb=HEAD">README.dev</a> at the git repo before doing anything. There, you’ll find instructions to setup the dev environment.</p>
+
+<p>This reference is organized in the next way:</p>
+<ul>
+  <li>repo (e.g. pve-common)
+    <ul>
+      <li>package (e.g. PVE::ProcFSTools)
+        <ul>
+          <li>function (e.g. check_process_running)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="pve-common">pve-common</h2>
+<h3 id="pveprocfstools">PVE::ProcFSTools</h3>
+<h4 id="check_process_running"><code class="language-plaintext highlighter-rouge">check_process_running</code></h4>
+<p>checks if a process is running. Reads <code class="language-plaintext highlighter-rouge">proc/$pid/stat</code> using <code class="language-plaintext highlighter-rouge">read_proc_pid_stat</code>.</p>
+
+<h4 id="read_proc_pid_stat"><code class="language-plaintext highlighter-rouge">read_proc_pid_stat</code></h4>
+<p>Reads the stat from a <code class="language-plaintext highlighter-rouge">$pid</code> passed as argument. Returns a reference to a hash containing the information if succeed, otherwise returns <code class="language-plaintext highlighter-rouge">undef</code>. The keys in the hash are: status, ppid, utime, stime, starttime, vsize, rss.</p>
+
+<h4 id="read_memory_usage"><code class="language-plaintext highlighter-rouge">read_memory_usage</code></h4>
+<p>Returns memory usage of the current process.</p>
+
+<h3 id="pveinotify">PVE::INotify</h3>
+<h4 id="nodename"><code class="language-plaintext highlighter-rouge">nodename</code></h4>
+<p>returns the name of the current node.</p>
+
+<h3 id="pvetools">PVE::Tools</h3>
+<h4 id="run_with_timeout"><code class="language-plaintext highlighter-rouge">run_with_timeout</code></h4>
+<p>Takes <code class="language-plaintext highlighter-rouge">$timeout</code>, <code class="language-plaintext highlighter-rouge">$code</code> and <code class="language-plaintext highlighter-rouge">@param</code> as arguments. Then, it runs <code class="language-plaintext highlighter-rouge">&amp;$code(@param)</code> with <code class="language-plaintext highlighter-rouge">$timeout</code>. Depending on the context, will return</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">($res, $got_timeout)</code></li>
+  <li><code class="language-plaintext highlighter-rouge">$res</code></li>
+</ul>
+
+<h4 id="run_command"><code class="language-plaintext highlighter-rouge">run_command</code></h4>
+<p>runs a command in shell. Takes two parameters: <code class="language-plaintext highlighter-rouge">$cmd</code> and <code class="language-plaintext highlighter-rouge">%param</code>. Returns the exit code of the command.
+<code class="language-plaintext highlighter-rouge">$cmd</code> may be:</p>
+<ul>
+  <li>a string.</li>
+  <li>an array of strings.</li>
+  <li>an array of arrays. Each array represents a command, and each command’s output is piped into the following command’s standard input. For this a shell command string is created with pipe symbols between each command.</li>
+</ul>
+
+<blockquote>
+  <p>[!REMARK]
+From the source code:
+Each command is a list of strings meant to end up in the final command unchanged. In order to achieve this, every argument is shell-quoted.</p>
+
+  <p>Quoting can be disabled for a particular argument by turning it into a reference, this allows inserting arbitrary shell options.
+For instance: the <code class="language-plaintext highlighter-rouge">$cmd</code> <code class="language-plaintext highlighter-rouge">[ [ 'echo', 'hello', \'&gt;/dev/null' ] ]</code> will not produce any output, while the <code class="language-plaintext highlighter-rouge">$cmd</code> <code class="language-plaintext highlighter-rouge">[ [ 'echo', 'hello', '&gt;/dev/null' ] ]</code> will literally print: <code class="language-plaintext highlighter-rouge">hello &gt;/dev/null</code></p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">%param</code> may contain the next keys:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">timeout</code></li>
+  <li><code class="language-plaintext highlighter-rouge">umask</code></li>
+  <li><code class="language-plaintext highlighter-rouge">errmsg</code></li>
+  <li><code class="language-plaintext highlighter-rouge">input</code></li>
+  <li><code class="language-plaintext highlighter-rouge">output</code></li>
+  <li>
+<code class="language-plaintext highlighter-rouge">outfunc</code>. function to process the text output.</li>
+  <li><code class="language-plaintext highlighter-rouge">errfunc</code></li>
+  <li><code class="language-plaintext highlighter-rouge">logfunc</code></li>
+  <li>
+<code class="language-plaintext highlighter-rouge">afterfork</code>. function to be executed after the command.</li>
+  <li><code class="language-plaintext highlighter-rouge">noerr</code></li>
+  <li><code class="language-plaintext highlighter-rouge">keeplocale</code></li>
+  <li>
+<code class="language-plaintext highlighter-rouge">quiet</code>
+    <h4 id="run_fork_with_timeout"><code class="language-plaintext highlighter-rouge">run_fork_with_timeout</code></h4>
+    <p>This functions receives three arguments: <code class="language-plaintext highlighter-rouge">$timeout</code>, <code class="language-plaintext highlighter-rouge">$sub</code>, <code class="language-plaintext highlighter-rouge">$opts</code>.
+SIGKILL after <code class="language-plaintext highlighter-rouge">$timeout</code>.  <code class="language-plaintext highlighter-rouge">$opts</code> must be a reference to a hash with a key <code class="language-plaintext highlighter-rouge">afterfork</code> that points to a subroutine.</p>
+  </li>
+</ul>
+
+<h4 id="run_fork"><code class="language-plaintext highlighter-rouge">run_fork</code></h4>
+<p>The function receives two arguments: <code class="language-plaintext highlighter-rouge">$code</code> and <code class="language-plaintext highlighter-rouge">$opts</code>. Then calls <code class="language-plaintext highlighter-rouge">run_fork_with_timeout(undef, $code, $opts)</code>. Not exported.</p>
+
+<h4 id="pipe_socket_to_command"><code class="language-plaintext highlighter-rouge">pipe_socket_to_command</code></h4>
+<p>Runs a command with a tcp socket as standard input. Takes <code class="language-plaintext highlighter-rouge">$cmd</code>, <code class="language-plaintext highlighter-rouge">$ip</code> and <code class="language-plaintext highlighter-rouge">$port</code>. Returns <code class="language-plaintext highlighter-rouge">undef</code>.</p>
+<h4 id="file_copy">
+<code class="language-plaintext highlighter-rouge">file_copy</code>.</h4>
+<p>Makes a copy of a file. Takes <code class="language-plaintext highlighter-rouge">$filename</code>, <code class="language-plaintext highlighter-rouge">$dst</code>, <code class="language-plaintext highlighter-rouge">$max</code>, <code class="language-plaintext highlighter-rouge">$perm</code> as arguments. Then, it makes</p>
+<div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">file_set_contents</span><span class="p">(</span><span class="nv">$dst</span><span class="p">,</span> <span class="nv">file_get_contents</span><span class="p">(</span><span class="nv">$filename</span><span class="p">,</span> <span class="nv">$max</span><span class="p">),</span> <span class="nv">$perm</span><span class="p">)</span>
+</code></pre></div></div>
+<h4 id="file_get_contents"><code class="language-plaintext highlighter-rouge">file_get_contents</code></h4>
+<p>Takes <code class="language-plaintext highlighter-rouge">$filename</code>, <code class="language-plaintext highlighter-rouge">$max</code> as arguments. Get contents of a file.</p>
+
+<h4 id="file_set_contents"><code class="language-plaintext highlighter-rouge">file_set_contents</code></h4>
+<p>Takes <code class="language-plaintext highlighter-rouge">$filename</code>, <code class="language-plaintext highlighter-rouge">$data</code>, <code class="language-plaintext highlighter-rouge">$perm</code>, <code class="language-plaintext highlighter-rouge">$force_utf8</code> as arguments
+Set contents to a file by creating a temporary file and then rename it.</p>
+
+<h4 id="tempfile_contents"><code class="language-plaintext highlighter-rouge">tempfile_contents</code></h4>
+<p>Takes <code class="language-plaintext highlighter-rouge">$data</code>, <code class="language-plaintext highlighter-rouge">$perm</code> and <code class="language-plaintext highlighter-rouge">%opts</code> as arguments.
+create an (ideally) anon file with the <code class="language-plaintext highlighter-rouge">$data</code> as content and return its FD-path and FH</p>
+
+<h4 id="safe_print"><code class="language-plaintext highlighter-rouge">safe_print</code></h4>
+<p>Takes <code class="language-plaintext highlighter-rouge">$filename</code>, <code class="language-plaintext highlighter-rouge">$fh</code> and <code class="language-plaintext highlighter-rouge">$data</code> as arguments. Attempts to write <code class="language-plaintext highlighter-rouge">$data</code> to <code class="language-plaintext highlighter-rouge">$fh</code>. Dies if not succeed.</p>
+
+<h3 id="pveresthandler">PVE::RESTHandler</h3>
+<h4 id="register_method"><code class="language-plaintext highlighter-rouge">register_method</code></h4>
+<p>This is an important method in order to create a new component. It adds commands commands and parameters to your new module, but also adds endpoints to the REST API. REST API and the command line tools use the same code. The <em>method</em> takes <code class="language-plaintext highlighter-rouge">$info</code>, a hash reference, as argument.</p>
+
+<p>The package <code class="language-plaintext highlighter-rouge">PVE::CLIHandler</code> inherits this method, and registers the help method, that may also be inherited by the component you’re developing. You may achieve this by adding this lines to your code:</p>
+<div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">use</span> <span class="nn">PVE::</span><span class="nv">CLIHandler</span><span class="p">;</span>
+<span class="k">use</span> <span class="nv">base</span> <span class="sx">qw(PVE::CLIHandler)</span><span class="p">;</span>
+
+<span class="c1"># some code...</span>
+
+<span class="nv">__PACKAGE__</span><span class="o">-&gt;</span><span class="nv">register_method</span><span class="p">({</span>
+	<span class="c1"># your command spec here</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>Check other repos to have an idea of how your command specs would look like.</p>
+
+<p>After using the <code class="language-plaintext highlighter-rouge">register_method</code>, you may add the <code class="language-plaintext highlighter-rouge">$cmdef</code> variable (see <code class="language-plaintext highlighter-rouge">PVE/CLIHandler.pm</code> source code).  The next example is an adaptation from one in the code source:</p>
+<div class="language-perl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">our</span> <span class="nv">$cmddef</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s">command</span> <span class="o">=&gt;</span> <span class="p">[</span> <span class="nv">__PACKAGE__</span><span class="p">,</span> <span class="p">'</span><span class="s1">command</span><span class="p">',</span> <span class="p">[</span> <span class="p">'</span><span class="s1">arg1</span><span class="p">',</span> <span class="p">'</span><span class="s1">arg2</span><span class="p">'</span> <span class="p">],</span> <span class="p">{</span> <span class="s">node</span> <span class="o">=&gt;</span> <span class="nv">$nodename</span> <span class="p">}</span> <span class="p">],</span>
+    <span class="p">'</span><span class="s1">do</span><span class="p">'</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="s">this</span> <span class="o">=&gt;</span> <span class="p">[</span> <span class="nv">__PACKAGE__</span><span class="p">,</span> <span class="p">'</span><span class="s1">method</span><span class="p">',</span> <span class="p">[</span> <span class="p">'</span><span class="s1">arg1</span><span class="p">'</span> <span class="p">],</span> <span class="nb">undef</span><span class="p">,</span> <span class="k">sub </span><span class="p">{</span>
+            <span class="k">my</span> <span class="p">(</span><span class="nv">$res</span><span class="p">)</span> <span class="o">=</span> <span class="nv">@_</span><span class="p">;</span>
+            <span class="k">print</span> <span class="p">"</span><span class="si">$res</span><span class="se">\n</span><span class="p">";</span>
+        <span class="p">}],</span>
+        <span class="s">that</span> <span class="o">=&gt;</span> <span class="p">[</span> <span class="nv">__PACKAGE__</span><span class="p">,</span> <span class="p">'</span><span class="s1">subroutine</span><span class="p">'</span> <span class="o">[]</span> <span class="p">],</span>
+    <span class="p">},</span>
+    <span class="s">dothat</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="s">alias</span> <span class="o">=&gt;</span> <span class="p">'</span><span class="s1">do that</span><span class="p">'</span> <span class="p">},</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>When you’re defining some options for your command, you may need to add “standard options”. Those are defined in <code class="language-plaintext highlighter-rouge">PVE::JSONSchema</code>. The definitions may be at <code class="language-plaintext highlighter-rouge">$method_schema</code>.</p>
+
+<p>The HTTP server use the URL (a path) to find the corresponding method.</p>
+
+<h2 id="pve-guest-common">pve-guest-common</h2>
+
+<h3 id="pveabstractconfig">PVE::AbstractConfig</h3>
+<p>Your new module may have a package called <code class="language-plaintext highlighter-rouge">PVE::COMPONENT::Config</code> (or something like that). There are some method that you may implement:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">guest_type</code></li>
+  <li><code class="language-plaintext highlighter-rouge">config_file</code></li>
+  <li><code class="language-plaintext highlighter-rouge">cfs_config_file</code></li>
+</ul>
+
+<blockquote>
+  <p>[!REMARK]
+In order to properly write the config files in the pmxcfs, you may need to make modifications in the <code class="language-plaintext highlighter-rouge">pve-cluster</code> repo. Check the <code class="language-plaintext highlighter-rouge">cfs_file_version</code> function and the <code class="language-plaintext highlighter-rouge">$observed</code> variabloe in the <code class="language-plaintext highlighter-rouge">PVE::Cluster</code> package.</p>
+</blockquote>
+
+<p>The source file have some useful comments.
+The <code class="language-plaintext highlighter-rouge">AbstractConfig.pm</code> declares abstracts method related to:</p>
+<ul>
+  <li>Internal snapshot</li>
+  <li>Rollback</li>
+  <li>Config files
+But also declares some methods related.</li>
+</ul>
+
+<h2 id="pve-cluster">pve-cluster</h2>
+<h3 id="pvecluster">PVE::Cluster</h3>
+<p>Uses the pmxcfs.</p>
+<h4 id="cfs_register_file"><code class="language-plaintext highlighter-rouge">cfs_register_file</code></h4>
+<p>receives <code class="language-plaintext highlighter-rouge">$filename</code>, <code class="language-plaintext highlighter-rouge">$parser</code>, <code class="language-plaintext highlighter-rouge">$writer</code> as argument. 
+<code class="language-plaintext highlighter-rouge">$filename</code> will be added to the <code class="language-plaintext highlighter-rouge">$observed</code> variable (a hash ref). The <code class="language-plaintext highlighter-rouge">$parser</code> and <code class="language-plaintext highlighter-rouge">$writer</code> function refs are added to the <code class="language-plaintext highlighter-rouge">$file_info</code> hash ref.
+<code class="language-plaintext highlighter-rouge">$writer</code> must craft a raw string to be written to a file.</p>
+
+<blockquote>
+  <p>[!From the sources]
+this is just a readonly copy, the relevant one is in status.c from pmxcfs
+observed files are the one we can get directly through IPCC, they are cached
+using a computed version and only those can be used by the cfs_*_file methods</p>
+</blockquote>
+
+<h4 id="cfs_read_file"><code class="language-plaintext highlighter-rouge">cfs_read_file</code></h4>
+<p>receives <code class="language-plaintext highlighter-rouge">$filename</code> and then calls <code class="language-plaintext highlighter-rouge">ccache_read</code> who uses <code class="language-plaintext highlighter-rouge">$parser</code> registered with <code class="language-plaintext highlighter-rouge">cfs_register_file</code> to parse the file.</p>
+
+<h4 id="cfs_write_file"><code class="language-plaintext highlighter-rouge">cfs_write_file</code></h4>
+<p>receives <code class="language-plaintext highlighter-rouge">$filename</code> and then calls  <code class="language-plaintext highlighter-rouge">$writer</code> registered with <code class="language-plaintext highlighter-rouge">cfs_register_file</code> to craft the content to write to the file. The writing is actually done by <code class="language-plaintext highlighter-rouge">PVE::Tools::file_set_contents</code>.</p>
+
+</div>
+      </div>
+    </main><script data-goatcounter="https://gwynplaine.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="social-icons">
+<a href="https://github.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+      </svg>
+    </a><a href="https://www.twitter.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#twitter" target="_blank"></use>
+      </svg> 
+    </a><a href="https://www.instagram.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#instagram"></use>
+      </svg> 
+    </a><a href="https://www.flickr.com/photos/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#flickr"></use>
+      </svg> 
+    </a><a href="https://letterboxd.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+      <use xlink:href="/assets/img/minima-social-icons.svg#letterboxd"></use>
+    </svg>
+    </a>
+</div>
+  </div>
+
+  <p style="text-align: center; font-size: medium;">
+    <a href="http://srvr.xn--ida.live:12345/?prv=xn--ida.live">&lt;&lt;&lt;</a>
+    <a href="http://srvr.xn--ida.live:12345/">[el círculo]</a> 
+    <a href="http://srvr.xn--ida.live:12345/?nxt=xn--ida.live">&gt;&gt;&gt;</a>
+  </p>
+
+</footer>
+</body>
+</html>

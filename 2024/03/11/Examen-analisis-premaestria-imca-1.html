@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Análisis Real - pre-maestría IMCA 2024 | parte 1</title>
+  
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.3">
+<meta property="og:title" content="Análisis Real - pre-maestría IMCA 2024 parte 1">
+<meta name="author" content="gwynplaine">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Esta es la primera parte de un solucionario del examen de análisis real del IMCA. Consta de las soluciones que reuní de otros participantes, recomendaciones de amigos, y las observaciones de los evaluadores.">
+<meta property="og:description" content="Esta es la primera parte de un solucionario del examen de análisis real del IMCA. Consta de las soluciones que reuní de otros participantes, recomendaciones de amigos, y las observaciones de los evaluadores.">
+<link rel="canonical" href="https://xn--ida.live/2024/03/11/Examen-analisis-premaestria-imca-1.html">
+<meta property="og:url" content="https://xn--ida.live/2024/03/11/Examen-analisis-premaestria-imca-1.html">
+<meta property="og:site_name" content="blog">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2024-03-11T04:27:59+00:00">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Análisis Real - pre-maestría IMCA 2024 parte 1">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"gwynplaine"},"dateModified":"2024-03-11T04:27:59+00:00","datePublished":"2024-03-11T04:27:59+00:00","description":"Esta es la primera parte de un solucionario del examen de análisis real del IMCA. Consta de las soluciones que reuní de otros participantes, recomendaciones de amigos, y las observaciones de los evaluadores.","headline":"Análisis Real - pre-maestría IMCA 2024 parte 1","mainEntityOfPage":{"@type":"WebPage","@id":"https://xn--ida.live/2024/03/11/Examen-analisis-premaestria-imca-1.html"},"url":"https://xn--ida.live/2024/03/11/Examen-analisis-premaestria-imca-1.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  <script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body a="auto">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <h2>
+    <a href="/">[ ../ ] </a>
+</h2>
+
+
+<div>
+  <p class="post-meta">
+    <time datetime="2024-03-11 04:27:59 +0000">11-03-2024</time>
+  </p>
+  
+  <h1 id="title">Análisis Real - pre-maestría IMCA 2024 | parte 1</h1>
+  <p>by <i>gwynplaine</i> </p>
+
+  <p>Esta es la primera parte de un solucionario del examen de análisis real del IMCA. 
+Consta de las soluciones que reuní de otros participantes, recomendaciones de amigos, 
+y las observaciones de los evaluadores.</p>
+
+<h2 id="pregunta-1">Pregunta 1</h2>
+<h3 id="enunciado">Enunciado</h3>
+<p>Pruebe que $\mathcal{P}_f(\mathbb{N}) =  \{ X : X \text{ es un subconjunto finito de } \mathbb{N} \}$ 
+es un conjunto numerable y que $\mathcal{P} =  \{ X : X \text{ es un subconjunto de } \mathbb{N} \}$ 
+es un conjunto no numerable.</p>
+
+<h3 id="solución-1">Solución 1</h3>
+<p>Para el primer punto:</p>
+
+<p>Sea $X\in\mathcal{P}_f(\mathbb{N})$, entonces $\exists n\in\mathbb{N}: X\subset I_n$; donde 
+$I_n = \{1,…,n\}$. Luego, $X\in \mathcal{P}(I_n)$. Como $I_n$ es numerable por se finito, 
+entonces $\mathcal{P}(I_n)$ es numerable. Así, tendremos que
+$$
+\mathcal{P}_f(\mathbb{N})\subset \bigcup_{n\in\mathbb{N}}{\mathcal{P}(I_n)}
+$$
+Pero sabemos que $\bigcup{\mathcal{P}(I_n)}$ es numerable por ser unión de conjuntos numerables.
+Como $\mathcal{P}_f(\mathbb{N})$ es un subconjunto de un conjunto numerable, entonces debe ser numerable.</p>
+
+<p><br>
+Para el segundo punto:</p>
+
+<p>Sabemos que no existen funciones $X \mapsto \mathcal{F}(X,\{0,1\})$ que sean sobreyectivas (ver 
+el teorema de Cantor). Además, existe una biyección entre $\mathcal{P}(X)$ y $\mathcal{F}(X,\{0,1\})$. 
+Luego, no existe una función sobreyectiva $X \mapsto \mathcal{P}(X)$. En particular, no 
+existe una función sobreyectiva $\mathbb{N} \mapsto \mathcal{P}(\mathbb{N})$. Ergo, $\mathcal{P}(\mathbb{N})$ 
+no puede ser numerable.</p>
+
+<h3 id="solución-2">Solución 2</h3>
+<p>Esta es una solución alternativa para el primer punto:</p>
+
+<p>Sea $X = \{ x_1, …, x_n\}\subset\mathbb{N}$. Asignemos un número a cada uno de los símbolos 
+que usamos para representar a $X$ por extensión:
+$$
+\begin{aligned}
+0 &amp;\rightarrow 0 \\<br>
+1 &amp;\rightarrow 1 \\<br>
+&amp; \vdots \\<br>
+9 &amp;\rightarrow 9 \\<br>
+\{ &amp;\rightarrow A \\<br>
+, &amp;\rightarrow B \\<br>
+\{ &amp;\rightarrow C \\<br>
+\end{aligned}
+$$
+donde $A = 10$, $B = 11$, $C = 12$.</p>
+
+<p>A la función que realiza estas asignaciones, la llamaremos 
+$\texttt{char2int}$, pues nos transforma un caracter en un número entero. Nos tomamos este trabajo 
+con el objetivo de representar cada conjunto $X$ como un número en base $D = 13$ (o cualquier número 
+mayor que $12$, en realidad). Es decir, por ejemplo:
+$$
+I_9 = \{1,2,3,4,5,6,7,8,9\} \to \overline{A1B2Bb3B4B5B6B7B8B9C}_D
+$$
+Otro ejemplo, sería:
+$$
+I_{10} = \{1,2,3,4,5,6,7,8,9,10\} \to \overline{A1B2Bb3B4B5B6B7B8B9B10C}_D
+$$
+Así, para el alfabeto $\Omega = \{$’0’ , ‘1’ $,…,$ ‘9’ , ‘{‘ , ‘,’ , ‘}’$\}$ planteamos la siguiente función:</p>
+
+<p>$$
+\begin{aligned}
+\varphi : \Omega^* &amp;\to \mathbb{N}\\<br>
+s &amp;\mapsto \sum_{i = 0}^{\text{len}(s)} {\texttt{char2int}(s[\text{len}(s) - i]) \cdot D^i}
+\end{aligned}
+$$
+donde $D = 13$, y $\Omega^*$ denota el <a href="https://en.wikipedia.org/wiki/Kleene_star">conjunto de todas las cadenas de longitud finita</a> 
+que se pueden formar con $\Omega$.</p>
+
+<p>La función $\varphi$ es una inyección de $\Omega^*$ en $\mathbb{N}$ debido a que la representación 
+polinomial de un número natural en una base dada es única.</p>
+
+<p>Claramente, el conjunto de las representaciones como cadena de caracteres de cualquier $X\subset\mathbb{N}$ 
+finito es un subconjunto de $\Omega^*$. Luego, ese conjunto es un conjunto contable.</p>
+
+<p>Ahora bien, es posible construir una función inyectiva de $\mathcal{P}_f(\mathbb{N})$ en $\Omega^*$:</p>
+
+<p>$$
+\begin{aligned}
+\texttt{to_string} : \mathcal{P}_f(\mathbb{N}) &amp;\to \Omega^* \\<br>
+X = \{x_1,…,x_n\} &amp;\mapsto \texttt{to_string}(X)
+\end{aligned}
+$$</p>
+
+<p>Así, $\mathcal{P}_f(\mathbb{N})$ es contable.</p>
+
+<h2 id="pregunta-2">Pregunta 2</h2>
+<h3 id="enunciado-1">Enunciado</h3>
+<p>Sea $(u_n)_{n\in\mathbb{N}}$ una sucesión de números reales. Indique la verdad o falsedad de los siguientes enunciados, 
+justificando su respuesta con una demostración o contraejemplo.</p>
+
+<p>a) Sea $\mathbb{N} = \bigcup_{k\in\mathbb{N}}\mathbb{N_k}$ una unión disjunta, donde para cada $k\in \mathbb{N}$, se 
+tiene que $\mathbb{N}_k$ es un conjunto infinito de $\mathbb{N}$. Si para cada $k\in\mathbb{N}$, la subsucesión 
+$(u_n)_{n\in\mathbb{N}_k}$ converge al valor de $l\in\mathbb{R}$, entonces la sucesión $(u_n)_{n\in\mathbb{N}}$ a
+converge al valor de $l\in\mathbb{R}$.</p>
+
+<p>b) Sea $\mathbb{N} = \bigcup_{k\in\mathbb{N}}^{p}\mathbb{N_k}$ una unión disjunta, donde para cada $k\in I_p$, se 
+tiene que $\mathbb{N}_k$ es un conjunto infinito de $\mathbb{N}$. Si para cada $k\in I_p$, la subsucesión 
+$(u_n)_{n\in\mathbb{N}_k}$ converge al valor de $l\in\mathbb{R}$, entonces la sucesión $(u_n)_{n\in\mathbb{N}}$ a
+converge al valor de $l\in\mathbb{R}$.</p>
+
+<p>c) Si la sucesión $(u^2_n)$ es convergente, entonces $(u_n)$ es convergente.</p>
+
+<p>d) Si la sucesión $(u^3_n)$ es convergente, entonces $(u_n)$ es convergente.</p>
+
+<p>e) Si la sucesión $(u^2_n)$ es convergente al valor $0$, entonces $(u_n)$ es convergente.</p>
+
+<h3 id="solución">Solución</h3>
+<p>a) (<strong>falso</strong>) Sean $p_1, p_2, …, p_n, …$ la sucesión ordenada de los números primos, definimos 
+$\mathbb{N}_{k-1} = \{p_k^i, i\in\mathbb{N}\}$ para $k&gt;1$. 
+Hacemos $\mathbb{N}_0 = \mathbb{N} - \bigcup_{k=2}^{\infty}\mathbb{N}_k$ y definimos $(u_n)$ como sigue: 
+$$
+\text{Para } n\in\mathbb{N}_k, u_n = \left\{\begin{matrix}
+7 &amp;\text{ si } n=\min{\mathbb{N}_k}\\<br>
+\frac{1}{n} &amp;\text{ caso contrario}
+\end{matrix}\right.
+$$
+Así, las subsucesiones $(u_n)_{n\in\mathbb{N}_k}$ convergen a 0, pero $(u_n)_{n\in\mathbb{N}}$ no 
+converge porque tiene dos valores de adherencia: $7$ y $0$.</p>
+
+<p>b) (<strong>verdadero</strong>) Para cada $k\in I_p$, se tiene que $u_n \to l$
+$$
+\Rightarrow \forall \varepsilon &gt; 0: \exists n_k\in\mathbb{N}, \forall n\in\mathbb{N}:n&gt;n_k \rightarrow 
+|u_n - l| &lt; \varepsilon
+$$</p>
+
+<p>Si tomamos $n_0 = \max_{k\in I_p}\{n_k\}$, entonces tendremos que 
+$$
+\forall \varepsilon &gt; 0: \forall n\in\mathbb{N}:n&gt;n_0 \rightarrow |u_n - l| &lt; \varepsilon
+$$</p>
+
+<p>Luego, $u_n \to l$.</p>
+
+<p>c) (<strong>falso</strong>) Basta tomar $u_n=(-1)^n$. $u_n^2 \to 1$ pero $u_n$ no converge.</p>
+
+<p>d) (<strong>verdadero</strong>) $u_n^3 \to l \Rightarrow f(u_n^3)\to f(l)$ cuando $f$ es continua. 
+Basta tomar $f(x) = \sqrt[3]{x}$. Luego $u_n \to \sqrt[3]{l}$.</p>
+
+<p>e) (<strong>verdadero</strong>) $u_n^2\to 0$, entonces se cumple que
+$$
+\forall \varepsilon &gt; 0: \exists n_0\in\mathbb{N},\forall n\in\mathbb{N}:n&gt;n_0 \rightarrow |u_n^2| &lt; \varepsilon
+$$</p>
+
+<p>$$
+\Rightarrow |u_n| &lt; \sqrt\varepsilon
+$$</p>
+
+<p>Luego, $u_n \to 0$.</p>
+
+<p><br><br></p>
+
+<p>Si hay alguna observación respecto a alguna de las soluciones mostradas, estaré encantado 
+de saberlo :)</p>
+
+<p>La segunda parte del solucionario se encuentra en el siguiente <a href="/2024/03/16/Examen-analisis-premaestria-imca-2.html">enlace</a>.</p>
+
+</div>
+      </div>
+    </main><script data-goatcounter="https://gwynplaine.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+    <div class="social-icons">
+<a href="https://github.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#github"></use>
+      </svg>
+    </a><a href="https://www.twitter.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#twitter" target="_blank"></use>
+      </svg> 
+    </a><a href="https://www.instagram.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#instagram"></use>
+      </svg> 
+    </a><a href="https://www.flickr.com/photos/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+        <use xlink:href="/assets/img/minima-social-icons.svg#flickr"></use>
+      </svg> 
+    </a><a href="https://letterboxd.com/aliasgwynplaine" target="_blank" class="icon-box" role="link" tabindex="0">
+      <svg viewbox="0 0 16 16" aria-hidden="true">
+      <use xlink:href="/assets/img/minima-social-icons.svg#letterboxd"></use>
+    </svg>
+    </a>
+</div>
+  </div>
+
+  <p style="text-align: center; font-size: medium;">
+    <a href="http://srvr.xn--ida.live:12345/?prv=xn--ida.live">&lt;&lt;&lt;</a>
+    <a href="http://srvr.xn--ida.live:12345/">[el círculo]</a> 
+    <a href="http://srvr.xn--ida.live:12345/?nxt=xn--ida.live">&gt;&gt;&gt;</a>
+  </p>
+
+</footer>
+</body>
+</html>
