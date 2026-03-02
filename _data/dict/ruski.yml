@@ -1,0 +1,544 @@
+ка́рта:
+  type: n. f. i.
+  def: mapa.
+  example:
+
+кот:
+  type: n. m. a.
+  def: gato.
+
+ко́шка:
+  type: n. f. a.
+  def: gata.
+
+теа́тр:
+  type: n. m. i.
+  def: teatro.
+
+рок:
+  type: n. m. i.
+  def: roca. destino (connotación negativa).
+  example: сам неумолимый рок привел вас сюда.
+
+мото́р:
+  type: n. m. i.
+  def: motor.
+  example:
+    - Возможно, де́ло в мото́ре.
+    - Свет, мото́р, на́чали!
+
+раке́та:
+  type: n. f. i.
+  def: misil.
+
+ма́ска:
+  type: n. f. i.
+  def: máscara.
+  example:
+    - Наде́нь ма́ску.
+    - Да́йте челове́ку ма́ску, и он расска́жет пра́вду.
+
+пра́вда:
+  type: n. f. i.
+  def: verdad. justicia.
+
+текст:
+  type: n. m. i.
+  def: texto.
+
+ко́смос:
+  type: n. m. i.
+  def: cosmos.
+  example:
+    - Как Земля́ вы́глядит из ко́смоса?
+
+ксе́рокс:
+  type: adj.
+  def: fotocopia. fotocopiadora.
+
+рестора́н:
+  type: n. m. i.
+  def: restaurante.
+
+моме́нт:
+  type: n. m. i.
+  def: momento.
+
+но́рма:
+  type: n. f. i.
+  def: norma. estandar.
+
+Москва́:
+  type: n. f. i.
+  def: Moscú.
+
+Ве́на:
+  type: n. f. i.
+  def: Viena. vena.
+
+е́вро:
+  type: n. m. i.
+  def: euro.
+
+кино́:
+  type: n. n. i.
+  def: cine. película.
+
+вино́:
+  type: n. n. i.
+  def: vino. licor.
+
+такси́:
+  type: n. n. i.
+  def: taxi.
+
+матема́тика:
+  type: n. f. i.
+  def: matemática.
+
+систе́ма:
+  type: n. f. i.
+  def: sistema.
+  example: со́лничная систе́ма.
+
+интерне́т:
+  type: n. m. i.
+  def: internet.
+
+ка́ктус:
+  type: n. m. i.
+  def: cactus.
+
+тури́ст:
+  type: n. m. i.
+  def: turista.
+
+мину́та:
+  type: n. f. i.
+  def: minuto.
+
+университе́т:
+  type: n. m. i.
+  def: universidad.
+
+институ́т:
+  type: n. m. i.
+  def: instituto.
+
+хара́ктер:
+  type: n. m. i.
+  def: carácter. temperamento. naturaleza.
+
+ха́кер:
+  type: n. m. a
+  def: hacker.
+
+мона́рх:
+  type: n. m. a.
+  def: monarca. soberano.
+
+банк:
+  type: n. m. i.
+  def: banco.
+
+банкома́т:
+  type: n. m. i.
+  def: cajero automático.
+
+брат:
+  type: n. m. a.
+  def: hermano.
+
+авто́бус:
+  type: n. m. i.
+  def: autobús.
+
+гита́ра:
+  type: n. f. i.
+  def: guitarra.
+
+гимна́стика:
+  type: n. f. i.
+  def: gimnasia.
+
+гимна́стка:
+  type: n. f. a.
+  def: gimnasta.
+
+га́мбургер:
+  type: n. m. i.
+  def: hamburguesa.
+
+докуме́нт:
+  type: n. m. i.
+  def: documento.
+
+а́дрес:
+  type: n. m. i.
+  def: dirección.
+
+демокра́т:
+  type: n. m. a.
+  def: democrata.
+
+кре́дит:
+  type: n. m. i.
+  def: crédito.
+
+дире́ктор:
+  type: n. m. a.
+  def: director.
+
+ви́за:
+  type: n. f. i.
+  def: visa.
+
+ва́за:
+  type: n. f. i.
+  def: vaso.
+
+ро́за:
+  type: n. f. i.
+  def: rosa.
+
+кри́зис:
+  type: n. m. i.
+  def: crisis.
+
+казино́:
+  type: n. n. i.
+  def: casino.
+
+би́знес:
+  type: n. m. i.
+  def: negocio.
+
+бизнесме́н:
+  type: n. m. i.
+  def: empresario. hombre de negocios.
+
+литр:
+  type: n. m. i.
+  def: litro.
+
+лимо́н:
+  type: n. m. i.
+  def: limón.
+
+миллио́н:
+  type: n. m. i.
+  def: millón.
+
+килогра́мм:
+  type: n. m. i.
+  def: kilogramo.
+
+киломе́тр:
+  type: n. m. i.
+  def: kilómetro.
+
+клие́нт:
+  type: n. m. a.
+  def: cliente.
+
+клуб:
+  type: n. m. i.
+  def: club.
+
+колле́га:
+  type: n. m. a.
+  def: colega. compañero de trabajo.
+
+интелле́кт:
+  type: n. m. i.
+  def: intelecto. inteligencia.
+
+бале́т:
+  type: n. m. i.
+  def: ballet.
+
+телеви́зор:
+  type: n. m. i.
+  def: televisor.
+
+парк:
+  type: n. m. i.
+  def: parque.
+
+порт:
+  type: n. m. i.
+  def: puerto.
+
+капита́н:
+  type: n. m. a.
+  def: capitán. jefe de nave.
+
+па́спорт:
+  type: n. m. i.
+  def: pasaporte.
+
+Евро́па:
+  type: n. f. i.
+  def: Europa.
+
+Петербу́рг:
+  type: n. m. i.
+  def: San Petersburgo.
+
+гру́ппа:
+  type: n. f. i.
+  def: grupo.
+
+пробле́ма:
+  type: n. f. i.
+  def: problema. dificultad.
+
+парла́мент:
+  type: n. m. i.
+  def: parlamento.
+
+тра́нспорт:
+  type: n. m. i.
+  def: transporte.
+
+о́фис:
+  type: n. m. i.
+  def: oficina.
+
+фи́рма:
+  type: n. f. i.
+  def: empresa.
+
+по́дпись:
+  type: n. f. i.
+  def: firma de documento.
+
+карто́шка:
+  type: n. f. i.
+  def: patata. papa.
+
+глу́пый:
+  type: adj.
+  def: tonto. estúpido. idiota.
+  example:
+    - Я сказа́л что-то глу́пое?
+
+факт:
+  type: n. m. i.
+  def: hecho. realidad. verdad. evidencia. prueba.
+
+ко́фе:
+  type: n. m. i.
+  def: café.
+
+кафе́:
+  type: n. n. i.
+  def: café (lugar).
+
+фа́брика:
+  type: n. f. i.
+  def: fábrica.
+
+телефо́н:
+  type: n. m. i.
+  def: teléfono.
+
+футбо́л:
+  type: n. m. i.
+  def: fútbol.
+
+фотогра́фия:
+  type: n. f. i.
+  def: fotografía.
+
+му́зыка:
+  type: n. f. i.
+  def: música.
+
+музыка́нт:
+  type: n. m. a.
+  def: músico.
+
+эконо́мика:
+  type: n. f. i.
+  def: economía.
+
+экономи́ст:
+  type: n. m. a.
+  def: economista.
+
+экза́мен:
+  type: n. m. i.
+  def: examen. prueba. examen final. examen de entrada.
+
+тест:
+  type: n. m. i.
+  def: test. examen. prueba.
+
+актёр:
+  type: n. m. a.
+  def: actor.
+
+актри́са:
+  type: n. f. a.
+  def: actriz.
+
+партнёр:
+  type: n. m. a.
+  def: socio. compañero de empresa. asociado.
+
+боксёр:
+  type: n. m. a.
+  def: boxeador.
+
+репортёр:
+  type: n. m. a.
+  def: reportero. periodista.
+
+май:
+  type: n. m. i.
+  def: mayo.
+
+йо́гурт:
+  type: n. m. i.
+  def: yogur.
+
+йо́га:
+  type: n. f. i.
+  def: yoga.
+
+сайт:
+  type: n. m. i.
+  def: sitio web.
+
+трамва́й:
+  type: n. m. i.
+  def: tranvía.
+
+музе́й:
+  type: n. m. i.
+  def: museo.
+
+бюрокра́т:
+  type: n. m. a.
+  def: burocrata. funcionario del gobierno.
+
+бюдже́т:
+  type: n. m. i.
+  def: presupuesto.
+
+ю́мор:
+  type: n. m. i.
+  def: humor.
+
+сюрпри́з:
+  type: n. m. i.
+  def: sorpresa.
+
+Росси́я:
+  type: n. f. i.
+  def: Rusia.
+
+компа́ния:
+  type: n. f. i.
+  def: compañía. empresa. corporación. organización.
+
+демокра́тия:
+  type: n. f. i.
+  def: democracia.
+
+объе́кт:
+  type: n. m. i.
+  def: objeto.
+
+субъе́кт:
+  type: n. m. i.
+  def: sujeto. 
+
+неа́поль:
+  type: n. m. i.
+  def: Nápoles.
+
+секрета́рь:
+  type: n. m. a.
+  def: secretario. asistente personal. secretaria.
+
+апре́ль:
+  type: n. m. i.
+  def: abril.
+
+компью́тер:
+  type: n. m. i.
+  def: computadora.
+
+журна́л:
+  type: n. m. i.
+  def: revista. periódico.
+
+журнали́ст:
+  type: n. m. a.
+  def: periodista.
+
+джи́нсы:
+  type: n. m. i.
+  def: pantalones vaqueros. jeans.
+
+жира́ф:
+  type: n. m. i.
+  def: jirafa.
+
+шок:
+  type: n. m. i.
+  def: shock. choque. impacto. sorpresa. conmoción.
+
+шокола́д:
+  type: n. m. i.
+  def: chocolate.
+
+маши́на:
+  type: n. f. i.
+  def: máquina. automóvil. vehículo.
+
+шофёр:
+  type: n. m. a.
+  def: conductor de automóvil. chofer.
+
+шампа́нское:
+  type: n. n. i.
+  def: champán. espumoso. vino espumoso.
+
+борщ:
+  type: n. m. i.
+  def: borsch. sopa de remolacha.
+
+щи:
+  type: n. f. i.
+  def: sopa de col.
+
+центр:
+  type: n. m. i.
+  def: centro. núcleo. punto central.
+
+ситуа́ция:
+  type: n. f. i.
+  def: situación. contexto.
+
+корру́пция:
+  type: n. f. i.
+  def: corrupción.
+
+чек:
+  type: n. m. i.
+  def: cheque. comprobante de pago.
+
+чемпио́н:
+  type: n. m. a.
+  def: campeón.
+
+матч:
+  type: n. m. i.
+  def: partida.
+
+капучи́но:
+  type: n. n. i.
+  def: capuchino (bebida).
