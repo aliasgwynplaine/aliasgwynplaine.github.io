@@ -13,6 +13,9 @@ layout: home
     <li>
       <a href="./diccionarios/english">english</a>
     </li>
+    <li>
+      <a href="./diccionarios/ruski">русскии</a>
+    </li>
   </ul>
 
 <h2><a href="/about.html">About</a></h2>
