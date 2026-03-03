@@ -1,6 +1,6 @@
 ---
 layout: dict
-title: Mon dictionaire de francais
+title: русскии
 dictionary: ruski
 ---
 
